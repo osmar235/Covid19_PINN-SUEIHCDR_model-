@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Generic local outputs
+results/
+outputs/
+figures_out/
+tmp/
+logs/
+
+# Environment files
+.env
+
+# Large local-only model artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# ---------------------------------------------------------------
+# Project-specific generated output folders (large, regenerable)
+# ---------------------------------------------------------------
+Resultados_Cidades_*/
+outputs_SUEIHCDR_*/
+parameter_uncertainty_*/
+publication_figures/
+natcomm_revision_figs/
+MASTER_TABLES/
+
+# Project-specific generated artifact files
+natcomm_revision_metrics_augmented.csv
+natcomm_regime_pvals_holm.csv
+
+# Keep source data and tracked figures by default.
+# If needed, ignore only specific local data folders, e.g.:
+# data/raw/
+# data/intermediate/

@@ -1,159 +1,186 @@
-# Covid19_PINN-SUEIHCDR_model
+# Covid19_PINN-SUEIHCDR_model-
 
-Physics-Informed Neural Networks (PINNs) implementation of the **SUEIHCDR** compartmental model for COVID-19 dynamics. Includes Jupyter notebooks and Python code for model fitting, identifiability analysis, forecasting, rolling-origin evaluation, and figure generation using public epidemiological and mobility data.
+Physics-Informed Neural Networks (PINNs) implementation of an extended SUEIHCDR compartmental model for multi-wave COVID-19 forecasting with dual waning immunity.
 
-> **Paper context:** This repository supports the experiments and figures reported in the associated manuscript (Nature Communications submission).
+This repository accompanies the manuscript:
 
----
+**Generalizable Multi-Wave COVID-19 Forecasting via Physics-Informed Neural Networks with Dual Waning Immunity**
 
-## Repository contents
+## Overview
 
-Recommended structure:
+This codebase supports:
+
+- PINN-based mechanistic model fitting
+- Multi-city forecasting workflows
+- Uncertainty analysis across repeated runs
+- Ablation experiments
+- Publication tables and figures
+
+The repository is organized as a lightweight Python package with top-level entrypoints for the main workflows.
+
+## Repository structure
 
 ```text
-.
-├── notebooks/
-│   └── covid_PINN_versaoPaper_02282026.ipynb
-├── src/                      # optional (exported scripts)
-│   ├── run_cities.py
-│   ├── parameter_uncertainty.py
-│   ├── master_loader_all_cities.py
-│   └── publication_analysis.py
-├── data/                     # optional (raw + intermediate datasets)
-├── results/                  # generated outputs (figures, tables, fitted params)
-└── README.md
+Covid19_PINN-SUEIHCDR_model-/
+├── requirements.txt
+├── requirements-optional.txt
+├── README.md
+├── .gitignore
+├── covid_pinn_workflow.ipynb
+├── run_publication.py
+├── run_ablation.py
+├── run_uncertainty.py
+└── covid_pinn/
+    ├── __init__.py
+    ├── core.py
+    ├── uncertainty.py
+    ├── runner.py
+    ├── ablation_runs.py
+    ├── publication_analysis.py
+    ├── publication_figures.py
+    ├── master_loader.py
+    ├── revision_helpers.py
+    └── stats_summary.py
 ```
 
-If you currently only have notebooks, you can run everything from Jupyter.  
-If you prefer command-line execution, export the relevant notebook cells into `.py` scripts under `src/`.
+## Installation
 
----
-
-## Requirements
-
-- Python **3.9+** recommended  
-- PyTorch (CPU or GPU)
-- Core scientific stack: `numpy`, `pandas`, `scipy`, `matplotlib`, `statsmodels`, `scikit-learn`
-- Baseline forecasting libraries (if used): `prophet`, `tbats`
-
-Example install:
+Create a fresh environment, then install dependencies:
 
 ```bash
-pip install -U numpy pandas scipy matplotlib scikit-learn statsmodels
-pip install -U torch
-pip install -U prophet tbats
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-> Note: `prophet` may require additional system dependencies on some platforms. If installation fails, consider using `conda` (conda-forge) or follow Prophet’s official installation instructions.
+On Windows:
 
----
-
-## Data
-
-The workflow expects public epidemiological time series and (optionally) mobility/distancing covariates consistent with the manuscript setup.
-
-The notebook includes local path configuration blocks. Before running, **edit the path variables** to point to your local folders, e.g.:
-
-- `ROOT`
-- `BASE_DIR`
-- `DATA_DIR`
-- `RESULTS_DIR`
-
-Search inside the notebook/scripts for lines like:
-
-```python
-ROOT = Path(r"...")
-BASE_DIR = Path(r"...")
-RESULTS_DIR = ROOT / "Resultados_Cidades_02152026"
+```bat
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-and update them for your system (Mac/Linux/Windows).
-
----
-
-## Quick start
-
-### 1) Multi-city PINN runner (fit-check vs full)
-
-The runner supports:
-- `fit_check`: trains the model and exports outputs (fast)
-- `full`: trains + runs multi-window evaluation (slow)
-
-Example commands (if exported to `src/`):
+Optional baselines (Prophet is heavy and pulls in `cmdstanpy`; only needed if you want the Prophet column in the comparison tables):
 
 ```bash
-python src/run_cities.py --mode fit_check
-python src/run_cities.py --mode fit_check --cities "Seattle,London,Rome"
-
-python src/run_cities.py --mode full --cities "Seattle,London"
-python src/run_cities.py --skip-us        # world cities only
-python src/run_cities.py --skip-world     # US cities only
+pip install -r requirements-optional.txt
 ```
 
-Outputs are written into the configured results directory (see the path variables).
+## Data paths
 
----
+The package modules read input data and write generated outputs relative to a single root directory. This directory is expected to contain (or to have written to it) the per-city output folders (`outputs_SUEIHCDR_PUBLICATION_v3_{CITY}/`), per-city uncertainty folders (`parameter_uncertainty_{CITY}/`), and the regime metrics directory (`Resultados_Cidades_02152026/`).
 
-## Parameter uncertainty (repeated fits)
+### Input CSV files
 
-Runs multiple fits per city (no multi-window evaluation) and saves outputs such as:
-- `parameter_uncertainty_results.csv`
-- `parameter_summary_for_table1.csv`
-- `variant_multiplier_results.csv`
-- `variant_multiplier_summary.csv`
+The core data loader expects the following CSVs to be resolvable at runtime:
 
-Key configuration typically includes:
-- `UNC_N_RUNS` (e.g., 10–20)
-- `UNC_BASESEED`
+- `covid_county_population_usafacts.csv`
+- `covid_confirmed_usafacts.csv`
+- `covid_deaths_usafacts.csv`
+- `2020_US_Region_Mobility_Report.csv`, `2021_...`, `2022_...`
+- `index.csv`, `epidemiology.csv`, `mobility.csv`
 
----
+These files are not bundled with the repository because of size; download them from the original sources (USAFacts, Google COVID-19 Open Data / Community Mobility Reports) and place them either in the repository root or in a folder named `data/` at the repository root.
 
-## Master loader (combine cities into master tables)
+### Automatic path resolution
 
-Aggregates outputs across cities and generates master tables, typically under:
-- `.../MASTER_TABLES/`
+`covid_pinn.core` searches several sensible locations for each CSV, in order:
 
-Includes helper utilities for daily-from-cumulative conversions and consolidated summaries.
+1. The current working directory
+2. The repository root
+3. A `data/` subfolder at the repository root
+4. Sibling folders commonly used during development
 
----
+You only need to set `PINN_DATA_PATH` explicitly if your data is stored somewhere outside those locations:
 
-## Publication analysis (figures + stats)
-
-Generates paper figures and statistical comparisons (e.g., paired tests and summary metrics).  
-Typical output folder:
-- `publication_figures/`
-
-Make sure this is set in your analysis script/notebook:
-
-```python
-DATA_DIR = Path("...")  # update for your machine
+```bash
+export PINN_DATA_PATH=/path/to/data            # macOS / Linux
+set PINN_DATA_PATH=C:\path\to\data             # Windows cmd
+$env:PINN_DATA_PATH="C:\path\to\data"          # Windows PowerShell
 ```
 
----
+If `PINN_DATA_PATH` is unset, the modules fall back to the search order above.
+
+## Main entrypoints
+
+1. Uncertainty analysis
+
+```bash
+python run_uncertainty.py
+```
+
+2. Ablation analysis
+
+```bash
+python run_ablation.py
+```
+
+3. Publication analysis
+
+```bash
+python run_publication.py
+```
+
+### Running individual stages as modules
+
+Each package module is also runnable directly via `python -m`, useful for re-running a single stage without invoking the full top-level wrapper:
+
+```bash
+python -m covid_pinn.revision_helpers      # build per-city master tables
+python -m covid_pinn.master_loader         # per-horizon stats + boxplots/bar figures
+python -m covid_pinn.stats_summary         # augmented metrics + Holm-corrected p-values
+python -m covid_pinn.publication_figures   # publication-quality figure regeneration
+```
+
+## Notebook
+
+The notebook below is kept as a workflow / reference notebook that walks through the same steps interactively:
+
+```text
+covid_pinn_workflow.ipynb
+```
+
+## Package modules
+
+- `covid_pinn/core.py` — core PINN model and training logic
+- `covid_pinn/uncertainty.py` — uncertainty analysis workflow (entry: `main()`)
+- `covid_pinn/runner.py` — run logic for city / model workflows
+- `covid_pinn/ablation_runs.py` — ablation experiment routines (entry: `run_recommended_ablation()`)
+- `covid_pinn/publication_analysis.py` — manuscript summary analyses (entry: `main()`)
+- `covid_pinn/publication_figures.py` — figure generation utilities (entry: `generate_all_figures()`)
+- `covid_pinn/master_loader.py` — loading and aggregation helpers (entry: `run_master_analysis()`)
+- `covid_pinn/revision_helpers.py` — manuscript / revision support utilities (entry: `build_master_tables()`)
+- `covid_pinn/stats_summary.py` — statistical summary helpers (entry: `run_full_summary()`)
+
+All modules are import-side-effect free: importing any of them performs no file I/O and prints nothing.
+
+## Data and outputs
+
+This repository does not bundle large raw datasets or generated results folders by default. Some workflows expect local input files and/or previously generated output directories. Before running the full analyses, set `PINN_DATA_PATH` (see above) and verify your input data is in the expected layout.
 
 ## Reproducibility notes
 
-- Training and uncertainty runs are seed-controlled.
-- Results may vary slightly depending on hardware (CPU vs GPU), PyTorch version, and floating-point nondeterminism.
-- For stronger reproducibility, pin versions in a `requirements.txt` or `environment.yml`.
+For the manuscript analyses, reproducibility depends on:
 
----
+- the Python package versions in `requirements.txt`
+- access to the expected input data (set via `PINN_DATA_PATH`)
+- consistent directory structure for generated outputs
 
-## How to cite
+## Code availability
 
-If you use this code in academic work, please cite the associated manuscript (update once published):
+Repository: https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-
 
-> Neto, O.P. et al. *[Title]*. *Nature Communications* (in review / year).
+## Citation
 
----
+If you use this code, please cite the associated manuscript:
+
+> Pinto Neto, O. et al. *Generalizable Multi-Wave COVID-19 Forecasting via Physics-Informed Neural Networks with Dual Waning Immunity.* (manuscript under review).
 
 ## License
 
-Add your preferred license (e.g., MIT, BSD-3, Apache-2.0) in a `LICENSE` file.
-
----
+This project is released under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-Osmar Pinto Neto  
-GitHub: https://github.com/osmar235
+Osmar Pinto Neto — arena235research@gmail.com
