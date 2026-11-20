@@ -1,0 +1,4 @@
+San Diego: usual reporting 19; missing weeks 3 (Phase 12: 24); max difference where both present 1.4210854715202004e-14
+Los Angeles: usual reporting 84; missing weeks 0 (Phase 12: 17); max difference where both present 5.684341886080802e-14
+San Francisco: usual reporting 10; missing weeks 0 (Phase 12: 36); max difference where both present 4.440892098500626e-16
+Saved to C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\submission_epidemics_v4\covid19_ode_repro_v1.1.0\replay\pre_submission_20261120\phase15_admissions/

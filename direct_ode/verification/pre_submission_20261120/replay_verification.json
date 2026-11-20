@@ -1,0 +1,404 @@
+{
+  "utc": "2026-11-20T19:10:57.336946+00:00",
+  "verification_python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "rtol": 1e-10,
+  "atol": 1e-10,
+  "model_refits_performed": false,
+  "scope": "Fresh admissions processing, all saved-fit projections and reconstructions; paper tables. Estimation fits reused, not repeated.",
+  "runs": [
+    {
+      "script": "hhs_admissions_v2.py",
+      "arguments": [
+        "--out",
+        "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase15_admissions"
+      ],
+      "returncode": 0,
+      "outputs": [
+        {
+          "file": "summary.json",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "3a39b3f7f685bde1479759cd3ad50fb15ac259253908e28130178bd67c0067c2",
+          "replay_sha256": "3a39b3f7f685bde1479759cd3ad50fb15ac259253908e28130178bd67c0067c2"
+        },
+        {
+          "file": "weekly_LosAngeles.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+          "replay_sha256": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590"
+        },
+        {
+          "file": "weekly_SanDiego.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+          "replay_sha256": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb"
+        },
+        {
+          "file": "weekly_SanFrancisco.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e",
+          "replay_sha256": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e"
+        }
+      ],
+      "simulation_environment": {
+        "python": "3.14.3",
+        "numpy": "2.4.3",
+        "pandas": "2.3.3",
+        "platform": "Windows-11-10.0.26200-SP0"
+      }
+    },
+    {
+      "script": "projections_phase18b.py",
+      "arguments": [
+        "--out",
+        "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase18b_projections_v2"
+      ],
+      "returncode": 0,
+      "outputs": [
+        {
+          "file": "criteria.json",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "b6d8c060bf0cbbf64bbea0c08cfef8414f60950b5e10e5b689c37323ed29676d",
+          "replay_sha256": "b6d8c060bf0cbbf64bbea0c08cfef8414f60950b5e10e5b689c37323ed29676d"
+        },
+        {
+          "file": "drift_e2.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "9d9b77c787c599e23810fd6a17231f7845180cc8d017ef1e22ecd19d216e7626",
+          "replay_sha256": "9d9b77c787c599e23810fd6a17231f7845180cc8d017ef1e22ecd19d216e7626"
+        },
+        {
+          "file": "envelope_e1.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "c4505de4b5630f49eb33ad92cdc57f75756eefa32751d2722f7a1975a32f1455",
+          "replay_sha256": "c4505de4b5630f49eb33ad92cdc57f75756eefa32751d2722f7a1975a32f1455"
+        },
+        {
+          "file": "hindsight_vax_e3.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "eebf12dce083fbff5ecb996cb2e3cec3a238282b288c5b25df1da1c60e9e77fc",
+          "replay_sha256": "eebf12dce083fbff5ecb996cb2e3cec3a238282b288c5b25df1da1c60e9e77fc"
+        },
+        {
+          "file": "projections_summary.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "dc97e207dd86fb348bb810867311c9d60a24c993c046a733f2324adda4c2e010",
+          "replay_sha256": "dc97e207dd86fb348bb810867311c9d60a24c993c046a733f2324adda4c2e010"
+        },
+        {
+          "file": "projections_weekly.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "81ba6f1cd520f3436e4a761e0a88781f8c7c2cc6787fdbe1df252e09f3248128",
+          "replay_sha256": "81ba6f1cd520f3436e4a761e0a88781f8c7c2cc6787fdbe1df252e09f3248128"
+        },
+        {
+          "file": "repro_check.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "220a882710a41ab982e1ccec7ea8736bdc6f7012d31f9f2ae721ad4faced7f18",
+          "replay_sha256": "220a882710a41ab982e1ccec7ea8736bdc6f7012d31f9f2ae721ad4faced7f18"
+        }
+      ],
+      "simulation_environment": {
+        "python": "3.14.3",
+        "numpy": "2.4.3",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "statsmodels": "0.14.6",
+        "platform": "Windows-11-10.0.26200-SP0"
+      }
+    },
+    {
+      "script": "scenarios_phase18.py",
+      "arguments": [
+        "--out",
+        "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase18_scenarios"
+      ],
+      "returncode": 0,
+      "outputs": [
+        {
+          "file": "criteria.json",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "ec9b6bd27f88ba6d08f148b757a01f4e2c7cedc116604eccc4665ae4ee8f55d1",
+          "replay_sha256": "ec9b6bd27f88ba6d08f148b757a01f4e2c7cedc116604eccc4665ae4ee8f55d1"
+        },
+        {
+          "file": "reconstruction.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "73b0ebd5bc0bad3c0a282260a9ff6543deadafa5197b80f858caf96ddb1fac14",
+          "replay_sha256": "73b0ebd5bc0bad3c0a282260a9ff6543deadafa5197b80f858caf96ddb1fac14"
+        },
+        {
+          "file": "scenario_daily.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "5b36b0682a6f951a2b07951b900d7f7b2258492ae806f8d0ad54b536901e1511",
+          "replay_sha256": "5b36b0682a6f951a2b07951b900d7f7b2258492ae806f8d0ad54b536901e1511"
+        },
+        {
+          "file": "scenario_summary.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "2b91b586ae6bac7a547a0cd13f9ad82c962bf9bdfe21b7219426ceebde7dd105",
+          "replay_sha256": "2b91b586ae6bac7a547a0cd13f9ad82c962bf9bdfe21b7219426ceebde7dd105"
+        },
+        {
+          "file": "stitch_check.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "8c7d1f84981179a0b2db56bf78ace5b1cae2d246e9f098c244b5b0fb456f72a9",
+          "replay_sha256": "8c7d1f84981179a0b2db56bf78ace5b1cae2d246e9f098c244b5b0fb456f72a9"
+        }
+      ],
+      "simulation_environment": {
+        "python": "3.14.3",
+        "numpy": "2.4.3",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "statsmodels": "0.14.6",
+        "platform": "Windows-11-10.0.26200-SP0"
+      }
+    },
+    {
+      "script": "scenarios_phase18.py",
+      "arguments": [
+        "--fits",
+        "phase19_layer3t",
+        "--name",
+        "L3T",
+        "--out",
+        "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase19_scenarios"
+      ],
+      "returncode": 0,
+      "outputs": [
+        {
+          "file": "criteria.json",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "6221867c1c6688e64c963a83193cc81bb0f8158d6a78799b34ab77e70ca557e6",
+          "replay_sha256": "6221867c1c6688e64c963a83193cc81bb0f8158d6a78799b34ab77e70ca557e6"
+        },
+        {
+          "file": "reconstruction.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "30220f03fbc35525bc5789cf0b1d1aefeae4421240441f868dae0bf6fbfa0288",
+          "replay_sha256": "30220f03fbc35525bc5789cf0b1d1aefeae4421240441f868dae0bf6fbfa0288"
+        },
+        {
+          "file": "scenario_daily.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "2ad5c2a5a624774c5f17a82786e5c7ab7a0251a24b8a9b90d9954251f12d66a7",
+          "replay_sha256": "2ad5c2a5a624774c5f17a82786e5c7ab7a0251a24b8a9b90d9954251f12d66a7"
+        },
+        {
+          "file": "scenario_summary.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "ee137d5ae51c730e0dd963ba4f1f98af2ce0b4d41bef71a164749185ffaa7474",
+          "replay_sha256": "ee137d5ae51c730e0dd963ba4f1f98af2ce0b4d41bef71a164749185ffaa7474"
+        },
+        {
+          "file": "stitch_check.csv",
+          "bytes_identical": true,
+          "numerically_equivalent": true,
+          "expected_sha256": "bd8de76c35e0ee8d4f04341b4b811f236a5f3a83816b1747dcfde29f4b12bca1",
+          "replay_sha256": "bd8de76c35e0ee8d4f04341b4b811f236a5f3a83816b1747dcfde29f4b12bca1"
+        }
+      ],
+      "simulation_environment": {
+        "python": "3.14.3",
+        "numpy": "2.4.3",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "statsmodels": "0.14.6",
+        "platform": "Windows-11-10.0.26200-SP0"
+      }
+    },
+    {
+      "script": "test_phase18b.py",
+      "arguments": [
+        "--out",
+        "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase18b_tests"
+      ],
+      "returncode": 0,
+      "outputs": [],
+      "simulation_environment": {}
+    }
+  ],
+  "paper_table_checks": [
+    {
+      "file": "admissions_kernel.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "admissions_q_history.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "admissions_q_summary.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "d3_lags_peaks.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "d4_adm_per_case.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "d5_penalty.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "december_state_corrections.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "drift.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "envelope_all_chains.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "envelope_by_h.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "envelope_counts.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "forecast_errors.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "future_week_by_lead.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "future_week_matched_summary.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "future_week_matched_targets.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "future_week_summary.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "future_week_targets.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "hindsight.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "observed_LosAngeles.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "observed_SanDiego.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "observed_SanFrancisco.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "reconstruction.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "reconstruction_daily.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "reconstruction_testing.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "reconstruction_threshold_sensitivity.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "scenario_sensitivity.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "scenarios.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "serology_residual_summary.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "serology_threshold_sensitivity.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "serology_validation.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "state_corrections.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    },
+    {
+      "file": "vaccination_daily.csv",
+      "numerically_equivalent": true,
+      "bytes_identical": true
+    }
+  ],
+  "passed": true
+}

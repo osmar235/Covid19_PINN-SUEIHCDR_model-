@@ -1,0 +1,387 @@
+{
+  "date": "2026-10-18",
+  "method": "Portable re-scoring of archived outputs; no fitting.",
+  "kernel": {
+    "sigma": 0.19607843137254904,
+    "delta": 0.14285714285714285,
+    "mean_days": 12.1,
+    "sd_days": 8.66083136886985,
+    "interpretation": "Model-implied continuous-time delay from entry into E to I outflow, with fixed transition rates; not an independently estimated clinical delay."
+  },
+  "calendar_exceptions": [
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "shared_weeks": 6,
+      "calendar_sets": {
+        "('L3B', np.int64(0))": [
+          "2021-05-23",
+          "2021-05-30",
+          "2021-06-06",
+          "2021-06-13",
+          "2021-06-20",
+          "2021-06-27",
+          "2021-07-04"
+        ],
+        "('L3B', np.int64(1))": [
+          "2021-05-23",
+          "2021-05-30",
+          "2021-06-06",
+          "2021-06-13",
+          "2021-06-20",
+          "2021-06-27"
+        ],
+        "('L3B_NOBEHAV', np.int64(1))": [
+          "2021-05-23",
+          "2021-05-30",
+          "2021-06-06",
+          "2021-06-13",
+          "2021-06-20",
+          "2021-06-27"
+        ]
+      }
+    }
+  ],
+  "source_sha256": {
+    "phase18b_projections_v2/projections_weekly.csv": "81ba6f1cd520f3436e4a761e0a88781f8c7c2cc6787fdbe1df252e09f3248128",
+    "phase17b_serology_c1/serology_check.csv": "eae5507b264659100cf197029e53334dd09be75fdbb02ae515f45e6c86e594ad",
+    "phase18_scenarios/reconstruction.csv": "73b0ebd5bc0bad3c0a282260a9ff6543deadafa5197b80f858caf96ddb1fac14",
+    "phase17b_layer3b/params_states.csv": "1016eac1ff3d269b56a2a4bb4179bb4016def38a725d4aaa79549a6d98a92aad"
+  },
+  "future_primary": [
+    {
+      "county": "Los Angeles",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_4",
+      "n": 172,
+      "covered": 15,
+      "coverage": 0.0872093023255814,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 189.09756963402208,
+      "naive_mae": 100.33720930232558
+    },
+    {
+      "county": "Los Angeles",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future5_7",
+      "n": 129,
+      "covered": 25,
+      "coverage": 0.1937984496124031,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 490.81479209849056,
+      "naive_mae": 153.13842746400886
+    },
+    {
+      "county": "Los Angeles",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_7",
+      "n": 301,
+      "covered": 40,
+      "coverage": 0.132890365448505,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 318.4049506902229,
+      "naive_mae": 122.96630280018982
+    },
+    {
+      "county": "San Diego",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_4",
+      "n": 168,
+      "covered": 8,
+      "coverage": 0.047619047619047616,
+      "missing": 4,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 37.656004156417026,
+      "naive_mae": 22.675170068027214
+    },
+    {
+      "county": "San Diego",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future5_7",
+      "n": 125,
+      "covered": 15,
+      "coverage": 0.12,
+      "missing": 3,
+      "missing_forecasts": 1,
+      "n_origins": 43,
+      "p0_mae": 100.26465040428208,
+      "naive_mae": 36.773714285714284
+    },
+    {
+      "county": "San Diego",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_7",
+      "n": 293,
+      "covered": 23,
+      "coverage": 0.07849829351535836,
+      "missing": 7,
+      "missing_forecasts": 1,
+      "n_origins": 43,
+      "p0_mae": 64.36617747035264,
+      "naive_mae": 28.68990736226231
+    },
+    {
+      "county": "San Francisco",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_4",
+      "n": 172,
+      "covered": 13,
+      "coverage": 0.0755813953488372,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 5.562148044252951,
+      "naive_mae": 3.362956810631229
+    },
+    {
+      "county": "San Francisco",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future5_7",
+      "n": 129,
+      "covered": 19,
+      "coverage": 0.14728682170542637,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 14.293036896675604,
+      "naive_mae": 5.018826135105205
+    },
+    {
+      "county": "San Francisco",
+      "model": "L3B",
+      "delay": 1,
+      "window": "future1_7",
+      "n": 301,
+      "covered": 32,
+      "coverage": 0.10631229235880399,
+      "missing": 0,
+      "missing_forecasts": 0,
+      "n_origins": 43,
+      "p0_mae": 9.303957552434087,
+      "naive_mae": 4.072615092548648
+    }
+  ],
+  "serology_primary": [
+    {
+      "county": "San Diego",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Original asymmetric",
+      "lo": -0.1,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 19,
+      "fraction": 0.9047619047619048,
+      "met": true
+    },
+    {
+      "county": "San Diego",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.05",
+      "lo": -0.05,
+      "hi": 0.05,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 19,
+      "fraction": 0.9047619047619048,
+      "met": true
+    },
+    {
+      "county": "San Diego",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.10",
+      "lo": -0.1,
+      "hi": 0.1,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 19,
+      "fraction": 0.9047619047619048,
+      "met": true
+    },
+    {
+      "county": "San Diego",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.20",
+      "lo": -0.2,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 21,
+      "fraction": 1.0,
+      "met": true
+    },
+    {
+      "county": "Los Angeles",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Original asymmetric",
+      "lo": -0.1,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 20,
+      "fraction": 0.9523809523809523,
+      "met": true
+    },
+    {
+      "county": "Los Angeles",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.05",
+      "lo": -0.05,
+      "hi": 0.05,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 5,
+      "fraction": 0.23809523809523808,
+      "met": false
+    },
+    {
+      "county": "Los Angeles",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.10",
+      "lo": -0.1,
+      "hi": 0.1,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 15,
+      "fraction": 0.7142857142857143,
+      "met": true
+    },
+    {
+      "county": "Los Angeles",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.20",
+      "lo": -0.2,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 21,
+      "fraction": 1.0,
+      "met": true
+    },
+    {
+      "county": "San Francisco",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Original asymmetric",
+      "lo": -0.1,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 17,
+      "fraction": 0.8095238095238095,
+      "met": true
+    },
+    {
+      "county": "San Francisco",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.05",
+      "lo": -0.05,
+      "hi": 0.05,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 16,
+      "fraction": 0.7619047619047619,
+      "met": true
+    },
+    {
+      "county": "San Francisco",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.10",
+      "lo": -0.1,
+      "hi": 0.1,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 17,
+      "fraction": 0.8095238095238095,
+      "met": true
+    },
+    {
+      "county": "San Francisco",
+      "period": "All dates",
+      "model": "L3B",
+      "band": "Symmetric 0.20",
+      "lo": -0.2,
+      "hi": 0.2,
+      "required_fraction": 0.6666666666666666,
+      "n": 21,
+      "within": 19,
+      "fraction": 0.9047619047619048,
+      "met": true
+    }
+  ],
+  "q_summaries": [
+    {
+      "county": "San Diego",
+      "period": "behaviour",
+      "n": 26,
+      "q_min": 0.0198445256529643,
+      "q_median": 0.0291459328793373,
+      "q_max": 0.0345164935368243
+    },
+    {
+      "county": "San Diego",
+      "period": "vaccination",
+      "n": 51,
+      "q_min": 0.0172065877908825,
+      "q_median": 0.0252164106831137,
+      "q_max": 0.0345164935368243
+    },
+    {
+      "county": "Los Angeles",
+      "period": "behaviour",
+      "n": 26,
+      "q_min": 0.0212804411616022,
+      "q_median": 0.03108900015334945,
+      "q_max": 0.0534681221216585
+    },
+    {
+      "county": "Los Angeles",
+      "period": "vaccination",
+      "n": 51,
+      "q_min": 0.0176902662621622,
+      "q_median": 0.0287100038941849,
+      "q_max": 0.0557476948199795
+    },
+    {
+      "county": "San Francisco",
+      "period": "behaviour",
+      "n": 26,
+      "q_min": 0.0129491644852641,
+      "q_median": 0.0233028000844882,
+      "q_max": 0.0317597346498349
+    },
+    {
+      "county": "San Francisco",
+      "period": "vaccination",
+      "n": 51,
+      "q_min": 0.0084896407340676,
+      "q_median": 0.0225266875900305,
+      "q_max": 0.0317597346498349
+    }
+  ]
+}

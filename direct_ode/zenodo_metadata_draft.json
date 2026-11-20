@@ -1,0 +1,27 @@
+{
+  "title": "COVID19 direct ODE reproducibility release",
+  "upload_type": "software",
+  "version": "1.2.0",
+  "description": "Companion reproduction archive for From serological calibration to scenario credibility: retrospective evaluation of a multiwave COVID-19 model. Includes exact ODE source, frozen aggregate public surveillance inputs, saved fitted states/results, protocols, portable table/figure analysis and replay verification. All 21 compared replay outputs matched byte for byte; all 32 paper tables matched numerically and ten figure PNGs matched byte for byte. Fits were reused rather than re-estimated. Earlier projection source recovery remains incomplete and is explicitly disclosed. Software retains its MIT license; third-party data retain their original provider terms.",
+  "creators": [
+    {
+      "name": "Pinto Neto, Osmar",
+      "affiliation": "California State University San Marcos; Anhembi Morumbi University; Arena235 Research Lab"
+    },
+    {
+      "name": "Romero, Devan R",
+      "affiliation": "California State University San Marcos"
+    }
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "COVID-19",
+    "SUEIHCDR",
+    "ODE",
+    "serology",
+    "model evaluation",
+    "reproducibility"
+  ],
+  "notes": "Draft for optional Zenodo deposition. Public GitHub version: https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-/releases/tag/ode-v1.2.0. No DOI has been assigned. Software is MIT; third-party data retain provider terms."
+}

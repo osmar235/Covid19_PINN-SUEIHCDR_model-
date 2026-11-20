@@ -1,0 +1,50 @@
+PASS P0 = Phase 17B forecast San Diego 2020-12-12  rel 7.2e-15
+PASS transmission change starts on day 7 San Diego 2020-12-12
+PASS population conserved San Diego 2020-12-12  6.7e-16
+PASS ordering of scenarios San Diego 2020-12-12
+PASS P0 = Phase 17B forecast San Diego 2021-03-06  rel 6.6e-14
+PASS transmission change starts on day 7 San Diego 2021-03-06
+PASS population conserved San Diego 2021-03-06  6.7e-16
+PASS ordering of scenarios San Diego 2021-03-06
+PASS P0 = Phase 17B forecast San Diego 2021-08-07  rel 1.4e-14
+PASS transmission change starts on day 7 San Diego 2021-08-07
+PASS population conserved San Diego 2021-08-07  4.4e-16
+PASS ordering of scenarios San Diego 2021-08-07
+PASS P0 = Phase 17B forecast San Diego 2021-10-02  rel 3.5e-14
+PASS transmission change starts on day 7 San Diego 2021-10-02
+PASS population conserved San Diego 2021-10-02  1.1e-15
+PASS ordering of scenarios San Diego 2021-10-02
+PASS P0 = Phase 17B forecast Los Angeles 2020-12-12  rel 3.1e-15
+PASS transmission change starts on day 7 Los Angeles 2020-12-12
+PASS population conserved Los Angeles 2020-12-12  6.7e-16
+PASS ordering of scenarios Los Angeles 2020-12-12
+PASS P0 = Phase 17B forecast Los Angeles 2021-03-06  rel 2.0e-14
+PASS transmission change starts on day 7 Los Angeles 2021-03-06
+PASS population conserved Los Angeles 2021-03-06  1.6e-15
+PASS ordering of scenarios Los Angeles 2021-03-06
+PASS P0 = Phase 17B forecast Los Angeles 2021-08-07  rel 7.3e-15
+PASS transmission change starts on day 7 Los Angeles 2021-08-07
+PASS population conserved Los Angeles 2021-08-07  8.9e-16
+PASS ordering of scenarios Los Angeles 2021-08-07
+PASS P0 = Phase 17B forecast Los Angeles 2021-10-02  rel 6.4e-14
+PASS transmission change starts on day 7 Los Angeles 2021-10-02
+PASS population conserved Los Angeles 2021-10-02  6.7e-16
+PASS ordering of scenarios Los Angeles 2021-10-02
+PASS P0 = Phase 17B forecast San Francisco 2020-12-12  rel 1.8e-14
+PASS transmission change starts on day 7 San Francisco 2020-12-12
+PASS population conserved San Francisco 2020-12-12  1.1e-15
+PASS ordering of scenarios San Francisco 2020-12-12
+PASS P0 = Phase 17B forecast San Francisco 2021-03-06  rel 5.4e-14
+PASS transmission change starts on day 7 San Francisco 2021-03-06
+PASS population conserved San Francisco 2021-03-06  1.0e-15
+PASS ordering of scenarios San Francisco 2021-03-06
+PASS P0 = Phase 17B forecast San Francisco 2021-08-07  rel 6.2e-15
+PASS transmission change starts on day 7 San Francisco 2021-08-07
+PASS population conserved San Francisco 2021-08-07  1.4e-15
+PASS ordering of scenarios San Francisco 2021-08-07
+PASS P0 = Phase 17B forecast San Francisco 2021-10-02  rel 2.1e-14
+PASS transmission change starts on day 7 San Francisco 2021-10-02
+PASS population conserved San Francisco 2021-10-02  8.9e-16
+PASS ordering of scenarios San Francisco 2021-10-02
+
+ALL PASS

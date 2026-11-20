@@ -1,0 +1,21 @@
+{
+  "cdph_ts": {
+    "date": "date",
+    "area": "area",
+    "cases": "cases",
+    "deaths": "deaths"
+  },
+  "vax": {
+    "date": "administered_date",
+    "county": "county",
+    "primary": "cumulative_fully_vaccinated",
+    "one_dose": "cumulative_at_least_one_dose",
+    "booster": "cumulative_booster_recip_count"
+  },
+  "hhs_adm": {
+    "week": "collection_week",
+    "fips": "fips_code",
+    "adult": "previous_day_admission_adult_covid_confirmed_7_day_sum",
+    "pediatric": "previous_day_admission_pediatric_covid_confirmed_7_day_sum"
+  }
+}

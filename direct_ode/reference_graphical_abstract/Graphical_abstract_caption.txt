@@ -1,0 +1,2 @@
+Graphical abstract
+Prepared as vector data graphics with ReportLab, using the archived numerical tables and the script prepare_graphics.py. No generative image tool was used. SD: San Diego; LA: Los Angeles; SF: San Francisco. Mean absolute donor differences use the same 21 dates for each model and county. Reconstruction ratios use comparable observed weeks; the October and December periods have different states and inputs. Scenario bracketing uses the first four wholly future calendar weeks and has no nominal probability level.

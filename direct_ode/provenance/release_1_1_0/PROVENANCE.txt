@@ -1,0 +1,43 @@
+Provenance statement
+18 October 2026
+
+The manuscript uses phase18b_projections_v2. Its recorded projection source is
+projections_phase18b.py SHA-256
+6c17d7068a3f6fc8e22dd54044cb620aa2ecba24aabda7166d598630691baf67.
+The two imported scientific modules, thirteen recorded inputs and seven result
+outputs match the run manifest. A clean saved-fit replay reproduced all seven
+reported projection outputs byte for byte, not only status quo P0 predictions.
+
+An earlier separately saved phase18b_projections run records projection-source
+SHA-256 492df47c8bca47af871a7c5568e68c48e464bdddc6f66f3b0276f87ab0cfac71.
+No matching source copy or full rationale for its replacement was found in the
+available code archive. Its results remain under provenance/earlier_phase18b;
+they are excluded from manuscript calculations. Their historical role is not
+silently replaced by the new verification run. The original v2 command used
+--overwrite; that option does not establish whether the directory was empty.
+
+The older Phase 18 reconstruction source is a different provenance matter:
+its recorded SHA-256 338095ff95fc26fe26dede9e2f87d991b53bc233aa68c09001cf01abae2179ae
+was recovered from code_archive and is included in historical_code. The current
+root scenarios_phase18.py extends the options for Phase 19. Its original-default
+Phase 18 outputs were reproduced byte for byte in release verification.
+
+The original estimation runs were not repeated. Admissions processing and all
+saved-fit scenario/reconstruction outputs were replayed. Numerical agreement
+verifies those computations conditional on the archived fits, input vintages
+and assumptions. It does not establish external validity or unique mechanisms.
+
+The clean replay originally exposed missing extraction steps for two figure
+tables, state_corrections.csv and vaccination_daily.csv. Their original filtering
+and date derivations were added to the portable extraction. All 32 tables then
+matched numerically and all ten figure PNGs matched byte for byte.
+
+Simulation environment: Python 3.14.3, numpy 2.4.3, pandas 2.3.3, scipy 1.17.1,
+statsmodels 0.14.6, Windows 11. Each replay run_manifest.json records its runtime.
+The later arithmetic verification and plotting used the bundled Python 3.12.14
+runtime, numpy 2.3.5, pandas 3.0.1, ReportLab 4.4.9, pypdfium2 5.14.0 and
+Pillow 12.3.0. These separate environments are explicitly distinguished in the
+verification record. Arial fonts supplied by the host were used, not redistributed.
+
+Portable wrappers and extraction scripts are release additions. The scientific
+fitting/projection files were copied verbatim; SHA256SUMS.txt identifies them.

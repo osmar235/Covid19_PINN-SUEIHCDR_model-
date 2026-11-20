@@ -1,0 +1,42 @@
+{
+  "script": "epi_data_audit.py",
+  "script_sha256": "ead8192d96e4e8d8d3852248d4896fcdc36a9e75929c125a4ef1c4990daff40b",
+  "command": "C:\\Users\\osmar\\AppData\\Local\\Programs\\Python\\Python312\\python.exe epi_data_audit.py --cdph-ts data_epi\\statewide-covid-19-cases-deaths-tests.csv --vax data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv --hhs-adm data_epi\\COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv --out phase12_epi_audit",
+  "args": {
+    "data_path": ".",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "start": "2020-03-29",
+    "end": "2022-12-31",
+    "cdph_ts": "data_epi\\statewide-covid-19-cases-deaths-tests.csv",
+    "vax": "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "hhs_adm": "data_epi\\COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv",
+    "out": "phase12_epi_audit",
+    "overwrite": false
+  },
+  "run_utc": "2026-10-11T03:23:34.906332+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "inputs_sha256": {
+    "covid19hospitalbycounty.csv": "4e3812ec8514a9561d974750d93b6b7eb0085cbf196d73b50e8ee8de42bcc993",
+    "covid_confirmed_usafacts.csv": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "covid_county_population_usafacts.csv": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "covid_deaths_usafacts.csv": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "data_epi\\COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv": "b3ef37e7e8d9888ff241caab83ec43be7e26be3c592a5a4e120acbf541edea7f",
+    "data_epi\\statewide-covid-19-cases-deaths-tests.csv": "0265e33ff97a78c2e44b84f1ccca55b9c1992ad8c2da0268a2d7c1c7b5710f07",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a"
+  },
+  "outputs_sha256": {
+    "audit_LosAngeles.png": "5ba71a2774afcf79bb755ea91e8e1d2b05cf65120e5a6d3dde767e52795c3b4e",
+    "audit_SanDiego.png": "0e600bb6aacc6c83be7f99f17ab4534ff5474f83017a12fc0ceda916ddd6ef30",
+    "audit_SanFrancisco.png": "c522db75d7186fbc79626f15b2d45f0c6873154b0c5482386589a573e98121ee",
+    "column_choices.json": "543294ca5d84917892ee33382aa1bc37c88cc149b87acf70ec8c5b6c04fcbf59",
+    "feasibility_current_model.csv": "d21540091a31ea8044c5662c7a5f532bb20f3265205c821eec092d6bdfb62820",
+    "lag_summary.csv": "ee2762ce3a4937bbbfce32e2cdd8dea3470b483e2056a79211e4062753bf0289",
+    "period_summary.csv": "b5ede3f61c27d9786aa5503776f365f3eecf887168b068ff7fb0157631a0f6d2",
+    "weekly_LosAngeles.csv": "fbbb34e4cec6ba00995f06e4759d91161da656c17b0b6e89fd9b3055e0b0f7c2",
+    "weekly_SanDiego.csv": "93558ab2850257040fef7cd4b9b4128a4872c4a2dffa3281498158289f5f72bc",
+    "weekly_SanFrancisco.csv": "3966942078ddb168edda9c21b389fc94c43521d400da00360e9bb8a3bcfb3fd8"
+  }
+}

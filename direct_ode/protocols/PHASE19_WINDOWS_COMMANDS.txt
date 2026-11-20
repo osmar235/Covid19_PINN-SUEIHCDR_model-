@@ -1,0 +1,23 @@
+PHASE 19 official runs (PHASE19_PROTOCOL.md, approved 2026-10-14, with Addendum A)
+Run in cmd, from the project root, with the project .venv. Each step writes a new folder; nothing is overwritten.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Tests (about 1 minute; must end with ALL PASS)
+mkdir phase19_tests
+python test_layer3t.py . phase15_admissions > phase19_tests\test_layer3t_output.txt
+type phase19_tests\test_layer3t_output.txt
+
+Step 2. Phase 19 fits (about 30 to 60 minutes, like Phase 17B)
+python layer3t_tests.py --out phase19_layer3t
+
+Step 3. Phase 18 reconstruction and scenarios on the new fits (1 to 3 minutes)
+python scenarios_phase18.py --fits phase19_layer3t --name L3T --out phase19_scenarios
+
+Expected script SHA-256 (first 16 characters):
+  layer3t_tests.py           89156808901a8d48
+  test_layer3t.py            1077d33c4218ed7e
+  scenarios_phase18.py       93aaf8c9bff2a209 (updated: adds --fits and --name; old version archived)
+  layer3b_sero.py            a3d6e950c3644bd6 (unchanged, imported by the scenario script and the tests)
+  layer2_admissions.py       4b70ab2b08421e3e (unchanged, imported)

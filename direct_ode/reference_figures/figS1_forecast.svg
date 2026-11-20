@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="448" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 448" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="448"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-448)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="56" y="397" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,794) scale(1,-1)">A  San Diego</text>
+			<path d="M 56,244.666667 L 179,244.666667 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="36.042529296875" y="241.86666666666665" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,483) scale(1,-1)">L3T</text>
+			<path d="M 56,265.777778 L 179,265.777778 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="35.5876953125" y="262.97777777777776" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,525) scale(1,-1)">L3B</text>
+			<path d="M 56,286.888889 L 179,286.888889 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="40.99033203125" y="284.0888888888889" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,568) scale(1,-1)">L3</text>
+			<path d="M 56,308 L 179,308 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="40.99033203125" y="305.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,610) scale(1,-1)">L2</text>
+			<path d="M 56,329.111111 L 179,329.111111 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="18.031103515625002" y="326.3111111111111" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,652) scale(1,-1)">Case lag</text>
+			<path d="M 56,350.222222 L 179,350.222222 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="24.34736328125" y="347.4222222222222" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,694) scale(1,-1)">ARIMA</text>
+			<path d="M 56,371.333333 L 179,371.333333 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="7.6806640625" y="368.53333333333336" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,737) scale(1,-1)">Persistence</text>
+			<path d="M 56,232 L 56,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="50.3699462890625" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">0.0</text>
+			<path d="M 117.5,232 L 117.5,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="109.617529296875" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">15.8</text>
+			<path d="M 179,232 L 179,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="171.117529296875" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">31.5</text>
+			<path d="M 56,232 L 179,232 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 56,232 L 56,384 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="77.818115234375" y="203" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,406) scale(1,-1)">MAE admissions/day</text>
+			<circle cx="114.08349934558711" cy="371.33333333333337" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="118.5877876607735" cy="350.22222222222223" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="137.07536956968403" cy="329.1111111111111" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="121.10442040412588" cy="308.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="153.62196316976724" cy="286.8888888888889" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="165.82142857142856" cy="265.77777777777777" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="135.49191286985354" cy="244.66666666666666" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="209" y="397" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,794) scale(1,-1)">B  Los Angeles</text>
+			<path d="M 209,244.666667 L 332,244.666667 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="189.042529296875" y="241.86666666666665" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,483) scale(1,-1)">L3T</text>
+			<path d="M 209,265.777778 L 332,265.777778 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="188.5876953125" y="262.97777777777776" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,525) scale(1,-1)">L3B</text>
+			<path d="M 209,286.888889 L 332,286.888889 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="193.99033203125" y="284.0888888888889" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,568) scale(1,-1)">L3</text>
+			<path d="M 209,308 L 332,308 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="193.99033203125" y="305.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,610) scale(1,-1)">L2</text>
+			<path d="M 209,329.111111 L 332,329.111111 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="171.031103515625" y="326.3111111111111" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,652) scale(1,-1)">Case lag</text>
+			<path d="M 209,350.222222 L 332,350.222222 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="177.34736328125" y="347.4222222222222" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,694) scale(1,-1)">ARIMA</text>
+			<path d="M 209,371.333333 L 332,371.333333 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="160.6806640625" y="368.53333333333336" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,737) scale(1,-1)">Persistence</text>
+			<path d="M 209,232 L 209,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="203.3699462890625" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">0.0</text>
+			<path d="M 270.5,232 L 270.5,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="262.617529296875" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">75.4</text>
+			<path d="M 332,232 L 332,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="321.8651123046875" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">150.9</text>
+			<path d="M 209,232 L 332,232 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 209,232 L 209,384 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="230.818115234375" y="203" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,406) scale(1,-1)">MAE admissions/day</text>
+			<circle cx="256.8154418404717" cy="371.33333333333337" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="259.02265060081777" cy="350.22222222222223" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="268.78713711443777" cy="329.1111111111111" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="261.4864326975267" cy="308.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="288.03779206072846" cy="286.8888888888889" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="318.82142857142856" cy="265.77777777777777" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="306.2249117837233" cy="244.66666666666666" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="362" y="397" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,794) scale(1,-1)">C  San Francisco</text>
+			<path d="M 362,244.666667 L 485,244.666667 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="342.042529296875" y="241.86666666666665" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,483) scale(1,-1)">L3T</text>
+			<path d="M 362,265.777778 L 485,265.777778 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="341.5876953125" y="262.97777777777776" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,525) scale(1,-1)">L3B</text>
+			<path d="M 362,286.888889 L 485,286.888889 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="346.99033203125" y="284.0888888888889" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,568) scale(1,-1)">L3</text>
+			<path d="M 362,308 L 485,308 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="346.99033203125" y="305.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,610) scale(1,-1)">L2</text>
+			<path d="M 362,329.111111 L 485,329.111111 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="324.031103515625" y="326.3111111111111" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,652) scale(1,-1)">Case lag</text>
+			<path d="M 362,350.222222 L 485,350.222222 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="330.34736328125" y="347.4222222222222" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,694) scale(1,-1)">ARIMA</text>
+			<path d="M 362,371.333333 L 485,371.333333 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="313.6806640625" y="368.53333333333336" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,737) scale(1,-1)">Persistence</text>
+			<path d="M 362,232 L 362,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="356.3699462890625" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">0.0</text>
+			<path d="M 423.5,232 L 423.5,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="417.8699462890625" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">2.5</text>
+			<path d="M 485,232 L 485,229 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="479.3699462890625" y="218" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,436) scale(1,-1)">5.0</text>
+			<path d="M 362,232 L 485,232 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 362,232 L 362,384 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="383.818115234375" y="203" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,406) scale(1,-1)">MAE admissions/day</text>
+			<circle cx="433.4113390205825" cy="371.33333333333337" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="435.67828260426097" cy="350.22222222222223" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="419.8398170769678" cy="329.1111111111111" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="447.7317948874001" cy="308.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="467.02763551453586" cy="286.8888888888889" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<circle cx="471.82142857142856" cy="265.77777777777777" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="456.2833751278867" cy="244.66666666666666" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="40" y="176" style="font-family: Arial; font-weight: bold; font-size: 9.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,352) scale(1,-1)">D  Paired L3B minus ARIMA mean error with saved 95% bootstrap interval</text>
+			<text x="43" y="132" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,264) scale(1,-1)">San Diego</text>
+			<path d="M 186.06285,135 L 236.446962,135 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<circle cx="205.97640664064443" cy="135" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<path d="M 190,127 L 190,143 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 2, 2;"/>
+			<text x="412.1439453125" y="143" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,286) scale(1,-1)">12.10 [-2.98, 35.19]</text>
+			<text x="43" y="100" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,200) scale(1,-1)">Los Angeles</text>
+			<path d="M 177.77772,103 L 437.50053,103 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<circle cx="286.8346359342177" cy="103" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<path d="M 190,95 L 190,111 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 2, 2;"/>
+			<text x="407.472265625" y="111" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,222) scale(1,-1)">73.36 [-9.26, 187.50]</text>
+			<text x="43" y="68" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,136) scale(1,-1)">San Francisco</text>
+			<path d="M 189.666673,71 L 194.257677,71 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<circle cx="191.93393465107246" cy="71" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<path d="M 190,63 L 190,79 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 2, 2;"/>
+			<text x="421.4873046875" y="79" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,158) scale(1,-1)">1.47 [-0.25, 3.23]</text>
+			<path d="M 177,43 L 454,43 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 190,43 L 190,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="187.775390625" y="29" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,58) scale(1,-1)">0</text>
+			<path d="M 256,43 L 256,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="251.55078125" y="29" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,58) scale(1,-1)">50</text>
+			<path d="M 322,43 L 322,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="315.326171875" y="29" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,58) scale(1,-1)">100</text>
+			<path d="M 388,43 L 388,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="381.326171875" y="29" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,58) scale(1,-1)">150</text>
+			<path d="M 454,43 L 454,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="447.326171875" y="29" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,58) scale(1,-1)">200</text>
+			<text x="68.10200195312501" y="17" style="font-family: Arial; font-size: 8.1px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,34) scale(1,-1)">Intervals are from the saved four origin block bootstrap; crossing zero does not establish equivalence.</text>
+		</g>
+	</g>
+</svg>

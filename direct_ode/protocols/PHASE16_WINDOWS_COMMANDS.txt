@@ -1,0 +1,18 @@
+PHASE 16 official runs (PHASE16_PROTOCOL.md, approved 2026-10-12, with Addenda A, B and C)
+Run in cmd, from the project root, with the project .venv. Each step writes a new folder; nothing is overwritten.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Tests (about 1 to 2 minutes; must end with ALL PASS)
+mkdir phase16_tests
+python test_layer2.py . phase15_admissions > phase16_tests\test_layer2_output.txt
+type phase16_tests\test_layer2_output.txt
+
+Step 2. Phase 16 (about 30 to 60 minutes)
+python layer2_admissions.py --out phase16_layer2
+
+Expected script SHA-256 (first 16 characters):
+  layer2_admissions.py       4b70ab2b08421e3e
+  test_layer2.py             f1746dc47645e8ff
+  layer1c_recalibration.py   f98c719b15edd555 (unchanged, imported for the ICU secondary)

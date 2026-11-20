@@ -1,0 +1,20 @@
+PHASE 17B official runs (PHASE17B_PROTOCOL.md, approved 2026-10-13, with Addendum A)
+Run in cmd, from the project root, with the project .venv. Each step writes a new folder; nothing is overwritten.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Tests (about 1 minute; must end with ALL PASS)
+mkdir phase17b_tests
+python test_layer3b.py . phase15_admissions > phase17b_tests\test_layer3b_output.txt
+type phase17b_tests\test_layer3b_output.txt
+
+Step 2. Phase 17B (about 30 to 60 minutes)
+python layer3b_sero.py --out phase17b_layer3b
+
+Expected script SHA-256 (first 16 characters):
+  layer3b_sero.py            a3d6e950c3644bd6
+  test_layer3b.py            45257b25f6cbe311
+  layer2_admissions.py       4b70ab2b08421e3e (unchanged, imported)
+  layer1c_recalibration.py   f98c719b15edd555 (unchanged, imported)
+Inputs also read: phase16_layer2\trajectories.csv and phase17_layer3\trajectories.csv (for comparison only).

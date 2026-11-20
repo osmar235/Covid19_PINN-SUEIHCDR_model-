@@ -1,0 +1,29 @@
+{
+  "script": "hhs_admissions_v2.py",
+  "script_sha256": "a42135bccfec02e9a979ffab9a1743641d145cc1039a833fc0e2d9decdd252bb",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe hhs_admissions_v2.py --out phase15_admissions",
+  "args": {
+    "hhs": "data_epi/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv",
+    "old_audit": "phase12_epi_audit",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "out": "phase15_admissions",
+    "overwrite": false
+  },
+  "run_utc": "2026-10-12T02:11:58.841207+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.4.3",
+  "inputs_sha256": {
+    "data_epi/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv": "b3ef37e7e8d9888ff241caab83ec43be7e26be3c592a5a4e120acbf541edea7f",
+    "phase12_epi_audit\\weekly_LosAngeles.csv": "fbbb34e4cec6ba00995f06e4759d91161da656c17b0b6e89fd9b3055e0b0f7c2",
+    "phase12_epi_audit\\weekly_SanDiego.csv": "93558ab2850257040fef7cd4b9b4128a4872c4a2dffa3281498158289f5f72bc",
+    "phase12_epi_audit\\weekly_SanFrancisco.csv": "3966942078ddb168edda9c21b389fc94c43521d400da00360e9bb8a3bcfb3fd8"
+  },
+  "outputs_sha256": {
+    "summary.json": "3a39b3f7f685bde1479759cd3ad50fb15ac259253908e28130178bd67c0067c2",
+    "weekly_LosAngeles.csv": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "weekly_SanDiego.csv": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "weekly_SanFrancisco.csv": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e"
+  }
+}

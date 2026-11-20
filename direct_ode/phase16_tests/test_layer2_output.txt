@@ -1,0 +1,20 @@
+PASS population conserved  max dev 4.44e-16
+PASS I balance (fE - fI = change in I)  max 1.73e-18
+PASS behaviour signal equals paper code
+PASS causal San Diego L2 delay 1
+PASS causal San Diego comparators delay 1
+PASS causal San Diego L2 delay 0
+PASS causal San Diego comparators delay 0
+PASS causal Los Angeles L2 delay 1
+PASS causal Los Angeles comparators delay 1
+PASS causal Los Angeles L2 delay 0
+PASS causal Los Angeles comparators delay 0
+PASS causal San Francisco L2 delay 1
+PASS causal San Francisco comparators delay 1
+PASS causal San Francisco L2 delay 0
+PASS causal San Francisco comparators delay 0
+PASS VE before and after 2021-03-29
+PASS omega_v switches on 2021-10-04
+PASS rho prior switches on 2020-11-25
+
+ALL PASS

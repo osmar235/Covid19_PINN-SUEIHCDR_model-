@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="451" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 451" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="451"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-451)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 82,434 L 97,434 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<text x="102" y="431" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,862) scale(1,-1)">San Diego</text>
+			<path d="M 155.25,434 L 170.25,434 Z" style="stroke: rgb(83%,36%,0%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<text x="175.25" y="431" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,862) scale(1,-1)">Los Angeles</text>
+			<path d="M 237,434 L 252,434 Z" style="stroke: rgb(0%,61%,45%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<text x="257.0" y="431" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,862) scale(1,-1)">San Francisco</text>
+			<text x="53" y="395" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,790) scale(1,-1)">A  L3B donor dates within each tolerance band</text>
+			<path d="M 53,267 L 474,267 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="42.495166015625" y="264.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,528) scale(1,-1)">0</text>
+			<path d="M 53,294.380952 L 474,294.380952 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="37.99033203125" y="291.5809523809524" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,583) scale(1,-1)">25</text>
+			<path d="M 53,321.761905 L 474,321.761905 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="37.99033203125" y="318.96190476190475" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,637) scale(1,-1)">50</text>
+			<path d="M 53,349.142857 L 474,349.142857 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="37.99033203125" y="346.3428571428571" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,692) scale(1,-1)">75</text>
+			<path d="M 53,376.52381 L 474,376.52381 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="33.485498046875" y="373.7238095238095" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,747) scale(1,-1)">100</text>
+			<path d="M 88.083333,267 L 88.083333,264 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="75.36182454427085" y="253" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,506) scale(1,-1)">+/-0.05</text>
+			<path d="M 205.027778,267 L 205.027778,264 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="192.3062689887153" y="253" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,506) scale(1,-1)">+/-0.10</text>
+			<path d="M 321.972222,267 L 321.972222,264 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="296.8653862847222" y="253" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,506) scale(1,-1)">-0.10 to +0.20</text>
+			<path d="M 438.916667,267 L 438.916667,264 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="426.1951578776042" y="253" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,506) scale(1,-1)">+/-0.20</text>
+			<path d="M 53,267 L 474,267 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 53,267 L 53,382 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<g transform=" matrix(0,1,-1,0,19,324.5)">
+				<text x="-53.62512207031251" y="0" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,0) scale(1,-1)">Donor dates within band (%)</text>
+			</g>
+			<path d="M 53,321.761905 L 474,321.761905 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 2, 2;"/>
+			<path d="M 53,340.015873 L 474,340.015873 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 2, 2;"/>
+			<path d="M 53,354.619048 L 474,354.619048 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 2, 2;"/>
+			<polyline points="88.08333 366.093, 205.0278 366.093, 321.9722 366.093, 438.9167 376.5238" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1.3; fill: None; fill-rule: evenodd;"/>
+			<circle cx="88.08333333333334" cy="366.09297052154193" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="205.0277777777778" cy="366.09297052154193" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="321.97222222222223" cy="366.09297052154193" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="438.9166666666667" cy="376.5238095238095" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<polyline points="88.08333 293.0771, 205.0278 345.2313, 321.9722 371.3084, 438.9167 376.5238" style="stroke: rgb(83%,36%,0%); stroke-linecap: butt; stroke-width: 1.3; fill: None; fill-rule: evenodd;"/>
+			<circle cx="88.08333333333334" cy="293.0770975056689" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="205.0277777777778" cy="345.2312925170068" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="321.97222222222223" cy="371.3083900226757" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="438.9166666666667" cy="376.5238095238095" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<polyline points="88.08333 350.4467, 205.0278 355.6621, 321.9722 355.6621, 438.9167 366.093" style="stroke: rgb(0%,61%,45%); stroke-linecap: butt; stroke-width: 1.3; fill: None; fill-rule: evenodd;"/>
+			<circle cx="88.08333333333334" cy="350.4467120181406" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<circle cx="205.0277777777778" cy="355.6621315192744" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<circle cx="321.97222222222223" cy="355.6621315192744" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<circle cx="438.9166666666667" cy="366.09297052154193" r="1.9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="102.8188720703125" y="233" style="font-family: Arial; font-size: 8.3px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,466) scale(1,-1)">Reference fractions: 50%, two thirds and 80%. Each county has 21 donor dates.</text>
+			<text x="20" y="204" style="font-family: Arial; font-weight: bold; font-size: 9.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,408) scale(1,-1)">B  Joint reconstruction decisions under alternative rules</text>
+			<text x="199.9968505859375" y="183" style="font-family: Arial; font-weight: bold; font-size: 8.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,366) scale(1,-1)">Total +/-10%</text>
+			<text x="298.9968505859375" y="183" style="font-family: Arial; font-weight: bold; font-size: 8.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,366) scale(1,-1)">Total +/-20%</text>
+			<text x="397.9968505859375" y="183" style="font-family: Arial; font-weight: bold; font-size: 8.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,366) scale(1,-1)">Total +/-30%</text>
+			<text x="186.66142578125" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">7 d</text>
+			<text x="217.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">14 d</text>
+			<text x="250.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">21 d</text>
+			<text x="285.66142578125" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">7 d</text>
+			<text x="316.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">14 d</text>
+			<text x="349.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">21 d</text>
+			<text x="384.66142578125" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">7 d</text>
+			<text x="415.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">14 d</text>
+			<text x="448.3255859375" y="168" style="font-family: Arial; font-size: 8.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,336) scale(1,-1)">21 d</text>
+			<text x="20" y="138" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">San Diego  vaccination</text>
+			<rect x="176" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="189.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="209" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="222.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="242" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="255.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="275" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="288.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="308" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="321.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="341" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="354.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="374" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="387.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="407" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="420.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<rect x="440" y="132" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="453.63193359375" y="138" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,276) scale(1,-1)">P</text>
+			<text x="20" y="118" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">Los Angeles  vaccination</text>
+			<rect x="176" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="189.873388671875" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">F</text>
+			<rect x="209" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="222.873388671875" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">F</text>
+			<rect x="242" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="255.873388671875" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">F</text>
+			<rect x="275" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="288.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<rect x="308" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="321.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<rect x="341" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="354.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<rect x="374" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="387.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<rect x="407" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="420.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<rect x="440" y="112" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="453.63193359375" y="118" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,236) scale(1,-1)">P</text>
+			<text x="20" y="98" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">San Francisco  vaccination</text>
+			<rect x="176" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="189.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="209" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="222.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="242" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="255.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="275" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="288.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="308" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="321.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="341" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="354.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="374" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="387.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="407" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="420.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<rect x="440" y="92" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="453.63193359375" y="98" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,196) scale(1,-1)">P</text>
+			<text x="20" y="78" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">San Diego  behaviour</text>
+			<rect x="176" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="189.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="209" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="222.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="242" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="255.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="275" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="288.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="308" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="321.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="341" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="354.873388671875" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">F</text>
+			<rect x="374" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="387.63193359375" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">P</text>
+			<rect x="407" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="420.63193359375" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">P</text>
+			<rect x="440" y="72" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="453.63193359375" y="78" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,156) scale(1,-1)">P</text>
+			<text x="20" y="58" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">Los Angeles  behaviour</text>
+			<rect x="176" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="189.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="209" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="222.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="242" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="255.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="275" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="288.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="308" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="321.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="341" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="354.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="374" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="387.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="407" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="420.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<rect x="440" y="52" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="453.873388671875" y="58" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,116) scale(1,-1)">F</text>
+			<text x="20" y="38" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">San Francisco  behaviour</text>
+			<rect x="176" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="189.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="209" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="222.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="242" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="255.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="275" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="288.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="308" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="321.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="341" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="354.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="374" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="387.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="407" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="420.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="440" y="32" width="33" height="20" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,91%,89%); fill-rule: evenodd;"/>
+			<text x="453.873388671875" y="38" style="font-family: Arial; font-weight: bold; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,76) scale(1,-1)">F</text>
+			<rect x="308" y="32" width="33" height="120" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: none; fill-rule: evenodd;"/>
+			<text x="93.54936523437502" y="12" style="font-family: Arial; font-size: 8.2px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,24) scale(1,-1)">P = joint rule met; F = not met. The outlined column is the original +/-20%, 14 day rule.</text>
+		</g>
+	</g>
+</svg>

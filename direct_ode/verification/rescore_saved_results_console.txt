@@ -1,0 +1,44 @@
+WHOLLY FUTURE PRIMARY
+       county model  delay    window   n  covered  coverage  missing  missing_forecasts  n_origins     p0_mae  naive_mae
+  Los Angeles   L3B      1 future1_4 172       15  0.087209        0                  0         43 189.097570 100.337209
+  Los Angeles   L3B      1 future5_7 129       25  0.193798        0                  0         43 490.814792 153.138427
+  Los Angeles   L3B      1 future1_7 301       40  0.132890        0                  0         43 318.404951 122.966303
+    San Diego   L3B      1 future1_4 168        8  0.047619        4                  0         43  37.656004  22.675170
+    San Diego   L3B      1 future5_7 125       15  0.120000        3                  1         43 100.264650  36.773714
+    San Diego   L3B      1 future1_7 293       23  0.078498        7                  1         43  64.366177  28.689907
+San Francisco   L3B      1 future1_4 172       13  0.075581        0                  0         43   5.562148   3.362957
+San Francisco   L3B      1 future5_7 129       19  0.147287        0                  0         43  14.293037   5.018826
+San Francisco   L3B      1 future1_7 301       32  0.106312        0                  0         43   9.303958   4.072615
+
+SEROLOGY 2/3 RULE
+       county                band  within  n   met
+    San Diego Original asymmetric      19 21  True
+    San Diego      Symmetric 0.05      19 21  True
+    San Diego      Symmetric 0.10      19 21  True
+    San Diego      Symmetric 0.20      21 21  True
+  Los Angeles Original asymmetric      20 21  True
+  Los Angeles      Symmetric 0.05       5 21 False
+  Los Angeles      Symmetric 0.10      15 21  True
+  Los Angeles      Symmetric 0.20      21 21  True
+San Francisco Original asymmetric      17 21  True
+San Francisco      Symmetric 0.05      16 21  True
+San Francisco      Symmetric 0.10      17 21  True
+San Francisco      Symmetric 0.20      19 21  True
+
+MATCHED RESIDUALS
+       county    period model  n  mean_abs_diff  median_abs_diff  mean_signed_diff
+    San Diego All dates    L3 21       0.168145         0.180641          0.166290
+    San Diego All dates   L3B 21       0.031563         0.015188         -0.009330
+  Los Angeles All dates    L3 21       0.376080         0.424230          0.376080
+  Los Angeles All dates   L3B 21       0.079423         0.085164          0.062716
+San Francisco All dates    L3 21       0.140298         0.145551          0.106631
+San Francisco All dates   L3B 21       0.062107         0.026748         -0.023534
+
+Q RANGE
+       county      period  n    q_min  q_median    q_max
+    San Diego   behaviour 26 0.019845  0.029146 0.034516
+    San Diego vaccination 51 0.017207  0.025216 0.034516
+  Los Angeles   behaviour 26 0.021280  0.031089 0.053468
+  Los Angeles vaccination 51 0.017690  0.028710 0.055748
+San Francisco   behaviour 26 0.012949  0.023303 0.031760
+San Francisco vaccination 51 0.008490  0.022527 0.031760

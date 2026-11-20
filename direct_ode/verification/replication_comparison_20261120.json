@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "primary_chain_only": true,
+  "scenario_count": 6,
+  "paired_calendar_rows": 6186,
+  "max_relative_difference": 0.0,
+  "max_relative_difference_by_scenario": {
+    "P0": 0.0,
+    "P0_HINDSIGHT": 0.0,
+    "P1": 0.0,
+    "P2": 0.0,
+    "P3": 0.0,
+    "P4": 0.0
+  },
+  "unmatched_calendar_rows": [
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P0",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P0",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P0_HINDSIGHT",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P0_HINDSIGHT",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P1",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P1",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P2",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P2",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P3",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P3",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P4",
+      "week_start": "2021-05-09",
+      "_merge": "left_only"
+    },
+    {
+      "county": "San Diego",
+      "origin": "2021-05-22",
+      "scenario": "P4",
+      "week_start": "2021-07-04",
+      "_merge": "right_only"
+    }
+  ],
+  "explanation": "At San Diego origin 2021-05-22, the historical saved grid starts one week earlier. Six scenario rows on each boundary do not have matching calendar targets. They are excluded, not filled.",
+  "scope": "Separate projection implementation using the same fitted states, input modules and ODE integrator. No refitting or external validation."
+}

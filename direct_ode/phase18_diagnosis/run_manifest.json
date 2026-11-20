@@ -1,0 +1,30 @@
+{
+  "script": "diagnose_phase18.py",
+  "script_sha256": "681f2d4e9fece86a2df9092c7712fdce39c70455cfcbd17342a78c648d73c6ca",
+  "layer2_sha256": "4b70ab2b08421e3e4157c79938b31253182d948d0df289f30e207c5735f0d9f2",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe diagnose_phase18.py --out phase18_diagnosis",
+  "args": {
+    "root": ".",
+    "adm_dir": "phase15_admissions",
+    "vax": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "smoke": false,
+    "out": "phase18_diagnosis"
+  },
+  "run_utc": "2026-10-14T18:31:01.705686+00:00",
+  "python": "3.14.3",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "inputs_sha256": {
+    "phase17b_layer3b\\params_states.csv": "1016eac1ff3d269b56a2a4bb4179bb4016def38a725d4aaa79549a6d98a92aad",
+    "phase17b_layer3b\\trajectories.csv": "74cf45bc078915b574c96969cf9117d19ff05537be3dfb3f1a5e680635643b60",
+    "phase17b_layer3b\\forecasts_weekly.csv": "db78e9eb96d5a61f282b171f1d5f0986c2f83ee2f4208fe8e75d9b7156b5968d"
+  },
+  "outputs_sha256": {
+    "d1_revisions.csv": "6db5b8d241dc8f8924fd84431ee0ec9ef8c79f5ed17ac91819782cc05f30acfb",
+    "d2_residuals.csv": "b2cdbb21804eb7e71b8f6d34ac86ebcf946c9b5cbbc091de4c3ef55d9536b022",
+    "d3_lags_peaks.csv": "dd092d72b69f3bec3de1c40152ff42d749fbacb5ba713c4b5394e751415aea5d",
+    "d4_adm_per_case.csv": "2b9b9aa1f31ad33d5329034dc36c7dcc86dfb75bcb353a249d556e94db42e61f",
+    "d5_penalty.csv": "4986aa78bab0d41f3982c8e504d2cb726c81d08da10972c17f78a5b2f401f43f"
+  }
+}

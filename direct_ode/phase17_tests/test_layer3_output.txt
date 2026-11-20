@@ -1,0 +1,16 @@
+PASS population conserved  6.7e-16
+PASS cumulative infections
+PASS ever infected identity
+PASS shares sum to 1 at 2022-01-08
+PASS shares sum to 1 at 2022-07-02
+PASS causal San Diego 2022-01-08
+PASS causal San Diego 2022-07-02
+PASS causal Los Angeles 2022-01-08
+PASS causal Los Angeles 2022-07-02
+PASS causal San Francisco 2022-01-08
+PASS causal San Francisco 2022-07-02
+PASS f_V before and after 2021-12-14
+PASS f_pre_O1 switches on 2022-01-06
+PASS f_pre_O2 and f_O1_O2 switch on 2022-07-12
+
+ALL PASS

@@ -1,0 +1,24 @@
+PHASE 15 official runs (PHASE15_PROTOCOL.md, approved 2026-10-11, with Addenda A and B)
+Run in cmd, from the project root, with the project .venv. Each step writes a new folder; nothing is overwritten.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Corrected HHS admissions (Addendum B, about 1 minute)
+python hhs_admissions_v2.py --out phase15_admissions
+
+Step 2. Tests on the corrected series (unit, causality, admission rule; about 30 seconds; must end with ALL PASS)
+python test_layer1c.py . phase15_admissions > phase15_admissions\test_layer1c_output.txt
+type phase15_admissions\test_layer1c_output.txt
+
+Step 3. Phase 15 (about 15 to 25 minutes)
+python layer1c_recalibration.py --out phase15_recalibration
+
+Step 4. Phase 14 correction run, code unchanged, corrected admissions only (Addendum B4, about 15 minutes)
+python layer1b_hospital.py --audit phase15_admissions --out phase14_layer1b_admfix
+
+Expected script SHA-256 (first 16 characters):
+  hhs_admissions_v2.py       a42135bccfec02e9
+  layer1c_recalibration.py   f98c719b15edd555
+  test_layer1c.py            4333da29e80eae20
+  layer1b_hospital.py        32dfc135c32aeedc (unchanged from the official Phase 14 run)

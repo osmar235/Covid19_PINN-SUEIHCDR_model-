@@ -1,0 +1,9 @@
+Phase 18B replication | counties ['San Diego', 'Los Angeles', 'San Francisco'] | origins 43 (2020-12-12 to 2021-10-02) | 8 weeks
+  San Diego: 43 origins (1 s)
+  Los Angeles: 43 origins (2 s)
+  San Francisco: 43 origins (2 s)
+E1 after_t0: {"San Diego": {"coverage_w1_4": 0.047619047619047616, "coverage_w5_8": 0.08928571428571429, "met": false}, "Los Angeles": {"coverage_w1_4": 0.0872093023255814, "coverage_w5_8": 0.14534883720930233, "met": false}, "San Francisco": {"coverage_w1_4": 0.0755813953488372, "coverage_w5_8": 0.11046511627906977, "met": false}} | met False
+E1 p17b: {"San Diego": {"coverage_w1_4": 0.02976190476190476, "coverage_w5_8": 0.10714285714285714, "met": false}, "Los Angeles": {"coverage_w1_4": 0.040697674418604654, "coverage_w5_8": 0.19186046511627908, "met": false}, "San Francisco": {"coverage_w1_4": 0.03488372093023256, "coverage_w5_8": 0.1511627906976744, "met": false}} | met False
+checks: {"max_rel_vs_17b": 3.5216274341109965e-13, "inputs_match_all": true, "max_abs_pop_error": 1.6653345369377348e-15}
+
+Saved to verification\replication_20261120/

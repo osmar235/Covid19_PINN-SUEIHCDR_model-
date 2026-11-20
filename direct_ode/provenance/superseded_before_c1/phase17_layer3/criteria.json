@@ -1,0 +1,216 @@
+{
+  "plausibility": {
+    "San Diego": {
+      "n_origins": 114,
+      "beta_at_upper": 0,
+      "rho_at_bound": 0,
+      "met": true
+    },
+    "Los Angeles": {
+      "n_origins": 114,
+      "beta_at_upper": 1,
+      "rho_at_bound": 0,
+      "met": true
+    },
+    "San Francisco": {
+      "n_origins": 114,
+      "beta_at_upper": 0,
+      "rho_at_bound": 0,
+      "met": true
+    }
+  },
+  "serology": {
+    "San Diego": {
+      "measure": "compartments",
+      "n_dates": 50,
+      "within": 40,
+      "met": true,
+      "within_poisson_formula": 49,
+      "met_poisson_formula": true,
+      "by_source": {
+        "blood_donor_2022_CA": {
+          "n": 4,
+          "within": 3
+        },
+        "blood_donor_CA-3": {
+          "n": 17,
+          "within": 12
+        },
+        "commercial_lab_CA": {
+          "n": 29,
+          "within": 25
+        }
+      }
+    },
+    "Los Angeles": {
+      "measure": "compartments",
+      "n_dates": 50,
+      "within": 1,
+      "met": false,
+      "within_poisson_formula": 4,
+      "met_poisson_formula": false,
+      "by_source": {
+        "blood_donor_2022_CA": {
+          "n": 4,
+          "within": 1
+        },
+        "blood_donor_CA-3": {
+          "n": 17,
+          "within": 0
+        },
+        "commercial_lab_CA": {
+          "n": 29,
+          "within": 0
+        }
+      }
+    },
+    "San Francisco": {
+      "measure": "compartments",
+      "n_dates": 50,
+      "within": 47,
+      "met": true,
+      "within_poisson_formula": 47,
+      "met_poisson_formula": true,
+      "by_source": {
+        "blood_donor_2022_CA": {
+          "n": 4,
+          "within": 2
+        },
+        "blood_donor_CA-1": {
+          "n": 17,
+          "within": 17
+        },
+        "commercial_lab_CA": {
+          "n": 29,
+          "within": 28
+        }
+      }
+    }
+  },
+  "adequacy": {
+    "San Diego": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    },
+    "Los Angeles": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    },
+    "San Francisco": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    }
+  },
+  "D1": {
+    "San Diego": {
+      "n_origins": 110,
+      "mean_L3": 26.657146996961174,
+      "mean_ARIMA_ADM": 16.03774676089893,
+      "mean_diff": 10.619400236062242,
+      "ci95": [
+        -2.92594084982395,
+        30.112658759532607
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "Los Angeles": {
+      "n_origins": 114,
+      "mean_L3": 113.37666538112259,
+      "mean_ARIMA_ADM": 61.366475985048986,
+      "mean_diff": 52.01018939607359,
+      "ci95": [
+        -13.601368273349193,
+        128.8701538922064
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "San Francisco": {
+      "n_origins": 114,
+      "mean_L3": 4.3624231181726865,
+      "mean_ARIMA_ADM": 2.9866298831915934,
+      "mean_diff": 1.3757932349810933,
+      "ci95": [
+        -0.29851801562575253,
+        2.9973133969026455
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    }
+  },
+  "D2": {
+    "San Diego": {
+      "n_origins": 110,
+      "mean_L3": 26.657146996961174,
+      "mean_CASELAG": 20.77507920159027,
+      "mean_diff": 5.882067795370903,
+      "ci95": [
+        -3.329099255299314,
+        13.149229442377296
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "Los Angeles": {
+      "n_origins": 114,
+      "mean_L3": 113.37666538112259,
+      "mean_CASELAG": 73.3452919803493,
+      "mean_diff": 40.031373400773255,
+      "ci95": [
+        0.21769440848121957,
+        68.63168240819465
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": false
+    },
+    "San Francisco": {
+      "n_origins": 114,
+      "mean_L3": 4.3624231181726865,
+      "mean_CASELAG": 2.344600335600346,
+      "mean_diff": 2.0178227825723396,
+      "ci95": [
+        0.2412787135775329,
+        3.8855991761084163
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": false
+    }
+  },
+  "plausibility_met": true,
+  "serology_met": true,
+  "adequacy_met": true,
+  "D1_met": false,
+  "D2_met": false,
+  "ICU_secondary": {
+    "San Diego": {
+      "n": 114,
+      "mean_H4_L3": 23.83117703403661,
+      "mean_ARIMA": 12.221157920633058,
+      "ci95_diff": [
+        0.6552780386687411,
+        29.437479025793735
+      ]
+    },
+    "Los Angeles": {
+      "n": 114,
+      "mean_H4_L3": 82.96200895377874,
+      "mean_ARIMA": 39.18258121255179,
+      "ci95_diff": [
+        1.4392240607587987,
+        101.01290502086073
+      ]
+    },
+    "San Francisco": {
+      "n": 114,
+      "mean_H4_L3": 5.409949923150438,
+      "mean_ARIMA": 4.157809731027008,
+      "ci95_diff": [
+        -0.9822053085151505,
+        4.620127682760172
+      ]
+    }
+  },
+  "rules": {
+    "plausibility": "L3 delay 1: beta at upper bound and rho at a bound in <= 10 % of origins, every county",
+    "serology": "model ever infected (compartments) minus survey within [-0.1, 0.2] at >= 2/3 of dates, >= 2 of 3 counties; the protocol formula 1 - exp(-cumulative infections) is reported too",
+    "adequacy": "L3 not significantly worse than ARIMA_ADM in >= 2 of 3 counties"
+  }
+}

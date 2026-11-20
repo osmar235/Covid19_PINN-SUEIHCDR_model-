@@ -1,0 +1,2 @@
+Saved six main figures and two supplementary figures as editable SVG.
+Added future-week evaluation, threshold sensitivity and admission-mapping figures.

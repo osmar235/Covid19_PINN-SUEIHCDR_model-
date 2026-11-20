@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="340" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 340" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="340"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-340)" style="clip-path: url(#clip)">
+		<g transform="">
+			<circle cx="107" cy="321" r="2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="120" y="318" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,636) scale(1,-1)">Primary L3B</text>
+			<circle cx="188.75" cy="321" r="2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="201.75" y="318" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,636) scale(1,-1)">Testing linked L3T</text>
+			<text x="51" y="286" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,572) scale(1,-1)">A  October start reconstruction after the testing sensitivity</text>
+			<path d="M 51,185 L 474,185 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="33.739892578125" y="182.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,364) scale(1,-1)">0.8</text>
+			<path d="M 51,197.571429 L 474,197.571429 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="40.495166015625" y="194.77142857142854" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,389) scale(1,-1)">1</text>
+			<path d="M 51,210.142857 L 474,210.142857 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="33.739892578125" y="207.34285714285713" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,414) scale(1,-1)">1.2</text>
+			<path d="M 51,235.285714 L 474,235.285714 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="33.739892578125" y="232.48571428571427" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,464) scale(1,-1)">1.6</text>
+			<path d="M 51,260.428571 L 474,260.428571 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="40.495166015625" y="257.62857142857143" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,515) scale(1,-1)">2</text>
+			<path d="M 51,273 L 474,273 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="33.739892578125" y="270.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,540) scale(1,-1)">2.2</text>
+			<path d="M 156.75,185 L 156.75,182 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="137.83681640625" y="171" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,342) scale(1,-1)">San Diego</text>
+			<path d="M 262.5,185 L 262.5,182 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="240.2091796875" y="171" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,342) scale(1,-1)">Los Angeles</text>
+			<path d="M 368.25,185 L 368.25,182 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="342.364013671875" y="171" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,342) scale(1,-1)">San Francisco</text>
+			<path d="M 51,185 L 474,185 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 51,185 L 51,273 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<g transform=" matrix(0,1,-1,0,17,229)">
+				<text x="-41.815185546875" y="0" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,0) scale(1,-1)">Model / observed total</text>
+			</g>
+			<rect x="51" y="185.0" width="423" height="25.14285714285714" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,96%,94%); fill-rule: evenodd;"/>
+			<path d="M 51,210.142857 L 474,210.142857 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 3, 2;"/>
+			<path d="M 51,197.571429 L 474,197.571429 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 2, 2;"/>
+			<circle cx="147.23250000000002" cy="212.90824635933623" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="166.2675" cy="216.474409484497" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<circle cx="252.9825" cy="221.2518550100903" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="272.0175" cy="222.16320107936096" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<circle cx="358.7325" cy="262.7740093125599" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="377.7675" cy="262.29853989553584" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,61%,45%); fill-rule: evenodd;"/>
+			<text x="51" y="141" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,282) scale(1,-1)">B  Early bracketing in all three saved projection chains</text>
+			<path d="M 51,40 L 474,40 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="40.495166015625" y="37.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,74) scale(1,-1)">0</text>
+			<path d="M 51,69.333333 L 474,69.333333 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="35.99033203125" y="66.53333333333333" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,133) scale(1,-1)">20</text>
+			<path d="M 51,98.666667 L 474,98.666667 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="35.99033203125" y="95.86666666666666" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,191) scale(1,-1)">40</text>
+			<path d="M 51,113.333333 L 474,113.333333 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="35.99033203125" y="110.53333333333335" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,221) scale(1,-1)">50</text>
+			<path d="M 51,128 L 474,128 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.45;"/>
+			<text x="35.99033203125" y="125.2" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,250) scale(1,-1)">60</text>
+			<path d="M 156.75,40 L 156.75,37 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="137.83681640625" y="26" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,52) scale(1,-1)">San Diego</text>
+			<path d="M 262.5,40 L 262.5,37 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="240.2091796875" y="26" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,52) scale(1,-1)">Los Angeles</text>
+			<path d="M 368.25,40 L 368.25,37 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="342.364013671875" y="26" style="font-family: Arial; font-size: 8.1px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,52) scale(1,-1)">San Francisco</text>
+			<path d="M 51,40 L 474,40 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 51,40 L 51,128 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<g transform=" matrix(0,1,-1,0,17,84)">
+				<text x="-38.4990234375" y="0" style="font-family: Arial; font-size: 8.5px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,0) scale(1,-1)">Targets covered (%)</text>
+			</g>
+			<path d="M 51,113.333333 L 474,113.333333 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 3, 2;"/>
+			<circle cx="141.945" cy="44.39121756487025" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="156.75" cy="49.66067864271457" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="171.555" cy="44.39121756487025" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,34%,63%); fill-rule: evenodd;"/>
+			<circle cx="247.695" cy="45.96899224806201" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="262.5" cy="55.34883720930232" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="277.305" cy="45.96899224806201" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,34%,63%); fill-rule: evenodd;"/>
+			<circle cx="353.445" cy="45.11627906976743" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<circle cx="368.25" cy="57.05426356589146" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<circle cx="383.055" cy="45.96899224806201" r="2.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,34%,63%); fill-rule: evenodd;"/>
+			<circle cx="67" cy="6" r="2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="80" y="3" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,6) scale(1,-1)">Delay one</text>
+			<circle cx="140.25" cy="6" r="2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<text x="153.25" y="3" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,6) scale(1,-1)">Delay zero</text>
+			<circle cx="217.75" cy="6" r="2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,34%,63%); fill-rule: evenodd;"/>
+			<text x="230.75" y="3" style="font-family: Arial; font-size: 8.6px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,6) scale(1,-1)">No behaviour pool</text>
+		</g>
+	</g>
+</svg>

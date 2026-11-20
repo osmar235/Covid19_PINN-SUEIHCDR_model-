@@ -1,0 +1,19 @@
+PHASE 18B independent replication (REVIEW_LOG 2026-10-19)
+Run in cmd, from the project root, with the project .venv. Writes new folders only; the 2026-10-15 Phase 18B files are not touched.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Tests (under 1 minute; must end with ALL PASS)
+mkdir phase18b_replication_tests
+python test_replicate_phase18b.py . > phase18b_replication_tests\test_replicate_phase18b_output.txt
+type phase18b_replication_tests\test_replicate_phase18b_output.txt
+
+Step 2. Replication (1 to 3 minutes)
+python replicate_phase18b.py --out phase18b_replication
+
+Expected script SHA-256 (first 16 characters):
+  replicate_phase18b.py         bd7ae2109b9dfd25
+  test_replicate_phase18b.py    16af7a486bdbbd89
+  layer3b_sero.py               a3d6e950c3644bd6 (unchanged, imported)
+  layer2_admissions.py          4b70ab2b08421e3e (unchanged, imported)

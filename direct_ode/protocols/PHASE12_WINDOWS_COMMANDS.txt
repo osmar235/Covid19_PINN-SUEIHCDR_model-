@@ -1,0 +1,27 @@
+PHASE 12 EPIDEMIOLOGY DATA AUDIT: DOWNLOADS AND COMMANDS
+========================================================
+Written 2026-10-09. Protocol: PHASE12_PROTOCOL_DRAFT.md (pending approval). Never reuse an --out name.
+
+A. Downloads (browser), saved into a new folder data_epi inside the project root:
+C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-\data_epi\
+
+1. CDPH vaccines by county: DONE (2026-10-10). The audit uses
+   data_epi\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv
+
+2. DONE (2026-10-10). CDPH COVID-19 Time-Series Metrics by County and State (ARCHIVED), cases by episode date and deaths by
+   date of death. Open the dataset page and use "Download all" (as you did for the vaccine package):
+   https://data.chhs.ca.gov/dataset/f333528b-4d38-4814-bebb-12db1f10f535
+   (updated 2026-10-10; the catalog.data.gov page given before did not work)
+
+3. DONE (2026-10-10). HHS COVID-19 Reported Patient Impact and Hospital Capacity by Facility, direct CSV export (large file,
+   it may take several minutes to start):
+   https://healthdata.gov/api/views/anag-cw7u/rows.csv?accessType=DOWNLOAD
+   (updated 2026-10-10; the page link given before did not work)
+
+When the files are in data_epi, tell me the file names. I will check their columns and run a smoke test
+before you run the official audit.
+
+B. Official audit (after approval; files checked and smoke tested on 2026-10-10, script SHA-256 ead8192d...):
+python epi_data_audit.py --cdph-ts data_epi\statewide-covid-19-cases-deaths-tests.csv --vax data_epi\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv --hhs-adm data_epi\COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv --out phase12_epi_audit
+
+Takes about 1 to 2 minutes (the HHS file is read in chunks).

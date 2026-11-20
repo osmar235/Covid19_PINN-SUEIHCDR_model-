@@ -1,186 +1,91 @@
-# Covid19_PINN-SUEIHCDR_model-
+# COVID-19 SUEIHCDR model and reproducibility materials
 
-Physics-Informed Neural Networks (PINNs) implementation of an extended SUEIHCDR compartmental model for multi-wave COVID-19 forecasting with dual waning immunity.
+This repository now includes the direct ordinary differential equation (ODE)
+workflow supporting **From serological calibration to scenario credibility:
+retrospective evaluation of a multiwave COVID-19 model**, by Osmar Pinto Neto
+and Devan R Romero. The paper is being prepared for submission.
 
-This repository accompanies the manuscript:
+The current paper uses direct ODE integration and penalized least squares.
+The earlier PINN package remains available for historical work; it is not the
+estimation workflow used for this retrospective case study.
 
-**Generalizable Multi-Wave COVID-19 Forecasting via Physics-Informed Neural Networks with Dual Waning Immunity**
+## Current study release
 
-## Overview
+- [Version ode-v1.2.0](https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-/releases/tag/ode-v1.2.0)
+- [Complete frozen input/code/result archive](https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-/releases/download/ode-v1.2.0/COVID19_ODE_reproducibility_v1.2.0.zip)
+- [Exact workflow and commands](direct_ode/README.txt)
+- [Scientific provenance](direct_ode/PROVENANCE.txt)
+- [Correction C1 protocol](direct_ode/protocols/PHASE16_17_CORRECTION_C1.md)
 
-This codebase supports:
+The release includes the corrected L2/L3 ascertainment prior, saved fits,
+county admissions, origin-specific scenarios, all 32 paper tables, ten figures,
+their source scripts, and a separate projection implementation with its tests.
+The primary L3B model, testing sensitivity L3T, and reconstruction/projection
+results were unaffected by Correction C1. Manuscript drafts are not distributed
+in this software release.
 
-- PINN-based mechanistic model fitting
-- Multi-city forecasting workflows
-- Uncertainty analysis across repeated runs
-- Ablation experiments
-- Publication tables and figures
+## Reproduce the reported calculations
 
-The repository is organized as a lightweight Python package with top-level entrypoints for the main workflows.
+The simplest route is to download and extract the full archive linked above.
+It includes the exact frozen aggregate inputs, including the large HHS file.
+After installing dependencies, the calculations require no live data downloads.
 
-## Repository structure
-
-```text
-Covid19_PINN-SUEIHCDR_model-/
-├── requirements.txt
-├── requirements-optional.txt
-├── README.md
-├── .gitignore
-├── covid_pinn_workflow.ipynb
-├── run_publication.py
-├── run_ablation.py
-├── run_uncertainty.py
-└── covid_pinn/
-    ├── __init__.py
-    ├── core.py
-    ├── uncertainty.py
-    ├── runner.py
-    ├── ablation_runs.py
-    ├── publication_analysis.py
-    ├── publication_figures.py
-    ├── master_loader.py
-    ├── revision_helpers.py
-    └── stats_summary.py
-```
-
-## Installation
-
-Create a fresh environment, then install dependencies:
+Alternatively, after cloning this repository:
 
 ```bash
+cd direct_ode
+python fetch_frozen_inputs.py
+python verify_archive.py
 python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 ```
 
-On Windows:
-
-```bat
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Optional baselines (Prophet is heavy and pulls in `cmdstanpy`; only needed if you want the Prophet column in the comparison tables):
+Use Python 3.14.3 to match the scientific environment. Activate `.venv` with
+`.venv\Scripts\activate` on Windows or `source .venv/bin/activate` on Linux/macOS:
 
 ```bash
-pip install -r requirements-optional.txt
+python -m pip install -r requirements-model.txt
+python -B reproduce.py --out replay/my_clean_replay
 ```
 
-## Data paths
+Use a fresh output directory. This regenerates admissions, projections and
+reconstructions from saved fits and checks all 32 paper tables. Full optional
+refitting and separate plotting-environment commands are in `direct_ode/README.txt`.
+Installing plotting requirements into the model environment is not required.
 
-The package modules read input data and write generated outputs relative to a single root directory. This directory is expected to contain (or to have written to it) the per-city output folders (`outputs_SUEIHCDR_PUBLICATION_v3_{CITY}/`), per-city uncertainty folders (`parameter_uncertainty_{CITY}/`), and the regime metrics directory (`Resultados_Cidades_02152026/`).
+The 481 MB raw HHS CSV exceeds GitHub's individual Git-file limit. Only that
+file is omitted from the Git tree; `fetch_frozen_inputs.py` retrieves it from
+the versioned release ZIP and verifies its frozen SHA-256. Every other release
+file is present under `direct_ode/`, with line-ending conversion disabled.
 
-### Input CSV files
+## Verification and interpretation
 
-The core data loader expects the following CSVs to be resolvable at runtime:
+A fresh saved-fit replay on 20 November 2026 reproduced **21 result files byte
+for byte**, verified **32 paper tables**, and passed **18 projection checks**.
+The separate projection implementation passed **48 checks**; matching calendar
+dates gave identical predictions on **6,186 primary-chain scenario rows**.
+The single historical grid-shift exception is recorded without imputation.
 
-- `covid_county_population_usafacts.csv`
-- `covid_confirmed_usafacts.csv`
-- `covid_deaths_usafacts.csv`
-- `2020_US_Region_Mobility_Report.csv`, `2021_...`, `2022_...`
-- `index.csv`, `epidemiology.csv`, `mobility.csv`
+The separate implementation shares the fitted states, input modules and ODE
+integrator. These checks establish computational consistency conditional on
+the archived fits and assumptions. The study is retrospective, uses counties
+involved in model development, and does not establish prospective validation,
+forecast superiority, or independently validated causal vaccination effects.
+The five prescribed scenario paths are deterministic, without an assigned
+probability level. The unrecovered earlier projection-source limitation is
+retained in the provenance statement.
 
-These files are not bundled with the repository because of size; download them from the original sources (USAFacts, Google COVID-19 Open Data / Community Mobility Reports) and place them either in the repository root or in a folder named `data/` at the repository root.
+## Earlier PINN work
 
-### Automatic path resolution
+The existing `covid_pinn/` package, notebook, entrypoints and April 2026 release
+are retained. Their original instructions are in
+[the historical PINN README](docs/legacy_PINN_README.md).
 
-`covid_pinn.core` searches several sensible locations for each CSV, in order:
+## Citation and licenses
 
-1. The current working directory
-2. The repository root
-3. A `data/` subfolder at the repository root
-4. Sibling folders commonly used during development
+Use the versioned release URL and `CITATION.cff` when referring to these
+research materials. No Zenodo DOI has been assigned. Software retains the
+existing MIT license. Third-party data remain subject to provider terms;
+see `direct_ode/DATA_SOURCES_AND_TERMS.txt`. The software license does not
+relicense third-party data or the manuscript.
 
-You only need to set `PINN_DATA_PATH` explicitly if your data is stored somewhere outside those locations:
-
-```bash
-export PINN_DATA_PATH=/path/to/data            # macOS / Linux
-set PINN_DATA_PATH=C:\path\to\data             # Windows cmd
-$env:PINN_DATA_PATH="C:\path\to\data"          # Windows PowerShell
-```
-
-If `PINN_DATA_PATH` is unset, the modules fall back to the search order above.
-
-## Main entrypoints
-
-1. Uncertainty analysis
-
-```bash
-python run_uncertainty.py
-```
-
-2. Ablation analysis
-
-```bash
-python run_ablation.py
-```
-
-3. Publication analysis
-
-```bash
-python run_publication.py
-```
-
-### Running individual stages as modules
-
-Each package module is also runnable directly via `python -m`, useful for re-running a single stage without invoking the full top-level wrapper:
-
-```bash
-python -m covid_pinn.revision_helpers      # build per-city master tables
-python -m covid_pinn.master_loader         # per-horizon stats + boxplots/bar figures
-python -m covid_pinn.stats_summary         # augmented metrics + Holm-corrected p-values
-python -m covid_pinn.publication_figures   # publication-quality figure regeneration
-```
-
-## Notebook
-
-The notebook below is kept as a workflow / reference notebook that walks through the same steps interactively:
-
-```text
-covid_pinn_workflow.ipynb
-```
-
-## Package modules
-
-- `covid_pinn/core.py` — core PINN model and training logic
-- `covid_pinn/uncertainty.py` — uncertainty analysis workflow (entry: `main()`)
-- `covid_pinn/runner.py` — run logic for city / model workflows
-- `covid_pinn/ablation_runs.py` — ablation experiment routines (entry: `run_recommended_ablation()`)
-- `covid_pinn/publication_analysis.py` — manuscript summary analyses (entry: `main()`)
-- `covid_pinn/publication_figures.py` — figure generation utilities (entry: `generate_all_figures()`)
-- `covid_pinn/master_loader.py` — loading and aggregation helpers (entry: `run_master_analysis()`)
-- `covid_pinn/revision_helpers.py` — manuscript / revision support utilities (entry: `build_master_tables()`)
-- `covid_pinn/stats_summary.py` — statistical summary helpers (entry: `run_full_summary()`)
-
-All modules are import-side-effect free: importing any of them performs no file I/O and prints nothing.
-
-## Data and outputs
-
-This repository does not bundle large raw datasets or generated results folders by default. Some workflows expect local input files and/or previously generated output directories. Before running the full analyses, set `PINN_DATA_PATH` (see above) and verify your input data is in the expected layout.
-
-## Reproducibility notes
-
-For the manuscript analyses, reproducibility depends on:
-
-- the Python package versions in `requirements.txt`
-- access to the expected input data (set via `PINN_DATA_PATH`)
-- consistent directory structure for generated outputs
-
-## Code availability
-
-Repository: https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-
-
-## Citation
-
-If you use this code, please cite the associated manuscript:
-
-> Pinto Neto, O. et al. *Generalizable Multi-Wave COVID-19 Forecasting via Physics-Informed Neural Networks with Dual Waning Immunity.* (manuscript under review).
-
-## License
-
-This project is released under the MIT License. See `LICENSE` for details.
-
-## Contact
-
-Osmar Pinto Neto — arena235research@gmail.com
+Correspondence: osmar@csusm.edu

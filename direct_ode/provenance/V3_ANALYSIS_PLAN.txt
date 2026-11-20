@@ -1,0 +1,49 @@
+Post-review analysis plan for manuscript version 3
+Recorded 17 October 2026 before calculating the new summaries
+
+These analyses respond to the supplied AI pre-submission review. They are
+post hoc additions. They do not change frozen phase protocols or their original
+decisions, and are not an independent prospective validation experiment.
+
+1. Re-score the five saved P0-P4 paths on wholly future calendar weeks.
+Select target weeks whose start date is strictly later than the Saturday issue
+date; index the first subsequent Sunday-starting week as future week 1. Compare
+all three chains on common future weeks 1-7, summarizing weeks 1-4, 5-7 and 1-7.
+Exclude P0_HINDSIGHT from the range. Omit missing observations, report counts and
+individual future-week coverage, and describe P0 and persistence absolute errors.
+Keep the original reporting-index results separately. Do not carry its frozen
+50% continuation criterion forward as a newly prespecified prospective criterion;
+show 50% only as the original descriptive reference.
+Implementation note: inspect missing known admission weeks for additional shifts
+in the original reporting grid. Retain available primary targets and report any
+unavailable forecast; use the actual intersection of origin/calendar targets for
+the matched comparison of chains, without filling an uncomputed prediction.
+
+2. Re-score donor agreement under transparent alternative tolerances.
+Use matched donor dates for L3 and L3B. Compare the original asymmetric band
+[-0.10,+0.20] with symmetric bands +/-0.05, +/-0.10 and +/-0.20; require fractions
+of 0.50, 2/3 and 0.80. Report all dates, 2020-2021 and 2022 separately, together
+with unweighted absolute residual summaries. These are diagnostic sensitivity
+checks, not interval estimates, survey-weighted analyses or assay corrections.
+Do not change ascertainment calibration or refit the models.
+
+3. Re-score the existing reconstruction summaries under alternative rules.
+Cross total-admissions tolerances +/-10%, +/-20%, +/-30% with peak timing
+tolerances of 7, 14 and 21 days. Keep the original serology rule for the joint
+decision. Report the grid and original decisions without selecting a new winning
+tolerance. This examines decision-rule sensitivity, not parameter sensitivity.
+
+4. Clarify the implemented admission mapping and inspect saved fitted q values.
+Derive the continuous-time E-to-I-to-outflow delay kernel for fixed sigma=1/5.1
+and delta=1/7. Explain that q is constant within a fitted window and held at the
+origin in projections, but varies between fitted windows and across stitched
+weeks in retrospective reconstruction. Plot that saved variation and summarize
+the existing lag diagnostics. No claim about the cause of drift will follow
+from these descriptive checks.
+
+5. Scope of unresolved requests.
+No new severity/delay model, vaccine-parameter sweep, serokinetic model,
+alternative behavioural fit, parameter bootstrap/posterior, formal identifiability
+test, mechanistic competitor or untouched county is assumed to have been run.
+The response record must distinguish completed checks from these open analyses.
+All original sources, version 2 documents and frozen outputs remain unchanged.

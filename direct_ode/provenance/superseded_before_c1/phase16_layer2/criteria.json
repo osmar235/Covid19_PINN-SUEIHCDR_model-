@@ -1,0 +1,128 @@
+{
+  "D1": {
+    "San Diego": {
+      "n_origins": 110,
+      "mean_L2": 18.937931009435665,
+      "mean_ARIMA_ADM": 16.03774676089893,
+      "mean_diff": 2.9001842485367346,
+      "ci95": [
+        -4.643801547639069,
+        15.081352467641512
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "Los Angeles": {
+      "n_origins": 114,
+      "mean_L2": 62.025751343518415,
+      "mean_ARIMA_ADM": 61.366475985048986,
+      "mean_diff": 0.6592753584694264,
+      "ci95": [
+        -22.264748434772265,
+        22.625384869352867
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "San Francisco": {
+      "n_origins": 114,
+      "mean_L2": 3.8527360580304313,
+      "mean_ARIMA_ADM": 2.9866298831915934,
+      "mean_diff": 0.8661061748388391,
+      "ci95": [
+        -0.519026825578001,
+        2.047570839031453
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    }
+  },
+  "D2": {
+    "San Diego": {
+      "n_origins": 110,
+      "mean_L2": 18.937931009435665,
+      "mean_CASELAG": 20.77507920159027,
+      "mean_diff": -1.8371481921546085,
+      "ci95": [
+        -12.433060593076599,
+        5.575307199818547
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "Los Angeles": {
+      "n_origins": 114,
+      "mean_L2": 62.025751343518415,
+      "mean_CASELAG": 73.3452919803493,
+      "mean_diff": -11.319540636830903,
+      "ci95": [
+        -69.6296163769272,
+        21.626711163470596
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": true
+    },
+    "San Francisco": {
+      "n_origins": 114,
+      "mean_L2": 3.8527360580304313,
+      "mean_CASELAG": 2.344600335600346,
+      "mean_diff": 1.5081357224300855,
+      "ci95": [
+        0.11333065716014573,
+        2.8120644027684385
+      ],
+      "significantly_better": false,
+      "not_significantly_worse": false
+    }
+  },
+  "adequacy_A2": {
+    "San Diego": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    },
+    "Los Angeles": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    },
+    "San Francisco": {
+      "not_significantly_worse_than_ARIMA_ADM": true
+    }
+  },
+  "D1_met": false,
+  "D2_met": false,
+  "adequate_A2": true,
+  "ICU_secondary": {
+    "San Diego": {
+      "n": 114,
+      "mean_H4_L2": 20.91771351852007,
+      "mean_ARIMA": 12.221157920633058,
+      "ci95_diff": [
+        -0.29033324175638425,
+        24.02029951169842
+      ]
+    },
+    "Los Angeles": {
+      "n": 114,
+      "mean_H4_L2": 59.232769642775786,
+      "mean_ARIMA": 39.18258121255179,
+      "ci95_diff": [
+        -3.6826094567119014,
+        50.74169069021734
+      ]
+    },
+    "San Francisco": {
+      "n": 114,
+      "mean_H4_L2": 5.223119817160975,
+      "mean_ARIMA": 4.157809731027008,
+      "ci95_diff": [
+        -1.0242746236619658,
+        4.0985815323671675
+      ]
+    }
+  },
+  "rules": {
+    "primary_error": "mean absolute error of weekly admissions per day over h = 1, 2, 3",
+    "D1": "L2 (delay 1) significantly better than ARIMA_ADM in >= 2 of 3 counties",
+    "D2": "L2 (delay 1) significantly better than CASELAG in >= 2 of 3 counties",
+    "A2": "L2 not significantly worse than ARIMA_ADM (interval lower end <= 0) in >= 2 of 3 counties",
+    "bootstrap": "moving block, block 4, 2000 replicates, seed 20261012"
+  }
+}

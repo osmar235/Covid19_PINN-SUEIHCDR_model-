@@ -1,0 +1,50 @@
+{
+  "script": "scenarios_phase18.py",
+  "script_sha256": "93aaf8c9bff2a20906549fb51dd22e8ee6f38734b995d287a32e603b3f89ac18",
+  "layer3b_sha256": "a3d6e950c3644bd64c9bfa8f0de4afec36e3301d6ef94cfc3fa44a76d5e5ca70",
+  "layer2_sha256": "b8b601e5def23365417fc4b8f1f2f40e52aff33ea36cb0c372e3cdd46334b2e8",
+  "command": "C:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe scenarios_phase18.py --fits phase19_layer3t --name L3T --out C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase19_scenarios",
+  "args": {
+    "root": ".",
+    "adm_dir": "phase15_admissions",
+    "vax": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "periods": "vaccination,behaviour",
+    "chains": "all",
+    "fits": "phase19_layer3t",
+    "name": "L3T",
+    "max_weeks": 0,
+    "out": "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\\submission_epidemics_v4\\covid19_ode_repro_v1.1.0\\replay\\pre_submission_20261120\\phase19_scenarios",
+    "overwrite": false
+  },
+  "run_utc": "2026-11-20T19:10:53.029173+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "statsmodels": "0.14.6",
+  "inputs_sha256": {
+    "covid_confirmed_usafacts.csv": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "covid_county_population_usafacts.csv": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "covid_deaths_usafacts.csv": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "data_epi\\2020-2021_Nationwide_Blood_Donor_Seroprevalence_Survey_Infection-Induced_Seroprevalence_Estimates.csv": "536b439cbffcb59bfcbb730a2b4d280bc5616f38e56ae3ecf4747ebe8dab2484",
+    "data_epi\\2022_2023_Nationwide_Blood_Donor_Seroprevalence_Survey_Combined_Infection-_and_Vaccination-Induced_Seroprevalence_Estimates.csv": "36c67b8a0d042888d80832f85d9617f088de940f089fbf5a051204d84d04facc",
+    "data_epi\\Nationwide_Commercial_Laboratory_Seroprevalence_Survey.csv": "82e832988bba34179fb3a0f39693ca9e5a023d2baad970e2c5fc4b2387822dc3",
+    "data_epi\\covid19_variants.csv": "465a2e751907eca3a59a5796d2a841d80b83f61843f6dc22a1eee91f15891a9f",
+    "data_epi\\jr58-6ysp.csv": "c39cd056f8b75dfdf1c16f1756cc64ddfcbd7350ecf8d94c6af60473fcbb5e39",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a",
+    "phase15_admissions\\weekly_LosAngeles.csv": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "phase15_admissions\\weekly_SanDiego.csv": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "phase15_admissions\\weekly_SanFrancisco.csv": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e",
+    "phase19_layer3t\\params_states.csv": "85e4c97c5b972db624da580daf288f10f6e8570aaebc5baae89e9cf815dbdd1c",
+    "phase19_layer3t\\trajectories.csv": "a65907ffcb0868b61bc8b7d1090bfdf5c123d017fb80880686c83f8d4c6a3a79"
+  },
+  "outputs_sha256": {
+    "criteria.json": "6221867c1c6688e64c963a83193cc81bb0f8158d6a78799b34ab77e70ca557e6",
+    "reconstruction.csv": "30220f03fbc35525bc5789cf0b1d1aefeae4421240441f868dae0bf6fbfa0288",
+    "scenario_daily.csv": "2ad5c2a5a624774c5f17a82786e5c7ab7a0251a24b8a9b90d9954251f12d66a7",
+    "scenario_summary.csv": "ee137d5ae51c730e0dd963ba4f1f98af2ce0b4d41bef71a164749185ffaa7474",
+    "stitch_check.csv": "bd8de76c35e0ee8d4f04341b4b811f236a5f3a83816b1747dcfde29f4b12bca1"
+  }
+}

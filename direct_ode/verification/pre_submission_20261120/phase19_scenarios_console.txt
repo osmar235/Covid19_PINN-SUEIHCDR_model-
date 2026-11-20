@@ -1,0 +1,28 @@
+Phase 18 | counties ['San Diego', 'Los Angeles', 'San Francisco'] | periods ['vaccination', 'behaviour'] | chains [('L3T', 1), ('L3T', 0), ('L3T_NOBEHAV', 1)]
+  San Diego vaccination L3T d1: 51 weeks, S0/obs 1.09, peak shift 0 d, serology 12/12 (1 s)
+  San Diego vaccination L3T d0: 51 weeks, S0/obs 1.09, peak shift 0 d, serology 12/12 (1 s)
+  San Diego vaccination L3T_NOBEHAV d1: 51 weeks, S0/obs 1.08, peak shift 0 d, serology 12/12 (1 s)
+  San Diego behaviour L3T d1: 26 weeks, S0/obs 1.30, peak shift 0 d, serology 6/6 (0 s)
+  San Diego behaviour L3T d0: 26 weeks, S0/obs 1.29, peak shift 0 d, serology 6/6 (0 s)
+  Los Angeles vaccination L3T d1: 51 weeks, S0/obs 1.11, peak shift -7 d, serology 12/12 (1 s)
+  Los Angeles vaccination L3T d0: 51 weeks, S0/obs 1.12, peak shift -7 d, serology 12/12 (1 s)
+  Los Angeles vaccination L3T_NOBEHAV d1: 51 weeks, S0/obs 1.11, peak shift -7 d, serology 12/12 (1 s)
+  Los Angeles behaviour L3T d1: 26 weeks, S0/obs 1.39, peak shift -7 d, serology 6/6 (0 s)
+  Los Angeles behaviour L3T d0: 26 weeks, S0/obs 1.40, peak shift -7 d, serology 6/6 (0 s)
+  San Francisco vaccination L3T d1: 51 weeks, S0/obs 1.08, peak shift -14 d, serology 11/11 (1 s)
+  San Francisco vaccination L3T d0: 51 weeks, S0/obs 1.05, peak shift -7 d, serology 11/11 (1 s)
+  San Francisco vaccination L3T_NOBEHAV d1: 51 weeks, S0/obs 1.07, peak shift -14 d, serology 11/11 (1 s)
+  San Francisco behaviour L3T d1: 26 weeks, S0/obs 2.03, peak shift -14 d, serology 6/6 (0 s)
+  San Francisco behaviour L3T d0: 26 weeks, S0/obs 1.95, peak shift -14 d, serology 6/6 (0 s)
+
+reconstruction (primary chain):
+       county      period    ratio  peak_shift_days  n_sero  sero_within    R1   R2
+    San Diego vaccination 1.089334                0      12           12  True True
+    San Diego   behaviour 1.300729                0       6            6 False True
+  Los Angeles vaccination 1.113103               -7      12           12  True True
+  Los Angeles   behaviour 1.391233               -7       6            6 False True
+San Francisco vaccination 1.076465              -14      11           11  True True
+San Francisco   behaviour 2.029749              -14       6            6 False True
+stitch check: {"max_rel_state": 6.036791013182125e-07, "max_rel_adm": 9.182388358969596e-06, "inputs_match_all": true} | population error 3.4416913763379853e-15
+
+Saved to C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\submission_epidemics_v4\covid19_ode_repro_v1.1.0\replay\pre_submission_20261120\phase19_scenarios/

@@ -1,0 +1,26 @@
+PASS g = 1 before the public date San Diego
+PASS g geometric mean 1 and held after t0 - 7 San Diego 2020-12-26  range 0.70 to 1.20
+PASS g geometric mean 1 and held after t0 - 7 San Diego 2021-07-03  range 0.90 to 1.08
+PASS g geometric mean 1 and held after t0 - 7 San Diego 2022-03-05  range 0.76 to 1.33
+PASS g = 1 before the public date Los Angeles
+PASS g geometric mean 1 and held after t0 - 7 Los Angeles 2020-12-26  range 0.81 to 1.19
+PASS g geometric mean 1 and held after t0 - 7 Los Angeles 2021-07-03  range 0.83 to 1.12
+PASS g geometric mean 1 and held after t0 - 7 Los Angeles 2022-03-05  range 0.86 to 1.20
+PASS g = 1 before the public date San Francisco
+PASS g geometric mean 1 and held after t0 - 7 San Francisco 2020-12-26  range 0.88 to 1.10
+PASS g geometric mean 1 and held after t0 - 7 San Francisco 2021-07-03  range 0.88 to 1.18
+PASS g geometric mean 1 and held after t0 - 7 San Francisco 2022-03-05  range 0.78 to 1.29
+PASS 30 all ages rounds  30
+PASS latest known round  round 12
+PASS rho_sero formula  0.4164
+PASS no round known before 2020-09-16
+PASS rho prior term with sd 0.3
+PASS cases = Phase 17B cases x g, admissions and states unchanged
+PASS causal San Diego 2021-01-09
+PASS causal San Diego 2022-01-08
+PASS causal Los Angeles 2021-01-09
+PASS causal Los Angeles 2022-01-08
+PASS causal San Francisco 2021-01-09
+PASS causal San Francisco 2022-01-08
+
+ALL PASS

@@ -1,0 +1,45 @@
+{
+  "script": "replicate_phase18b.py",
+  "script_sha256": "bd7ae2109b9dfd25edceb776dfca0f736a8b01664fabbe64ddf34eb76ea025b1",
+  "layer3b_sha256": "a3d6e950c3644bd64c9bfa8f0de4afec36e3301d6ef94cfc3fa44a76d5e5ca70",
+  "layer2_sha256": "4b70ab2b08421e3e4157c79938b31253182d948d0df289f30e207c5735f0d9f2",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe replicate_phase18b.py --out phase18b_replication",
+  "args": {
+    "root": ".",
+    "adm_dir": "phase15_admissions",
+    "vax": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "max_origins": 0,
+    "out": "phase18b_replication"
+  },
+  "run_utc": "2026-10-20T03:22:12.997024+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "inputs_sha256": {
+    "covid_confirmed_usafacts.csv": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "covid_county_population_usafacts.csv": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "covid_deaths_usafacts.csv": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "data_epi\\Nationwide_Commercial_Laboratory_Seroprevalence_Survey.csv": "82e832988bba34179fb3a0f39693ca9e5a023d2baad970e2c5fc4b2387822dc3",
+    "data_epi\\covid19_variants.csv": "465a2e751907eca3a59a5796d2a841d80b83f61843f6dc22a1eee91f15891a9f",
+    "data_epi\\jr58-6ysp.csv": "c39cd056f8b75dfdf1c16f1756cc64ddfcbd7350ecf8d94c6af60473fcbb5e39",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a",
+    "phase15_admissions\\weekly_LosAngeles.csv": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "phase15_admissions\\weekly_SanDiego.csv": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "phase15_admissions\\weekly_SanFrancisco.csv": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e",
+    "phase17b_layer3b\\forecasts_weekly.csv": "db78e9eb96d5a61f282b171f1d5f0986c2f83ee2f4208fe8e75d9b7156b5968d",
+    "phase17b_layer3b\\params_states.csv": "1016eac1ff3d269b56a2a4bb4179bb4016def38a725d4aaa79549a6d98a92aad",
+    "phase17b_layer3b\\trajectories.csv": "74cf45bc078915b574c96969cf9117d19ff05537be3dfb3f1a5e680635643b60"
+  },
+  "outputs_sha256": {
+    "checks.csv": "a3df08ab57976f5526652c98284dc7fc681b1e00970d474c7d7f4be048dd0ba4",
+    "criteria.json": "e44fdc5861ff85aae40d1eac7fa711a0893fcacd8170a0c2a8df2638601aa8a3",
+    "e1_envelope.csv": "80064a33aa1e66024a084deb6b8c838bd6b96e95c2effa78448d63290b5a24e1",
+    "e2_drift.csv": "592381c659e211dd267614ff95f121d5595b0950066d2dd5958d3a45644ae9ce",
+    "e3_hindsight.csv": "3387c4ed55ab4c441be93a4eb2a07edd5ae8712fac1360bd8a6d6b98757696cb",
+    "projections_summary.csv": "99f52ab51f2e85fca6d21bb2fc224898b742e778106844760508e958dd677f42",
+    "projections_weekly.csv": "478889859a93a4d6170ad34669801af89409dbe56e7d7726d3c71ab95222ade7"
+  }
+}

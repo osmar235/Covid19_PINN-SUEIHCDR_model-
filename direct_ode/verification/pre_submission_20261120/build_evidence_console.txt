@@ -1,0 +1,105 @@
+{
+  "december_corrections": [
+    {
+      "county": "Los Angeles",
+      "mult_E": 0.9409547221992967,
+      "mult_I": 0.9198765110541439
+    },
+    {
+      "county": "San Diego",
+      "mult_E": 0.9384605997204484,
+      "mult_I": 0.9286221335208635
+    },
+    {
+      "county": "San Francisco",
+      "mult_E": 0.9314539701462481,
+      "mult_I": 0.8781517132458078
+    }
+  ],
+  "coverage_counts": [
+    {
+      "county": "San Diego",
+      "window": "h1_4",
+      "n": 167,
+      "covered": 5,
+      "coverage": 0.029940119760479042
+    },
+    {
+      "county": "San Diego",
+      "window": "h5_8",
+      "n": 168,
+      "covered": 18,
+      "coverage": 0.10714285714285714
+    },
+    {
+      "county": "Los Angeles",
+      "window": "h1_4",
+      "n": 172,
+      "covered": 7,
+      "coverage": 0.040697674418604654
+    },
+    {
+      "county": "Los Angeles",
+      "window": "h5_8",
+      "n": 172,
+      "covered": 33,
+      "coverage": 0.19186046511627908
+    },
+    {
+      "county": "San Francisco",
+      "window": "h1_4",
+      "n": 172,
+      "covered": 6,
+      "coverage": 0.03488372093023256
+    },
+    {
+      "county": "San Francisco",
+      "window": "h5_8",
+      "n": 172,
+      "covered": 26,
+      "coverage": 0.1511627906976744
+    }
+  ],
+  "manifest_audits": [
+    {
+      "folder": "phase17b_layer3b",
+      "checked_outputs": 10,
+      "mismatches": []
+    },
+    {
+      "folder": "phase18_scenarios",
+      "checked_outputs": 5,
+      "mismatches": []
+    },
+    {
+      "folder": "phase19_layer3t",
+      "checked_outputs": 10,
+      "mismatches": []
+    },
+    {
+      "folder": "phase19_scenarios",
+      "checked_outputs": 5,
+      "mismatches": []
+    },
+    {
+      "folder": "phase18b_projections_v2",
+      "checked_outputs": 7,
+      "mismatches": []
+    }
+  ],
+  "observed_columns": [
+    "week_start",
+    "adm_adult",
+    "adm_ped",
+    "n_facilities",
+    "n_value_adult",
+    "n_supp_adult",
+    "n_suppressed",
+    "n_reporting",
+    "adm_per_day",
+    "adm_per_day_supp2",
+    "usual_reporting",
+    "adm_complete",
+    "phase12_adm_per_day"
+  ]
+}

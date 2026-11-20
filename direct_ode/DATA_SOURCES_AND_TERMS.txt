@@ -1,0 +1,40 @@
+Frozen inputs and provider terms
+
+The exact snapshots are included so reproduction does not depend on live URLs
+or on a provider continuing to distribute the same vintage. All are public
+aggregate datasets. Original provider terms continue to govern these files.
+The software MIT license does not grant additional rights to third-party data.
+
+USAFacts: county cases, report-date deaths and population.
+  covid_confirmed_usafacts.csv
+  covid_deaths_usafacts.csv
+  covid_county_population_usafacts.csv
+  Provider: USAFacts, usafacts.org
+
+US HHS: facility-level weekly admissions and completeness input.
+  data_epi/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv
+  Historical federal open-data provider: healthdata.gov
+
+California public health: hospital census (secondary comparison), vaccination,
+variant shares and testing.
+  covid19hospitalbycounty.csv
+  data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv
+  data_epi/covid19_variants.csv
+  data_epi/statewide-covid-19-cases-deaths-tests.csv
+  Providers: California Health and Human Services/CDPH public-data catalogues.
+
+US CDC: commercial and blood-donor serosurveys and lineage proportions.
+  data_epi/Nationwide_Commercial_Laboratory_Seroprevalence_Survey.csv
+  data_epi/2020-2021_Nationwide_Blood_Donor_Seroprevalence_Survey_Infection-Induced_Seroprevalence_Estimates.csv
+  data_epi/2022_2023_Nationwide_Blood_Donor_Seroprevalence_Survey_Combined_Infection-_and_Vaccination-Induced_Seroprevalence_Estimates.csv
+  data_epi/jr58-6ysp.csv
+  Historical provider: data.cdc.gov (jr58-6ysp is a source dataset identifier).
+
+provenance/input_inventory.json provides exact paths and checksums, including
+the derived county admission series and saved model trajectories used as inputs
+to later phases. Original acquisition timestamps and historical release dates
+were not fully recorded. The imposed information lags are model assumptions;
+the snapshots are not a collection of real-time data vintages.
+
+Before public deposition, retain provider attribution and the provider-specific
+terms. A deposit license should distinguish the software from third-party data.

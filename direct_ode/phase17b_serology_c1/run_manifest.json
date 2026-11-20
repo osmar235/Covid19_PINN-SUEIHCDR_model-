@@ -1,0 +1,24 @@
+{
+  "script": "serology_compare_c1.py",
+  "script_sha256": "6e0ded23ba3c7e35bf593d2f7125c01e2484863bd5154bfdee5c25f4e9e3d62b",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe serology_compare_c1.py --phase16 phase16_layer2_c1\\trajectories.csv --phase17 phase17_layer3_c1\\trajectories.csv --out phase17b_serology_c1",
+  "args": {
+    "serology": "phase17b_layer3b/serology_check.csv",
+    "phase16": "phase16_layer2_c1\\trajectories.csv",
+    "phase17": "phase17_layer3_c1\\trajectories.csv",
+    "out": "phase17b_serology_c1"
+  },
+  "run_utc": "2026-10-25T06:45:09.294639+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "inputs_sha256": {
+    "phase17b_layer3b/serology_check.csv": "1c240a456bfb8c1111ca05a28ddc4afa4f7e40a143ee1d844e31a112a8be9ba5",
+    "phase16_layer2_c1\\trajectories.csv": "8b3aa3b7df00c5379d73ddb41b2bbf883247276e42bf6bc75353137d147e410c",
+    "phase17_layer3_c1\\trajectories.csv": "ba6143ab25ea8159d12d267e67dd81d9328329c98d7f8716f9119c5d72e4d301"
+  },
+  "outputs_sha256": {
+    "serology_check.csv": "eae5507b264659100cf197029e53334dd09be75fdbb02ae515f45e6c86e594ad"
+  }
+}

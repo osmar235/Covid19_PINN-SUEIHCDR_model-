@@ -1,0 +1,50 @@
+{
+  "script": "layer2_admissions.py",
+  "script_sha256": "4b70ab2b08421e3e4157c79938b31253182d948d0df289f30e207c5735f0d9f2",
+  "layer1c_sha256": "f98c719b15edd555339f1c9f0ac7ba38f399f9d34685751fb2322817d054846b",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe layer2_admissions.py --out phase16_layer2",
+  "args": {
+    "root": ".",
+    "adm_dir": "phase15_admissions",
+    "vax": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "hosp_file": "covid19hospitalbycounty.csv",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "first_origin": "2020-10-03",
+    "max_origins": 0,
+    "chains": "all",
+    "starts": 3,
+    "max_nfev": 300,
+    "skip_arima": false,
+    "skip_icu": false,
+    "out": "phase16_layer2",
+    "overwrite": false
+  },
+  "run_utc": "2026-10-12T21:37:43.980445+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "statsmodels": "0.14.6",
+  "inputs_sha256": {
+    "covid19hospitalbycounty.csv": "4e3812ec8514a9561d974750d93b6b7eb0085cbf196d73b50e8ee8de42bcc993",
+    "covid_confirmed_usafacts.csv": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "covid_county_population_usafacts.csv": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "covid_deaths_usafacts.csv": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a",
+    "phase15_admissions\\weekly_LosAngeles.csv": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "phase15_admissions\\weekly_SanDiego.csv": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "phase15_admissions\\weekly_SanFrancisco.csv": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e"
+  },
+  "outputs_sha256": {
+    "criteria.json": "32555b7bf13fd2476a07995b0a4bdaad084ffc2872ebe43319be891bbd5fea53",
+    "forecasts_weekly.csv": "1f94950a4242132bbf176d9a4e75e9d8ce9ef203c3c3fd63743d34f035a366e4",
+    "icu_secondary.csv": "f02b7eae65f5a7e2afe01f8c7262f741350592340dc42deae1921a7e4662069a",
+    "params_states.csv": "9260b084ee25b3e0be06c9423026adbba8e443ae7a59ff26fa3f5beba8d90dfc",
+    "primary_error_origin.csv": "52b42cd218ed0753d9483fa50016b4aa36c9464581d40999b82f394b3b02a535",
+    "summary.csv": "e674a4016789c9af142fd76428a4853abf985b6fe24263950c97829e36c3db74",
+    "summary_by_h.csv": "06e70fc02f0a0f23fec6007206ab8b7f5fb9d41bb42bbe43291f6bca4f575f59",
+    "summary_by_period.csv": "c21cde6a74b78f6a67807f5064f0faebae7b87ad14e61aa2aea29b413df022cb",
+    "trajectories.csv": "943c03a9bd364d237598b03e5b759f01403d8c709be7c6cff9f998f4b6dfc2fb"
+  }
+}

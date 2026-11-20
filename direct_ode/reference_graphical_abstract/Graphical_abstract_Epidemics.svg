@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="800" height="320" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="800" height="320"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-320)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="92.97900390625" y="299" style="font-family: GABold; font-size: 17px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,598) scale(1,-1)">Serological agreement, reconstruction and scenarios support different uses</text>
+			<text x="178.4541015625" y="277" style="font-family: GARegular; font-size: 12px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,554) scale(1,-1)">Revised SUEIHCDR model  |  Three California counties  |  Retrospective evaluation</text>
+			<text x="73.16552734375" y="244" style="font-family: GABold; font-size: 13px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,488) scale(1,-1)">Infection scale agreement</text>
+			<path d="M 43,86 L 254,86 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="30.4384765625" y="83.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,166) scale(1,-1)">0</text>
+			<path d="M 43,108.4 L 254,108.4 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="22.0986328125" y="105.4" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,210) scale(1,-1)">0.1</text>
+			<path d="M 43,130.8 L 254,130.8 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="22.0986328125" y="127.80000000000001" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,255) scale(1,-1)">0.2</text>
+			<path d="M 43,153.2 L 254,153.2 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="22.0986328125" y="150.2" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,300) scale(1,-1)">0.3</text>
+			<path d="M 43,175.6 L 254,175.6 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="22.0986328125" y="172.60000000000002" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,345) scale(1,-1)">0.4</text>
+			<path d="M 43,198 L 254,198 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="22.0986328125" y="195.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,390) scale(1,-1)">0.5</text>
+			<path d="M 43,86 L 254,86 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 43,86 L 43,198 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="70.6650390625" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SD</text>
+			<text x="140.6611328125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">LA</text>
+			<text x="209.3330078125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SF</text>
+			<text x="70.642822265625" y="222" style="font-family: GARegular; font-size: 11px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,444) scale(1,-1)">Mean absolute donor difference</text>
+			<rect x="66" y="86" width="12" height="51.195957382685265" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="82" y="86" width="12" height="7.070062672865802" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="135" y="86" width="12" height="100.58073005654762" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="151" y="86" width="12" height="17.79069028993605" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="204" y="86" width="12" height="34.33343573718841" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="220" y="86" width="12" height="13.911878436847289" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="50" y="39" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<text x="64" y="39" style="font-family: GARegular; font-size: 10px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,78) scale(1,-1)">Before</text>
+			<rect x="124" y="39" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="138" y="39" style="font-family: GARegular; font-size: 10px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,78) scale(1,-1)">After serology calibration</text>
+			<text x="337.58544921875" y="244" style="font-family: GABold; font-size: 13px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,488) scale(1,-1)">Continuous reconstruction</text>
+			<path d="M 311,86 L 522,86 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="298.4384765625" y="83.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,166) scale(1,-1)">0</text>
+			<path d="M 311,111.454545 L 522,111.454545 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="290.0986328125" y="108.45454545454545" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,216) scale(1,-1)">0.5</text>
+			<path d="M 311,136.909091 L 522,136.909091 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="298.4384765625" y="133.9090909090909" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,267) scale(1,-1)">1</text>
+			<path d="M 311,162.363636 L 522,162.363636 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="290.0986328125" y="159.36363636363637" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,318) scale(1,-1)">1.5</text>
+			<path d="M 311,187.818182 L 522,187.818182 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="298.4384765625" y="184.8181818181818" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,369) scale(1,-1)">2</text>
+			<path d="M 311,86 L 522,86 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 311,86 L 311,198 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="338.6650390625" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SD</text>
+			<text x="408.6611328125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">LA</text>
+			<text x="477.3330078125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SF</text>
+			<text x="344.771240234375" y="222" style="font-family: GARegular; font-size: 11px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,444) scale(1,-1)">Model / observed admissions</text>
+			<path d="M 311,136.909091 L 522,136.909091 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<rect x="334" y="86" width="12" height="63.33064581169381" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<rect x="350" y="86" width="12" height="55.56843598047993" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="403" y="86" width="12" height="70.08827926437067" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<rect x="419" y="86" width="12" height="57.52231815222535" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="472" y="86" width="12" height="103.71779266637077" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<rect x="488" y="86" width="12" height="54.7710490735482" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<rect x="317" y="39" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<text x="331" y="39" style="font-family: GARegular; font-size: 10px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,78) scale(1,-1)">October start</text>
+			<rect x="411" y="39" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="425" y="39" style="font-family: GARegular; font-size: 10px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,78) scale(1,-1)">December start</text>
+			<text x="612.774169921875" y="244" style="font-family: GABold; font-size: 13px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,488) scale(1,-1)">Five scenario bracketing</text>
+			<path d="M 579,86 L 790,86 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="566.4384765625" y="83.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,166) scale(1,-1)">0</text>
+			<path d="M 579,114 L 790,114 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="560.876953125" y="111.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,222) scale(1,-1)">25</text>
+			<path d="M 579,142 L 790,142 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="560.876953125" y="139.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,278) scale(1,-1)">50</text>
+			<path d="M 579,170 L 790,170 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="560.876953125" y="167.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,334) scale(1,-1)">75</text>
+			<path d="M 579,198 L 790,198 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="555.3154296875" y="195.0" style="font-family: GARegular; font-size: 10px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,390) scale(1,-1)">100</text>
+			<path d="M 579,86 L 790,86 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 579,86 L 579,198 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="606.6650390625" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SD</text>
+			<text x="676.6611328125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">LA</text>
+			<text x="745.3330078125" y="66" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,132) scale(1,-1)">SF</text>
+			<text x="602.700439453125" y="222" style="font-family: GARegular; font-size: 11px;fill: rgb(46%,46%,46%); stroke:none;" transform="translate(0,444) scale(1,-1)">First four wholly future weeks (%)</text>
+			<rect x="605" y="86" width="20" height="5.333333333333329" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="602.4638671875" y="98.33333333333333" style="font-family: GABold; font-size: 11px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,196) scale(1,-1)">4.8%</text>
+			<rect x="674" y="86" width="20" height="9.767441860465112" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="671.4638671875" y="102.76744186046511" style="font-family: GABold; font-size: 11px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,205) scale(1,-1)">8.7%</text>
+			<rect x="743" y="86" width="20" height="8.465116279069761" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="740.4638671875" y="101.46511627906976" style="font-family: GABold; font-size: 11px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,202) scale(1,-1)">7.6%</text>
+			<text x="598.40185546875" y="39" style="font-family: GARegular; font-size: 10px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,78) scale(1,-1)">Observed admission targets bracketed</text>
+			<text x="150.197265625" y="9" style="font-family: GARegular; font-size: 12px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,18) scale(1,-1)">Selected scenario paths are not probability intervals. Vaccination contrasts remain conditional.</text>
+		</g>
+	</g>
+</svg>

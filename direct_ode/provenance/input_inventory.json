@@ -1,0 +1,177 @@
+[
+  {
+    "path": "covid19hospitalbycounty.csv",
+    "bytes": 3296422,
+    "sha256": "4e3812ec8514a9561d974750d93b6b7eb0085cbf196d73b50e8ee8de42bcc993",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "covid_confirmed_usafacts.csv",
+    "bytes": 19106921,
+    "sha256": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "covid_county_population_usafacts.csv",
+    "bytes": 98761,
+    "sha256": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "covid_deaths_usafacts.csv",
+    "bytes": 12636741,
+    "sha256": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/2020-2021_Nationwide_Blood_Donor_Seroprevalence_Survey_Infection-Induced_Seroprevalence_Estimates.csv",
+    "bytes": 325102,
+    "sha256": "536b439cbffcb59bfcbb730a2b4d280bc5616f38e56ae3ecf4747ebe8dab2484",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/2022_2023_Nationwide_Blood_Donor_Seroprevalence_Survey_Combined_Infection-_and_Vaccination-Induced_Seroprevalence_Estimates.csv",
+    "bytes": 2459429,
+    "sha256": "36c67b8a0d042888d80832f85d9617f088de940f089fbf5a051204d84d04facc",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv",
+    "bytes": 481497539,
+    "sha256": "b3ef37e7e8d9888ff241caab83ec43be7e26be3c592a5a4e120acbf541edea7f",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/Nationwide_Commercial_Laboratory_Seroprevalence_Survey.csv",
+    "bytes": 707063,
+    "sha256": "82e832988bba34179fb3a0f39693ca9e5a023d2baad970e2c5fc4b2387822dc3",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/covid19_variants.csv",
+    "bytes": 645662,
+    "sha256": "465a2e751907eca3a59a5796d2a841d80b83f61843f6dc22a1eee91f15891a9f",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/jr58-6ysp.csv",
+    "bytes": 46429830,
+    "sha256": "c39cd056f8b75dfdf1c16f1756cc64ddfcbd7350ecf8d94c6af60473fcbb5e39",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/statewide-covid-19-cases-deaths-tests.csv",
+    "bytes": 6992625,
+    "sha256": "0265e33ff97a78c2e44b84f1ccca55b9c1992ad8c2da0268a2d7c1c7b5710f07",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "bytes": 7777694,
+    "sha256": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a",
+    "role": "raw public surveillance snapshot",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase12_epi_audit/weekly_LosAngeles.csv",
+    "bytes": 75386,
+    "sha256": "fbbb34e4cec6ba00995f06e4759d91161da656c17b0b6e89fd9b3055e0b0f7c2",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase12_epi_audit/weekly_SanDiego.csv",
+    "bytes": 74351,
+    "sha256": "93558ab2850257040fef7cd4b9b4128a4872c4a2dffa3281498158289f5f72bc",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase12_epi_audit/weekly_SanFrancisco.csv",
+    "bytes": 73139,
+    "sha256": "3966942078ddb168edda9c21b389fc94c43521d400da00360e9bb8a3bcfb3fd8",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase15_admissions/weekly_LosAngeles.csv",
+    "bytes": 18774,
+    "sha256": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase15_admissions/weekly_SanDiego.csv",
+    "bytes": 15854,
+    "sha256": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase15_admissions/weekly_SanFrancisco.csv",
+    "bytes": 17332,
+    "sha256": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase16_layer2_c1/trajectories.csv",
+    "bytes": 21663413,
+    "sha256": "8b3aa3b7df00c5379d73ddb41b2bbf883247276e42bf6bc75353137d147e410c",
+    "role": "derived analysis input (Correction C1 refit)",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase17_layer3_c1/trajectories.csv",
+    "bytes": 22850275,
+    "sha256": "ba6143ab25ea8159d12d267e67dd81d9328329c98d7f8716f9119c5d72e4d301",
+    "role": "derived analysis input (Correction C1 refit)",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase17b_layer3b/forecasts_weekly.csv",
+    "bytes": 1449948,
+    "sha256": "db78e9eb96d5a61f282b171f1d5f0986c2f83ee2f4208fe8e75d9b7156b5968d",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase17b_layer3b/params_states.csv",
+    "bytes": 688626,
+    "sha256": "1016eac1ff3d269b56a2a4bb4179bb4016def38a725d4aaa79549a6d98a92aad",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase17b_layer3b/trajectories.csv",
+    "bytes": 22984078,
+    "sha256": "74cf45bc078915b574c96969cf9117d19ff05537be3dfb3f1a5e680635643b60",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase19_layer3t/params_states.csv",
+    "bytes": 726837,
+    "sha256": "85e4c97c5b972db624da580daf288f10f6e8570aaebc5baae89e9cf815dbdd1c",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  },
+  {
+    "path": "phase19_layer3t/trajectories.csv",
+    "bytes": 22986711,
+    "sha256": "a65907ffcb0868b61bc8b7d1090bfdf5c123d017fb80880686c83f8d4c6a3a79",
+    "role": "derived analysis input",
+    "access": "snapshot included; original provider terms apply"
+  }
+]

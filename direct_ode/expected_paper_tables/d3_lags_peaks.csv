@@ -1,0 +1,4 @@
+county,best_lag_obs_days,corr_obs,best_lag_model_days,corr_model,caselag_L_median,caselag_L_range,peak_cases7_obs,peak_adm_obs_week,peak_cases7_model,peak_adm_model_week
+San Diego,9,0.8719878655174016,10,0.96097317581261,4.5,"[0, 14]",2021-01-09,2021-01-03,2020-12-30,2021-01-03
+Los Angeles,3,0.9358122295483372,9,0.9772594542701384,6.0,"[0, 14]",2021-01-09,2021-01-03,2020-12-27,2020-12-27
+San Francisco,3,0.6373483854158987,3,0.9365721203426683,8.0,"[0, 14]",2021-01-09,2021-01-10,2021-01-01,2021-01-10

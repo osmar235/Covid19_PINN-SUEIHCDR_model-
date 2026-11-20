@@ -1,0 +1,10 @@
+direct_ode/data_epi/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility.csv
+direct_ode/replay/
+direct_ode/analysis/data/
+direct_ode/analysis/figures/
+direct_ode/analysis/graphical_abstract/
+direct_ode/hhs_snapshot_*/
+__pycache__/
+*.pyc
+.venv/
+.env

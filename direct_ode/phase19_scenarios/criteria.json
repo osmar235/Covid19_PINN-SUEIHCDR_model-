@@ -1,0 +1,45 @@
+{
+  "rules": {
+    "R1": "S0 total admissions within 20 % of observed and peak week within 2 weeks",
+    "R2": "S0 ever infected within [-0.10, +0.20] of the blood donor survey at >= 2/3 of dates in the period",
+    "primary": "chain L3T delay 1; a county and period meeting R1 and R2 is reported as primary"
+  },
+  "primary": {
+    "San Diego|vaccination": {
+      "R1": true,
+      "R2": true,
+      "primary_ok": true
+    },
+    "San Diego|behaviour": {
+      "R1": false,
+      "R2": true,
+      "primary_ok": false
+    },
+    "Los Angeles|vaccination": {
+      "R1": true,
+      "R2": true,
+      "primary_ok": true
+    },
+    "Los Angeles|behaviour": {
+      "R1": false,
+      "R2": true,
+      "primary_ok": false
+    },
+    "San Francisco|vaccination": {
+      "R1": true,
+      "R2": true,
+      "primary_ok": true
+    },
+    "San Francisco|behaviour": {
+      "R1": false,
+      "R2": true,
+      "primary_ok": false
+    }
+  },
+  "stitch_check": {
+    "max_rel_state": 6.036791013182125e-07,
+    "max_rel_adm": 9.182388358969596e-06,
+    "inputs_match_all": true
+  },
+  "max_abs_pop_error": 3.4416913763379853e-15
+}

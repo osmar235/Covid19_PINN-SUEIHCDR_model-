@@ -1,0 +1,26 @@
+PASS stitch San Diego 2020-12-12  rel state 1.6e-07, rel adm 3.0e-06
+PASS stitch San Diego 2021-06-05  rel state 8.9e-09, rel adm 2.6e-06
+PASS stitch San Diego 2021-11-27  rel state 7.0e-09, rel adm 3.2e-07
+PASS population conserved San Diego vaccination  1.3e-15
+PASS V0 >= S0 San Diego
+PASS V1 <= S0 infections San Diego
+PASS population conserved San Diego behaviour  6.7e-16
+PASS B0 equals S0 without behaviour San Diego
+PASS stitch Los Angeles 2020-12-12  rel state 2.1e-07, rel adm 2.8e-06
+PASS stitch Los Angeles 2021-06-05  rel state 4.9e-09, rel adm 1.5e-06
+PASS stitch Los Angeles 2021-11-27  rel state 2.1e-08, rel adm 1.4e-06
+PASS population conserved Los Angeles vaccination  1.9e-15
+PASS V0 >= S0 Los Angeles
+PASS V1 <= S0 infections Los Angeles
+PASS population conserved Los Angeles behaviour  8.9e-16
+PASS B0 equals S0 without behaviour Los Angeles
+PASS stitch San Francisco 2020-12-12  rel state 6.4e-08, rel adm 3.6e-06
+PASS stitch San Francisco 2021-06-05  rel state 3.8e-10, rel adm 3.6e-07
+PASS stitch San Francisco 2021-11-27  rel state 1.0e-09, rel adm 1.9e-07
+PASS population conserved San Francisco vaccination  1.1e-15
+PASS V0 >= S0 San Francisco
+PASS no V1 for the fastest county
+PASS population conserved San Francisco behaviour  2.0e-15
+PASS B0 equals S0 without behaviour San Francisco
+
+ALL PASS

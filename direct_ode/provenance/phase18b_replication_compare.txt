@@ -1,0 +1,20 @@
+
+== phase18b_projections_v2 (sha256 81ba6f1cd520f343)
+rows only in one file: {'both': 6192, 'left_only': 0, 'right_only': 0}
+week_start equal: False
+max relative difference of pred by scenario:
+scenario
+P0              0.434035
+P0_HINDSIGHT    0.366290
+P1              0.555032
+P2              0.332438
+P3              0.517877
+P4              0.354232
+obs equal where both present: False | obs missing in run / replication: 54 48
+naive max abs difference: 0.0
+envelope pairs classified differently or with obs present in only one file: 1
+   county     origin  h     lo_g     hi_g     lo_r     hi_r  obs_g     obs_r  in_g  in_r
+San Diego 2021-05-22  1 11.29997 11.29997 9.208575 9.208581    NaN 13.857143 False False
+
+== phase18b_projections (sha256 5659055e349b43ad)
+columns differ, skipped: 'model' ['county', 'chain', 'delay', 'origin', 'scenario', 'h', 'week_start', 'adm_proj', 'adm_p0', 'adm_diff_vs_p0', 'adm_pct_vs_p0', 'obs', 'naive_adm', 'inf_proj', 'has_doses', 'ex_ante_phase', 'realized_phase']

@@ -1,0 +1,13 @@
+PASS 30 all ages rounds  30
+PASS latest known round  round 12
+PASS rho_sero formula  0.4164
+PASS no round known before 2020-09-16
+PASS rho prior term with sd 0.3
+PASS causal San Diego 2021-01-09
+PASS causal San Diego 2022-01-08
+PASS causal Los Angeles 2021-01-09
+PASS causal Los Angeles 2022-01-08
+PASS causal San Francisco 2021-01-09
+PASS causal San Francisco 2022-01-08
+
+ALL PASS

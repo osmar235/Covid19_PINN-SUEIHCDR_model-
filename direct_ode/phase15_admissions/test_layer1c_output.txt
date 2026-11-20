@@ -1,0 +1,28 @@
+PASS mean stay  7.7090 vs 7.7090
+PASS death probability  0.10490 vs 0.10490
+PASS ICU days  1.4760 vs 1.4760
+PASS steady ward share
+PASS causal San Diego H4_PERSIST (delay 1)
+PASS causal San Diego H4_TREND (delay 1)
+PASS causal San Diego ARIMA (delay 1)
+PASS causal San Diego NAIVE (delay 1)
+PASS causal San Diego H4_PERSIST (delay 0)
+PASS causal San Diego H4_TREND (delay 0)
+PASS causal Los Angeles H4_PERSIST (delay 1)
+PASS causal Los Angeles H4_TREND (delay 1)
+PASS causal Los Angeles ARIMA (delay 1)
+PASS causal Los Angeles NAIVE (delay 1)
+PASS causal Los Angeles H4_PERSIST (delay 0)
+PASS causal Los Angeles H4_TREND (delay 0)
+PASS causal San Francisco H4_PERSIST (delay 1)
+PASS causal San Francisco H4_TREND (delay 1)
+PASS causal San Francisco ARIMA (delay 1)
+PASS causal San Francisco NAIVE (delay 1)
+PASS causal San Francisco H4_PERSIST (delay 0)
+PASS causal San Francisco H4_TREND (delay 0)
+PASS last known week ends t0 - 7  2021-07-24
+PASS persist after last week
+PASS trend formula  r = 0.0990, cap = 0.0990
+PASS before last week equal
+
+ALL PASS

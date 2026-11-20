@@ -1,0 +1,47 @@
+CORRECTION C1 official runs (PHASE16_17_CORRECTION_C1.md, declared 2026-10-24)
+Corrects the L2 and L3 ascertainment prior from 2020-11-25 (1/4.6 -> 1/7.7, Reese et al. 2021). L3B and L3T are not
+refitted. Run in cmd, from the project root, with the project .venv. Every step writes a new folder; nothing is
+overwritten.
+
+cd C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model-
+C:\Users\osmar\projects\.venv\Scripts\activate
+
+Step 1. Tests (about 2 minutes; each must end with ALL PASS)
+mkdir c1_tests
+python test_layer2.py . phase15_admissions > c1_tests\test_layer2_output.txt
+python test_layer3.py . phase15_admissions > c1_tests\test_layer3_output.txt
+python test_layer3b.py . phase15_admissions > c1_tests\test_layer3b_output.txt
+type c1_tests\test_layer2_output.txt | findstr /C:"rho prior" /C:"ALL PASS" /C:"FAIL"
+type c1_tests\test_layer3_output.txt | findstr /C:"ALL PASS" /C:"FAIL"
+type c1_tests\test_layer3b_output.txt | findstr /C:"ALL PASS" /C:"FAIL"
+
+Step 2. L2 refit, all chains (about 30 minutes, like Phase 16)
+python layer2_admissions.py --out phase16_layer2_c1
+
+Step 3. L3 refit, all chains (about 30 minutes, like Phase 17)
+python layer3_escape.py --phase16 phase16_layer2_c1\trajectories.csv --out phase17_layer3_c1
+
+Step 4. Rebuild the L2 and L3 comparison columns of the Phase 17B serology check (seconds)
+First a check that the rebuild reproduces the original file from the original trajectories, then the c1 file:
+python serology_compare_c1.py --phase16 phase16_layer2\trajectories.csv --phase17 phase17_layer3\trajectories.csv --out phase17b_serology_rebuild_check
+python serology_compare_c1.py --phase16 phase16_layer2_c1\trajectories.csv --phase17 phase17_layer3_c1\trajectories.csv --out phase17b_serology_c1
+
+Step 5 (optional, about 3 minutes). Environment check: the San Diego primary L2 chain with the OLD schedule.
+If it matches the original exactly, every c1 difference is caused by the correction alone.
+python layer2_admissions.py --rho-schedule protocol_v1 --counties "San Diego" --chains 0 --skip-icu --skip-arima --out c1_envcheck_l2
+
+Step 6. Comparison report (seconds; reads saved outputs only)
+python compare_c1.py > c1_compare.txt
+type c1_compare.txt
+
+Send me "done" when finished; I read c1_compare.txt and the new folders, then update the paper tables, figures and
+manuscript.
+
+Expected script SHA-256 (first 16 characters):
+  layer2_admissions.py     b8b601e5def23365 (corrected; original archived as code_archive\layer2_admissions_v4b70ab2b.py)
+  layer3_escape.py         e7446e3db48d8ccf (corrected; original archived as code_archive\layer3_escape_v40955512.py)
+  test_layer2.py           c602161e486d8a23 (updated schedule test; original archived as code_archive\test_layer2_vf1746dc4.py)
+  serology_compare_c1.py   6e0ded23ba3c7e35 (new)
+  compare_c1.py            9c3a7fcaa06d1691 (new)
+  layer3b_sero.py          a3d6e950c3644bd6 (unchanged, imported)
+To check one: certutil -hashfile layer2_admissions.py SHA256

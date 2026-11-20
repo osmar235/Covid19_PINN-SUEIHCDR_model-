@@ -1,0 +1,13 @@
+county,from,to,best_lag_days,corr_log
+San Diego,cases7,hosp,9,0.727092182571446
+San Diego,hosp,deaths7,13,0.8175960369059269
+San Diego,cases_ep7,hosp,12,0.8032591396753559
+San Diego,hosp,deaths_dod7,8,0.9140381006447316
+Los Angeles,cases7,hosp,12,0.6735631271419852
+Los Angeles,hosp,deaths7,14,0.8656758412135767
+Los Angeles,cases_ep7,hosp,13,0.7843244802841143
+Los Angeles,hosp,deaths_dod7,9,0.9750885064786796
+San Francisco,cases7,hosp,13,0.7695303999540377
+San Francisco,hosp,deaths7,19,0.6882225175378343
+San Francisco,cases_ep7,hosp,16,0.8287012436808603
+San Francisco,hosp,deaths_dod7,9,0.8045200509880821

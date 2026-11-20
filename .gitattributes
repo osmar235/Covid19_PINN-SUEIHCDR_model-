@@ -1,0 +1,2 @@
+# Preserve every archived byte for scientific SHA-256 verification.
+direct_ode/** -text

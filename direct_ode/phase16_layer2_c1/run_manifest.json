@@ -1,0 +1,51 @@
+{
+  "script": "layer2_admissions.py",
+  "script_sha256": "b8b601e5def23365417fc4b8f1f2f40e52aff33ea36cb0c372e3cdd46334b2e8",
+  "layer1c_sha256": "f98c719b15edd555339f1c9f0ac7ba38f399f9d34685751fb2322817d054846b",
+  "command": "c:\\Users\\osmar\\projects\\.venv\\Scripts\\python.exe layer2_admissions.py --out phase16_layer2_c1",
+  "args": {
+    "root": ".",
+    "adm_dir": "phase15_admissions",
+    "vax": "data_epi/statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv",
+    "hosp_file": "covid19hospitalbycounty.csv",
+    "counties": "San Diego,Los Angeles,San Francisco",
+    "first_origin": "2020-10-03",
+    "max_origins": 0,
+    "chains": "all",
+    "starts": 3,
+    "max_nfev": 300,
+    "skip_arima": false,
+    "skip_icu": false,
+    "rho_schedule": "c1",
+    "out": "phase16_layer2_c1",
+    "overwrite": false
+  },
+  "run_utc": "2026-10-25T05:34:39.210008+00:00",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "statsmodels": "0.14.6",
+  "inputs_sha256": {
+    "covid19hospitalbycounty.csv": "4e3812ec8514a9561d974750d93b6b7eb0085cbf196d73b50e8ee8de42bcc993",
+    "covid_confirmed_usafacts.csv": "f811f1049a82efeb226e1d195820ea4043bd85d6b4ff411d5ca373572b2bb0ce",
+    "covid_county_population_usafacts.csv": "0cd6ae478d351280ca30683e314816be8a6c7aed8db6042e19172c249de7c1d7",
+    "covid_deaths_usafacts.csv": "a3319dcac545f813b80559335d764fc55065bf7a0fb80b7009646783c9323748",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a",
+    "phase15_admissions\\weekly_LosAngeles.csv": "5e85499f011037e485da782ae218ac541aabfc609e8a2e3c6819fae233fe4590",
+    "phase15_admissions\\weekly_SanDiego.csv": "9727f82469eb279b4424de2f2a12e790f8887004194bc0c4454bf4aa51813ecb",
+    "phase15_admissions\\weekly_SanFrancisco.csv": "c8a2f12da08a6cb2894f63a6d221be929f9ffb3ea29269290197c4376c8bad7e"
+  },
+  "outputs_sha256": {
+    "criteria.json": "28a41819af3572dc590d3cc2f8204439778fdcc53d85a4967c157f1c932bfef2",
+    "forecasts_weekly.csv": "e06fe0864ccf4a6d895b3fdf24f35f392d563327c2c534982a18bde6ae157e30",
+    "icu_secondary.csv": "eef22de081235f0775fa2b5c78a77704084ea84f8aeda937649ce64a524a72d5",
+    "params_states.csv": "37e95d9ddfee44b9c82e3a8a5360def7e3e0375daac3470eef308d4d2abcd1ee",
+    "primary_error_origin.csv": "9440976c2918c40eb58f5068e7b8f2f2eef54425a33f4b1383ca0fe23b8075fa",
+    "summary.csv": "0b7a47d4a79369327458f00251cb59fa6a3e93ea7960a7ba75358628ef8273d7",
+    "summary_by_h.csv": "41b45f188ce2bc742fce7d8c5e77c9cc760e85856b2701587efc96d2d48716b5",
+    "summary_by_period.csv": "69ad53c703d7d5a041dcc96f47a5ba7eb0bb09d96006a1270692cf72679f8ca5",
+    "trajectories.csv": "8b3aa3b7df00c5379d73ddb41b2bbf883247276e42bf6bc75353137d147e410c"
+  }
+}

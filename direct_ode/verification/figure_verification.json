@@ -1,0 +1,52 @@
+[
+  {
+    "file": "fig1_model_evaluation.png",
+    "sha256": "e437de704402e65bd739c13fbf48d7461af91b7c165099169856d0bdc13a1cfc",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "fig2_serology.png",
+    "sha256": "e765fca0eca952a2a9096fd33ad41de1943a8baa8fb1807c52dfb79c4e45064d",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "fig3_reconstruction.png",
+    "sha256": "1f00c141df5503531973b8a1836c5072267fe36a4762c63ed4b9033488215d87",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "fig4_state_corrections.png",
+    "sha256": "c60ee0d935df4d677e3b46be356cc5f4757161e9a4ba5f43000f2966e615c7d8",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "fig5_origin_scenarios.png",
+    "sha256": "4920dfb69066683d822e993dd569db95c969ff29d9ef765291c5a676a5ff373b",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "fig6_vaccination.png",
+    "sha256": "4f1819b3be3e75f79faa4946be230e7c2b5f6d033cfe7bdc67d7d17e03a289d6",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "figS1_forecast.png",
+    "sha256": "1fb84d45626d988457e745757e9c8d3694018aae71ae01c43d4bbf727b6b971d",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "figS2_sensitivity.png",
+    "sha256": "5ea96742caa388f7e12fcc49765b2b14d5e3dfe49061c9a6ff1729956f4afc92",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "figS3_thresholds.png",
+    "sha256": "925bcba73bd4403782e67ead4872555df513235fb9c2db2b151ede550e4a53a8",
+    "reproduced_byte_identically": true
+  },
+  {
+    "file": "figS4_admission_mapping.png",
+    "sha256": "029259a0fdf977849b4c29c74325d26aa48dfee7262c2a083218ce3ef2326060",
+    "reproduced_byte_identically": true
+  }
+]

@@ -1,0 +1,21 @@
+[PASS] San Diego: 43 origins present (n=43)
+[PASS] San Diego: P0 reproduces Phase 17B forecast (h=1..4) (max_rel=3.46e-14)
+[PASS] San Diego: population conserved across scenarios (max_err=8.88e-16)
+[PASS] San Diego: P1 and P2 equal P0 on days 0..6 from t0 
+[PASS] San Diego: P1 < P0 < P2 strict ordering from day 8 onward 
+[PASS] San Diego: P3 < P0 < P4 strict ordering when doses > 0 
+[PASS] Los Angeles: 43 origins present (n=43)
+[PASS] Los Angeles: P0 reproduces Phase 17B forecast (h=1..4) (max_rel=6.44e-14)
+[PASS] Los Angeles: population conserved across scenarios (max_err=6.66e-16)
+[PASS] Los Angeles: P1 and P2 equal P0 on days 0..6 from t0 
+[PASS] Los Angeles: P1 < P0 < P2 strict ordering from day 8 onward 
+[PASS] Los Angeles: P3 < P0 < P4 strict ordering when doses > 0 
+[PASS] San Francisco: 43 origins present (n=43)
+[PASS] San Francisco: P0 reproduces Phase 17B forecast (h=1..4) (max_rel=7.27e-14)
+[PASS] San Francisco: population conserved across scenarios (max_err=1.11e-15)
+[PASS] San Francisco: P1 and P2 equal P0 on days 0..6 from t0 
+[PASS] San Francisco: P1 < P0 < P2 strict ordering from day 8 onward 
+[PASS] San Francisco: P3 < P0 < P4 strict ordering when doses > 0 
+
+Summary: 18 PASS, 0 FAIL
+ALL PASS

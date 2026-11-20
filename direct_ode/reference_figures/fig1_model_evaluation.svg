@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="485" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 485" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="485"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-485)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="15" y="467" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,934) scale(1,-1)">A  Transmission and observation model</text>
+			<rect x="25" y="315" width="76" height="43" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="37.742431640625" y="339.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,679) scale(1,-1)">Susceptible</text>
+			<text x="59.99853515625" y="327.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,655) scale(1,-1)">S</text>
+			<rect x="159" y="315" width="65" height="43" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="172.744140625" y="339.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,679) scale(1,-1)">Exposed</text>
+			<text x="188.49853515625" y="327.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,655) scale(1,-1)">E</text>
+			<rect x="283" y="315" width="65" height="43" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="294.248046875" y="339.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,679) scale(1,-1)">Infectious</text>
+			<text x="314.249755859375" y="327.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,655) scale(1,-1)">I</text>
+			<rect x="403" y="306" width="82" height="61" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="420.988037109375" y="339.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,679) scale(1,-1)">Recovered</text>
+			<text x="417.740478515625" y="327.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,655) scale(1,-1)">Rpre  R1  R2</text>
+			<rect x="18" y="399" width="90" height="39" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(90%,94%,97%); fill-rule: evenodd;"/>
+			<text x="24.235839843749993" y="421.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,843) scale(1,-1)">Vaccine protected</text>
+			<text x="57.500244140625" y="409.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,819) scale(1,-1)">Uv</text>
+			<rect x="18" y="228" width="90" height="39" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(90%,95%,93%); fill-rule: evenodd;"/>
+			<text x="19.241455078124993" y="250.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,501) scale(1,-1)">Behaviour protected</text>
+			<text x="57.24755859375" y="238.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,477) scale(1,-1)">Ub</text>
+			<path d="M 101,337 L 159,337 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="159 337, 155.0509 339.1574, 155.0509 334.8426" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="115.1015625" y="342.0" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,684) scale(1,-1)">infection</text>
+			<path d="M 224,337 L 283,337 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="283 337, 279.0509 339.1574, 279.0509 334.8426" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="232.599609375" y="342.0" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,684) scale(1,-1)">progression</text>
+			<path d="M 348,337 L 403,337 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="403 337, 399.0509 339.1574, 399.0509 334.8426" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="362.826171875" y="342.0" style="font-family: Arial; font-size: 8px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,684) scale(1,-1)">outflow</text>
+			<path d="M 45,358 L 45,399 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="45 399, 42.84259 395.0509, 47.15741 395.0509" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="13" y="377" style="font-family: Arial; font-size: 7.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,754) scale(1,-1)">doses</text>
+			<path d="M 83,399 L 83,358 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="83 358, 85.15741 361.9491, 80.84259 361.9491" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="91" y="377" style="font-family: Arial; font-size: 7.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,754) scale(1,-1)">waning</text>
+			<path d="M 45,315 L 45,267 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="45 267, 47.15741 270.9491, 42.84259 270.9491" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="5" y="290" style="font-family: Arial; font-size: 7.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,580) scale(1,-1)">risk signal</text>
+			<path d="M 83,267 L 83,315 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="83 315, 80.84259 311.0509, 85.15741 311.0509" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="91" y="290" style="font-family: Arial; font-size: 7.7px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,580) scale(1,-1)">relaxation</text>
+			<path d="M 108,414 L 180,358 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="180 358, 178.2073 362.1275, 175.5582 358.7216" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="131.1015625" y="391.0" style="font-family: Arial; font-size: 8px;fill: rgb(0%,44%,69%); stroke:none;" transform="translate(0,782) scale(1,-1)">escape</text>
+			<path d="M 444,367 L 444,414 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<path d="M 444,414 L 204,414 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<path d="M 204,414 L 204,358 Z" style="stroke: rgb(0%,44%,69%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="204 358, 206.1574 361.9491, 201.8426 361.9491" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,44%,69%); fill-rule: evenodd;"/>
+			<text x="264.4735107421875" y="420" style="font-family: Arial; font-size: 8.3px;fill: rgb(0%,44%,69%); stroke:none;" transform="translate(0,840) scale(1,-1)">variant dependent reinfection</text>
+			<rect x="159" y="231" width="90" height="37" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,95%,91%); fill-rule: evenodd;"/>
+			<text x="170.485107421875" y="252.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,505) scale(1,-1)">Reported cases</text>
+			<text x="175.736572265625" y="240.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,481) scale(1,-1)">ascertainment</text>
+			<rect x="294" y="231" width="100" height="37" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,95%,91%); fill-rule: evenodd;"/>
+			<text x="318.494140625" y="252.5" style="font-family: Arial; font-weight: bold; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,505) scale(1,-1)">Admissions</text>
+			<text x="310.485107421875" y="240.5" style="font-family: Arial; font-size: 9px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,481) scale(1,-1)">infection severity</text>
+			<path d="M 253,333 L 211,268 Z" style="stroke: rgb(83%,36%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 2;"/>
+			<polygon points="211 268, 214.9553 270.1461, 211.3312 272.4878" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<path d="M 375,333 L 345,268 Z" style="stroke: rgb(83%,36%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 2;"/>
+			<polygon points="345 268, 348.6138 270.6816, 344.6961 272.4897" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,36%,0%); fill-rule: evenodd;"/>
+			<text x="127.91083984374998" y="209" style="font-family: Arial; font-size: 8.4px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,418) scale(1,-1)">Solid arrows show state flows; dashed arrows show observations.</text>
+			<text x="15" y="179" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,358) scale(1,-1)">B  Evaluation addresses distinct uses of the fitted model</text>
+			<rect x="15" y="91" width="140" height="66" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="38.791406249999994" y="133.0" style="font-family: Arial; font-weight: bold; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,266) scale(1,-1)">Fit and infection scale</text>
+			<text x="40.73359375" y="121.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,242) scale(1,-1)">Cases and admissions</text>
+			<text x="40.484375" y="109.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,218) scale(1,-1)">Separate donor survey</text>
+			<rect x="180" y="91" width="140" height="66" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="193.534765625" y="133.0" style="font-family: Arial; font-weight: bold; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,266) scale(1,-1)">Continuous reconstruction</text>
+			<text x="219.67265625" y="121.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,242) scale(1,-1)">One initial state</text>
+			<text x="205.2501953125" y="109.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,218) scale(1,-1)">No later E/I corrections</text>
+			<rect x="345" y="91" width="140" height="66" rx="5" ry="5" style="stroke: rgb(65%,70%,74%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="362.668359375" y="133.0" style="font-family: Arial; font-weight: bold; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,266) scale(1,-1)">Origin specific scenarios</text>
+			<text x="364.8576171875" y="121.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,242) scale(1,-1)">43 issue dates per county</text>
+			<text x="372.4416015625" y="109.0" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,218) scale(1,-1)">Five conditional paths</text>
+			<path d="M 155,124 L 180,124 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="180 124, 176.0509 126.1574, 176.0509 121.8426" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<path d="M 320,124 L 345,124 Z" style="stroke: rgb(43%,43%,43%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="345 124, 341.0509 126.1574, 341.0509 121.8426" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,43%,43%); fill-rule: evenodd;"/>
+			<text x="105.62070312499998" y="66" style="font-family: Arial; font-size: 8.8px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,132) scale(1,-1)">114 weekly fits per county  |  56 day estimation windows  |  Three counties</text>
+			<text x="113.64951171875" y="43" style="font-family: Arial; font-weight: bold; font-size: 9.4px;fill: rgb(0%,44%,69%); stroke:none;" transform="translate(0,86) scale(1,-1)">Passing one assessment does not imply success at the next.</text>
+			<text x="97.31103515625003" y="22" style="font-family: Arial; font-size: 8.2px;fill: rgb(43%,43%,43%); stroke:none;" transform="translate(0,44) scale(1,-1)">Study design schematic; arrows between assessments are not a validation theorem.</text>
+		</g>
+	</g>
+</svg>

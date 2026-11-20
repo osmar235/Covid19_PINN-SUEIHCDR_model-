@@ -1,0 +1,33 @@
+{
+  "phase": "18B",
+  "status": "completed",
+  "timestamp_utc": "2026-10-15T04:00:07.540243+00:00",
+  "elapsed_seconds": 4.843,
+  "command": "projections_phase18b.py --fits phase17b_layer3b --audit phase15_admissions --out phase18b_projections",
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "library_versions": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3"
+  },
+  "code_sha256": {
+    "projections_phase18b.py": "492df47c8bca47af871a7c5568e68c48e464bdddc6f66f3b0276f87ab0cfac71",
+    "layer3b_sero.py": "a3d6e950c3644bd64c9bfa8f0de4afec36e3301d6ef94cfc3fa44a76d5e5ca70",
+    "layer2_admissions.py": "4b70ab2b08421e3e4157c79938b31253182d948d0df289f30e207c5735f0d9f2",
+    "PHASE18B_PROTOCOL.md": "0d43f41976fd1c00fc695b288529386b5c31c282b468ae8f2ef1f2865bebd387"
+  },
+  "input_sha256": {
+    "phase17b_layer3b\\params_states.csv": "1016eac1ff3d269b56a2a4bb4179bb4016def38a725d4aaa79549a6d98a92aad",
+    "phase17b_layer3b\\forecasts_weekly.csv": "db78e9eb96d5a61f282b171f1d5f0986c2f83ee2f4208fe8e75d9b7156b5968d",
+    "phase17b_layer3b\\trajectories.csv": "74cf45bc078915b574c96969cf9117d19ff05537be3dfb3f1a5e680635643b60",
+    "data_epi\\statewide-covid-19-vaccines-administered-by-county-booster-metric-archived.csv": "fcf47d83dc412e59444bf74008727c0e3482ef8befad892b3752a1f7f9a0058a"
+  },
+  "output_sha256": {
+    "projections_weekly.csv": "5659055e349b43ad07f84ea6492800ca6135ca0ace3a51ad7d58d7b8c62818be",
+    "projections_summary.csv": "24138be427a2e6b5648039c3e08ce578a2a989b0477b9fc1a0d3c8ebf3f9f187",
+    "envelope_e1.csv": "ba19acddb7734e14dcd49c0f3af5730e7215d4794ba6d927cf08fe799918e8c7",
+    "drift_e2.csv": "e41fb1fb88fa1c8e9bacf3e1ac7a6507b9cbfb541b45b2e9c2d0b09d13d2a851",
+    "hindsight_vax_e3.csv": "cad2709e8b2c8f9ea10cad1e6a7ac69c533f239608bf276b8e57442a05c3fdeb",
+    "criteria.json": "aa0c6ab3a4d58301c199c09e03fcecf293ebf8248bd44188e53f50643f08ca97"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "San Diego": {
+    "usual_reporting_hospitals": 19.0,
+    "weeks": 126,
+    "missing_weeks_corrected": 3,
+    "missing_weeks_phase12": 24,
+    "max_abs_diff_where_both_present": 1.4210854715202004e-14,
+    "missing_weeks_list": [
+      "2021-05-09",
+      "2022-12-18",
+      "2022-12-25"
+    ]
+  },
+  "Los Angeles": {
+    "usual_reporting_hospitals": 84.0,
+    "weeks": 126,
+    "missing_weeks_corrected": 0,
+    "missing_weeks_phase12": 17,
+    "max_abs_diff_where_both_present": 5.684341886080802e-14,
+    "missing_weeks_list": []
+  },
+  "San Francisco": {
+    "usual_reporting_hospitals": 10.0,
+    "weeks": 126,
+    "missing_weeks_corrected": 0,
+    "missing_weeks_phase12": 36,
+    "max_abs_diff_where_both_present": 4.440892098500626e-16,
+    "missing_weeks_list": []
+  }
+}

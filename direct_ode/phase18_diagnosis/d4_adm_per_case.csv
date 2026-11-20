@@ -1,0 +1,157 @@
+county,week_start,kind,value
+San Diego,2020-10-04,observed adm / cases 7 d earlier,0.08195020746887967
+San Diego,2020-10-11,observed adm / cases 7 d earlier,0.0670760510155881
+San Diego,2020-10-18,observed adm / cases 7 d earlier,0.06925343811394892
+San Diego,2020-10-25,observed adm / cases 7 d earlier,0.06009511456982274
+San Diego,2020-11-01,observed adm / cases 7 d earlier,0.07142857142857142
+San Diego,2020-11-08,observed adm / cases 7 d earlier,0.0612390220745312
+San Diego,2020-11-15,observed adm / cases 7 d earlier,0.07511737089201878
+San Diego,2020-11-22,observed adm / cases 7 d earlier,0.07335201657121969
+San Diego,2020-11-29,observed adm / cases 7 d earlier,0.08008332368938781
+San Diego,2020-12-06,observed adm / cases 7 d earlier,0.05971506517126401
+San Diego,2020-12-13,observed adm / cases 7 d earlier,0.05416975854786233
+San Diego,2020-12-20,observed adm / cases 7 d earlier,0.052166224580017684
+San Diego,2020-12-27,observed adm / cases 7 d earlier,0.05502645502645503
+San Diego,2021-01-03,observed adm / cases 7 d earlier,0.046221848031993265
+San Diego,2021-01-10,observed adm / cases 7 d earlier,0.04048015752802181
+San Diego,2021-01-17,observed adm / cases 7 d earlier,0.045344809488821254
+San Diego,2021-01-24,observed adm / cases 7 d earlier,0.05731935066800747
+San Diego,2021-01-31,observed adm / cases 7 d earlier,0.06839844977479836
+San Diego,2021-02-07,observed adm / cases 7 d earlier,0.07025862068965517
+San Diego,2021-02-14,observed adm / cases 7 d earlier,0.08842297174111212
+San Diego,2021-02-21,observed adm / cases 7 d earlier,0.09972489683631362
+San Diego,2021-02-28,observed adm / cases 7 d earlier,0.10650128314798973
+San Diego,2021-03-07,observed adm / cases 7 d earlier,0.0955841252096143
+San Diego,2021-03-14,observed adm / cases 7 d earlier,0.10198845413726748
+San Diego,2021-03-21,observed adm / cases 7 d earlier,0.0988538681948424
+San Diego,2021-03-28,observed adm / cases 7 d earlier,0.08749145591250855
+San Diego,2020-10-03,fit ihr / rho (window start),0.06526050737312136
+San Diego,2020-10-10,fit ihr / rho (window start),0.0671929284080394
+San Diego,2020-10-17,fit ihr / rho (window start),0.06660395329599923
+San Diego,2020-10-24,fit ihr / rho (window start),0.06463378594449116
+San Diego,2020-10-31,fit ihr / rho (window start),0.06606465651503018
+San Diego,2020-11-07,fit ihr / rho (window start),0.06509125932367954
+San Diego,2020-11-14,fit ihr / rho (window start),0.061809101919748775
+San Diego,2020-11-21,fit ihr / rho (window start),0.05787298628495366
+San Diego,2020-11-28,fit ihr / rho (window start),0.05410119790065282
+San Diego,2020-12-05,fit ihr / rho (window start),0.05190102585844384
+San Diego,2020-12-12,fit ihr / rho (window start),0.05254279540073231
+San Diego,2020-12-19,fit ihr / rho (window start),0.05147552838642401
+San Diego,2020-12-26,fit ihr / rho (window start),0.053021659527805506
+San Diego,2021-01-02,fit ihr / rho (window start),0.060110206212268445
+San Diego,2021-01-09,fit ihr / rho (window start),0.06641412327860315
+San Diego,2021-01-16,fit ihr / rho (window start),0.07377368815534904
+San Diego,2021-01-23,fit ihr / rho (window start),0.07928690542325667
+San Diego,2021-01-30,fit ihr / rho (window start),0.0848040984204552
+San Diego,2021-02-06,fit ihr / rho (window start),0.08874977158688706
+San Diego,2021-02-13,fit ihr / rho (window start),0.08948412609242531
+San Diego,2021-02-20,fit ihr / rho (window start),0.0863526544279953
+San Diego,2021-02-27,fit ihr / rho (window start),0.08504058400484046
+San Diego,2021-03-06,fit ihr / rho (window start),0.08196199186729021
+San Diego,2021-03-13,fit ihr / rho (window start),0.08112534292070601
+San Diego,2021-03-20,fit ihr / rho (window start),0.07951105589950047
+San Diego,2021-03-27,fit ihr / rho (window start),0.0775009393885764
+Los Angeles,2020-10-04,observed adm / cases 7 d earlier,0.07383761276891047
+Los Angeles,2020-10-11,observed adm / cases 7 d earlier,0.07944169058178972
+Los Angeles,2020-10-18,observed adm / cases 7 d earlier,0.0729665071770335
+Los Angeles,2020-10-25,observed adm / cases 7 d earlier,0.06539005548906539
+Los Angeles,2020-11-01,observed adm / cases 7 d earlier,0.07627299957210099
+Los Angeles,2020-11-08,observed adm / cases 7 d earlier,0.05903012292313927
+Los Angeles,2020-11-15,observed adm / cases 7 d earlier,0.06316210273835698
+Los Angeles,2020-11-22,observed adm / cases 7 d earlier,0.060771109790717634
+Los Angeles,2020-11-29,observed adm / cases 7 d earlier,0.07376104494813676
+Los Angeles,2020-12-06,observed adm / cases 7 d earlier,0.056383977592819524
+Los Angeles,2020-12-13,observed adm / cases 7 d earlier,0.06032556654963294
+Los Angeles,2020-12-20,observed adm / cases 7 d earlier,0.05195990850815279
+Los Angeles,2020-12-27,observed adm / cases 7 d earlier,0.06472697825080981
+Los Angeles,2021-01-03,observed adm / cases 7 d earlier,0.05624552770616662
+Los Angeles,2021-01-10,observed adm / cases 7 d earlier,0.04434199644560187
+Los Angeles,2021-01-17,observed adm / cases 7 d earlier,0.05810080772054967
+Los Angeles,2021-01-24,observed adm / cases 7 d earlier,0.07071577428663034
+Los Angeles,2021-01-31,observed adm / cases 7 d earlier,0.08073633430998253
+Los Angeles,2021-02-07,observed adm / cases 7 d earlier,0.08198259682648013
+Los Angeles,2021-02-14,observed adm / cases 7 d earlier,0.103184525998382
+Los Angeles,2021-02-21,observed adm / cases 7 d earlier,0.13067758749069247
+Los Angeles,2021-02-28,observed adm / cases 7 d earlier,0.15593525179856116
+Los Angeles,2021-03-07,observed adm / cases 7 d earlier,0.16872994039431455
+Los Angeles,2021-03-14,observed adm / cases 7 d earlier,0.17923804653541295
+Los Angeles,2021-03-21,observed adm / cases 7 d earlier,0.1741555624418965
+Los Angeles,2021-03-28,observed adm / cases 7 d earlier,0.1693864229765013
+Los Angeles,2020-10-03,fit ihr / rho (window start),0.0650185948163935
+Los Angeles,2020-10-10,fit ihr / rho (window start),0.06454570786474546
+Los Angeles,2020-10-17,fit ihr / rho (window start),0.06261434103607229
+Los Angeles,2020-10-24,fit ihr / rho (window start),0.06078477622299255
+Los Angeles,2020-10-31,fit ihr / rho (window start),0.06210836241290086
+Los Angeles,2020-11-07,fit ihr / rho (window start),0.06171352571164624
+Los Angeles,2020-11-14,fit ihr / rho (window start),0.06108712953152775
+Los Angeles,2020-11-21,fit ihr / rho (window start),0.05965957318630212
+Los Angeles,2020-11-28,fit ihr / rho (window start),0.057796795917329453
+Los Angeles,2020-12-05,fit ihr / rho (window start),0.05882171135887362
+Los Angeles,2020-12-12,fit ihr / rho (window start),0.06043174224038346
+Los Angeles,2020-12-19,fit ihr / rho (window start),0.05991527419247716
+Los Angeles,2020-12-26,fit ihr / rho (window start),0.06237029488261528
+Los Angeles,2021-01-02,fit ihr / rho (window start),0.06944619041795526
+Los Angeles,2021-01-09,fit ihr / rho (window start),0.0780599570938009
+Los Angeles,2021-01-16,fit ihr / rho (window start),0.0885256856791897
+Los Angeles,2021-01-23,fit ihr / rho (window start),0.10084972770801498
+Los Angeles,2021-01-30,fit ihr / rho (window start),0.11738205130254106
+Los Angeles,2021-02-06,fit ihr / rho (window start),0.13235011881332548
+Los Angeles,2021-02-13,fit ihr / rho (window start),0.14327335503712435
+Los Angeles,2021-02-20,fit ihr / rho (window start),0.14290151652272953
+Los Angeles,2021-02-27,fit ihr / rho (window start),0.14619134272358722
+Los Angeles,2021-03-06,fit ihr / rho (window start),0.14013899966846347
+Los Angeles,2021-03-13,fit ihr / rho (window start),0.140495750825075
+Los Angeles,2021-03-20,fit ihr / rho (window start),0.14265148051740892
+Los Angeles,2021-03-27,fit ihr / rho (window start),0.13982796746611198
+San Francisco,2020-10-04,observed adm / cases 7 d earlier,0.0
+San Francisco,2020-10-11,observed adm / cases 7 d earlier,0.02304147465437788
+San Francisco,2020-10-18,observed adm / cases 7 d earlier,0.0
+San Francisco,2020-10-25,observed adm / cases 7 d earlier,0.05226480836236934
+San Francisco,2020-11-01,observed adm / cases 7 d earlier,0.04157043879907622
+San Francisco,2020-11-08,observed adm / cases 7 d earlier,0.03463855421686747
+San Francisco,2020-11-15,observed adm / cases 7 d earlier,0.03133903133903134
+San Francisco,2020-11-22,observed adm / cases 7 d earlier,0.04485219164118247
+San Francisco,2020-11-29,observed adm / cases 7 d earlier,0.06790123456790123
+San Francisco,2020-12-06,observed adm / cases 7 d earlier,0.03636363636363636
+San Francisco,2020-12-13,observed adm / cases 7 d earlier,0.04981646565285789
+San Francisco,2020-12-20,observed adm / cases 7 d earlier,0.04623115577889447
+San Francisco,2020-12-27,observed adm / cases 7 d earlier,0.07334183673469387
+San Francisco,2021-01-03,observed adm / cases 7 d earlier,0.0541324311261479
+San Francisco,2021-01-10,observed adm / cases 7 d earlier,0.04969939879759519
+San Francisco,2021-01-17,observed adm / cases 7 d earlier,0.06775956284153005
+San Francisco,2021-01-24,observed adm / cases 7 d earlier,0.07265625
+San Francisco,2021-01-31,observed adm / cases 7 d earlier,0.09138110072689512
+San Francisco,2021-02-07,observed adm / cases 7 d earlier,0.07836990595611286
+San Francisco,2021-02-14,observed adm / cases 7 d earlier,0.07431340872374798
+San Francisco,2021-02-21,observed adm / cases 7 d earlier,0.1091703056768559
+San Francisco,2021-02-28,observed adm / cases 7 d earlier,0.04285714285714286
+San Francisco,2021-03-07,observed adm / cases 7 d earlier,0.07114624505928856
+San Francisco,2021-03-14,observed adm / cases 7 d earlier,0.10869565217391305
+San Francisco,2021-03-21,observed adm / cases 7 d earlier,0.09389671361502347
+San Francisco,2021-03-28,observed adm / cases 7 d earlier,0.05693950177935943
+San Francisco,2020-10-03,fit ihr / rho (window start),0.029114308901366504
+San Francisco,2020-10-10,fit ihr / rho (window start),0.03511269231844929
+San Francisco,2020-10-17,fit ihr / rho (window start),0.03862195547827871
+San Francisco,2020-10-24,fit ihr / rho (window start),0.04243584107489245
+San Francisco,2020-10-31,fit ihr / rho (window start),0.04620268831570815
+San Francisco,2020-11-07,fit ihr / rho (window start),0.04840531322035912
+San Francisco,2020-11-14,fit ihr / rho (window start),0.050676605478663365
+San Francisco,2020-11-21,fit ihr / rho (window start),0.05293990632430374
+San Francisco,2020-11-28,fit ihr / rho (window start),0.054514614836932075
+San Francisco,2020-12-05,fit ihr / rho (window start),0.05828327481901872
+San Francisco,2020-12-12,fit ihr / rho (window start),0.06273195494805651
+San Francisco,2020-12-19,fit ihr / rho (window start),0.06239931468428859
+San Francisco,2020-12-26,fit ihr / rho (window start),0.06622022863443651
+San Francisco,2021-01-02,fit ihr / rho (window start),0.07032578955449768
+San Francisco,2021-01-09,fit ihr / rho (window start),0.07855554794819583
+San Francisco,2021-01-16,fit ihr / rho (window start),0.07267849498328609
+San Francisco,2021-01-23,fit ihr / rho (window start),0.06943684357438712
+San Francisco,2021-01-30,fit ihr / rho (window start),0.07200280146388363
+San Francisco,2021-02-06,fit ihr / rho (window start),0.0737278968064564
+San Francisco,2021-02-13,fit ihr / rho (window start),0.07201129684717153
+San Francisco,2021-02-20,fit ihr / rho (window start),0.07116925322562882
+San Francisco,2021-02-27,fit ihr / rho (window start),0.06575473732994283
+San Francisco,2021-03-06,fit ihr / rho (window start),0.06751856434711637
+San Francisco,2021-03-13,fit ihr / rho (window start),0.05242370591527663
+San Francisco,2021-03-20,fit ihr / rho (window start),0.05091185331547216
+San Francisco,2021-03-27,fit ihr / rho (window start),0.04618308584088394

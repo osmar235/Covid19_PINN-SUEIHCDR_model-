@@ -1,0 +1,17 @@
+[
+  {
+    "source": "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model-\\replicate_phase18b.py",
+    "path": "replicate_phase18b.py",
+    "sha256": "bd7ae2109b9dfd25edceb776dfca0f736a8b01664fabbe64ddf34eb76ea025b1"
+  },
+  {
+    "source": "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model-\\test_replicate_phase18b.py",
+    "path": "test_replicate_phase18b.py",
+    "sha256": "16af7a486bdbbd89a9e3409e20abb662503c55d3ba5779458a13c1347814c68c"
+  },
+  {
+    "source": "C:\\Users\\osmar\\projects\\Covid19_PINN-SUEIHCDR_model-\\compare_phase18b_replication.py",
+    "path": "compare_phase18b_replication.py",
+    "sha256": "e156c336bf200240a5dd75a66ef7a5c814b14e3078e64a2993af9232b6870dfd"
+  }
+]

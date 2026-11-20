@@ -1,0 +1,19 @@
+copied covid19_ode_repro_v1.0.0 -> covid19_ode_repro_v1.1.0 (replay outputs not copied)
+moved phase16_layer2 -> provenance/superseded_before_c1/phase16_layer2
+moved phase17_layer3 -> provenance/superseded_before_c1/phase17_layer3
+added phase16_layer2_c1
+added phase17_layer3_c1
+added phase17b_serology_c1
+replaced layer2_admissions.py (original kept as historical_code/layer2_admissions_v4b70ab2b.py)
+replaced layer3_escape.py (original kept as historical_code/layer3_escape_v40955512.py)
+replaced test_layer2.py (original kept as historical_code/test_layer2_vf1746dc4.py)
+added serology_compare_c1.py
+added compare_c1.py
+added protocols/PHASE16_17_CORRECTION_C1.md
+added protocols/C1_WINDOWS_COMMANDS.txt
+added verification/c1_compare.txt
+patched build_evidence.py (2 L2, 2 L3, 1 serology) and rescore_saved_results.py (1 serology)
+patched graphical_abstract.py: serology axis 0 to 0.5 (1), panel titles and caption wording (1, 1)
+inventory: phase16_layer2_c1/trajectories.csv 8b3aa3b7df00c537
+inventory: phase17_layer3_c1/trajectories.csv ba6143ab25ea8159
+inventory verified (25 files)

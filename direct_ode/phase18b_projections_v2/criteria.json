@@ -1,0 +1,137 @@
+{
+  "rules": {
+    "E1": "Share of (origin, week) pairs where observed weekly admissions fall in [min(P0..P4), max(P0..P4)] >= 50% for weeks 1 to 4 in >= 2 of 3 counties",
+    "E2": "Median log(P0 / observed) by week ahead, split by growth and decline weeks, vs naive persistence",
+    "E3": "P0 rerun with realized doses actually given (P0_HINDSIGHT)"
+  },
+  "E1_counties_passed": 0,
+  "E1_met": false,
+  "E1_primary": [
+    {
+      "county": "San Diego",
+      "model": "L3B",
+      "delay": 1,
+      "n_origins": 43,
+      "cov_w1_4": 0.029940119760479042,
+      "cov_w5_8": 0.10714285714285714,
+      "cov_w1_8": 0.06865671641791045,
+      "E1_pass": false
+    },
+    {
+      "county": "Los Angeles",
+      "model": "L3B",
+      "delay": 1,
+      "n_origins": 43,
+      "cov_w1_4": 0.040697674418604654,
+      "cov_w5_8": 0.19186046511627908,
+      "cov_w1_8": 0.11627906976744186,
+      "E1_pass": false
+    },
+    {
+      "county": "San Francisco",
+      "model": "L3B",
+      "delay": 1,
+      "n_origins": 43,
+      "cov_w1_4": 0.03488372093023256,
+      "cov_w5_8": 0.1511627906976744,
+      "cov_w1_8": 0.09302325581395349,
+      "E1_pass": false
+    }
+  ],
+  "repro_check": {
+    "max_rel_p0_vs_saved_h1_4": 3.521803830788134e-13,
+    "max_abs_pop_error": 1.7763568394002505e-15,
+    "by_chain": [
+      {
+        "county": "San Diego",
+        "model": "L3B",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 1.8734269976613637e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.6653345369377348e-15
+      },
+      {
+        "county": "San Diego",
+        "model": "L3B",
+        "delay": 0,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 2.3051936223920617e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.4432899320127035e-15
+      },
+      {
+        "county": "San Diego",
+        "model": "L3B_NOBEHAV",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 3.1608520330833393e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.4432899320127035e-15
+      },
+      {
+        "county": "Los Angeles",
+        "model": "L3B",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 2.019429260032281e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.5543122344752192e-15
+      },
+      {
+        "county": "Los Angeles",
+        "model": "L3B",
+        "delay": 0,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 2.482978393492518e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.5543122344752192e-15
+      },
+      {
+        "county": "Los Angeles",
+        "model": "L3B_NOBEHAV",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 2.4620692581880577e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.7763568394002505e-15
+      },
+      {
+        "county": "San Francisco",
+        "model": "L3B",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 3.521803830788134e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.4432899320127035e-15
+      },
+      {
+        "county": "San Francisco",
+        "model": "L3B",
+        "delay": 0,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 3.2965593575992224e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.6653345369377348e-15
+      },
+      {
+        "county": "San Francisco",
+        "model": "L3B_NOBEHAV",
+        "delay": 1,
+        "n_origins": 43,
+        "n_origins_with_doses": 43,
+        "max_rel_p0_vs_saved_h1_4": 3.1555129875265116e-13,
+        "max_rel_state_t0": 0.0,
+        "max_pop_err": 1.5543122344752192e-15
+      }
+    ]
+  }
+}

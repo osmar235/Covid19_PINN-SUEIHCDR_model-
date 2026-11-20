@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this version of the research software and accompanying data; add the persistent archive identifier after deposition."
+title: "COVID19 direct ODE reproducibility release"
+type: software
+version: 1.1.0
+authors:
+  - family-names: "Pinto Neto"
+    given-names: "Osmar"
+    affiliation: "California State University San Marcos; Anhembi Morumbi University; Arena235 Research Lab"
+  - family-names: "Romero"
+    given-names: "Devan R"
+    affiliation: "California State University San Marcos"
+abstract: "Exact direct-ODE workflow, aggregate surveillance snapshots, saved fits, and reproducible analyses supporting a retrospective multiwave COVID-19 model case study. Code is MIT licensed; third-party data retain provider terms."
+keywords:
+  - COVID-19
+  - epidemic modelling
+  - serology
+  - reproducibility
+  - SUEIHCDR

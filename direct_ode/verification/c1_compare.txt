@@ -1,0 +1,68 @@
+Input hashes (SHA-256, first 16)
+  phase16_layer2/params_states.csv 9260b084ee25b3e0
+  phase16_layer2/summary.csv e674a4016789c9af
+  phase16_layer2/criteria.json 32555b7bf13fd247
+  phase16_layer2_c1/params_states.csv 37e95d9ddfee44b9
+  phase16_layer2_c1/summary.csv 0b7a47d4a7936932
+  phase16_layer2_c1/criteria.json 28a41819af3572dc
+  phase17_layer3/params_states.csv 5633c62f9944f94b
+  phase17_layer3/summary.csv eab55c539b1d0d76
+  phase17_layer3/criteria.json 92343289b3dbb297
+  phase17_layer3/serology_check.csv bdb9bbf5c87ccfb4
+  phase17_layer3_c1/params_states.csv 386164f5631eaf1a
+  phase17_layer3_c1/summary.csv fbc550feb105b18a
+  phase17_layer3_c1/criteria.json e2788e87dceab739
+  phase17_layer3_c1/serology_check.csv 5ffb763ebac54427
+  phase17b_layer3b/params_states.csv 1016eac1ff3d269b
+  phase17b_layer3b/summary.csv 73129cf5a4e046ca
+  phase17b_layer3b/criteria.json 5b4f5c304d4b656a
+  phase17b_layer3b/serology_check.csv 1c240a456bfb8c11
+  phase17b_serology_rebuild_check/serology_check.csv 1c240a456bfb8c11
+  phase17b_serology_c1/serology_check.csv eae5507b26465910
+
+A. Ascertainment prior centre by origin
+  [PASS] phase16_layer2_c1: rho_prior is 1/12 before 2020-11-25 and 1/7.7 from then (1368 rows, models ['L2', 'L2_ETA365', 'L2_NOBEHAV'])
+  [PASS] phase17_layer3_c1: rho_prior is 1/12 before 2020-11-25 and 1/7.7 from then (1026 rows, models ['L3', 'L3_NOBEHAV'])
+  [PASS] phase17b_layer3b (not refitted): L3B rho_prior equals the serology value at every origin, so L3B never used the corrected schedule
+
+B. Serology comparison rebuilt from trajectories (L3B fits untouched)
+  [PASS] rebuild from the original L2 and L3 trajectories reproduces the original serology_check.csv (byte for byte)
+  [PASS] c1 file: columns other than ['L3_phase17_ever_compartments', 'L2_ever_compartments'] identical to the original
+  L3 comparison column changed at 117 of 150 rows
+
+C. Phase 16 (L2) and Phase 17 (L3) criteria and mean primary errors (primary chain, delay 1)
+  L2: met flags original -> c1: D1_met False -> False, D2_met False -> False
+    San Diego: mean error L2 18.94 -> 16.68; ARIMA_ADM 16.04 -> 16.04; L2 minus ARIMA 95% interval [-4.64, 15.08] -> [-4.98, 7.11]
+    Los Angeles: mean error L2 62.03 -> 64.39; ARIMA_ADM 61.37 -> 61.37; L2 minus ARIMA 95% interval [-22.26, 22.63] -> [-21.31, 22.66]
+    San Francisco: mean error L2 3.85 -> 3.48; ARIMA_ADM 2.99 -> 2.99; L2 minus ARIMA 95% interval [-0.52, 2.05] -> [-0.64, 1.39]
+  L3: met flags original -> c1: plausibility_met True -> True, serology_met True -> False, adequacy_met True -> True, D1_met False -> False, D2_met False -> False
+    San Diego: mean error L3 26.66 -> 25.02; ARIMA_ADM 16.04 -> 16.04; L3 minus ARIMA 95% interval [-2.93, 30.11] -> [-3.00, 25.03]
+    Los Angeles: mean error L3 113.38 -> 96.96; ARIMA_ADM 61.37 -> 61.37; L3 minus ARIMA 95% interval [-13.60, 128.87] -> [-18.15, 89.22]
+    San Francisco: mean error L3 4.36 -> 4.26; ARIMA_ADM 2.99 -> 2.99; L3 minus ARIMA 95% interval [-0.30, 3.00] -> [-0.33, 2.74]
+    San Diego: Phase 17 pooled survey criterion within/n 40/50 -> 22/50
+    Los Angeles: Phase 17 pooled survey criterion within/n 1/50 -> 0/50
+    San Francisco: Phase 17 pooled survey criterion within/n 47/50 -> 46/50
+    plausibility original {'San Diego': {'n_origins': 114, 'beta_at_upper': 0, 'rho_at_bound': 0, 'met': True}, 'Los Angeles': {'n_origins': 114, 'beta_at_upper': 1, 'rho_at_bound': 0, 'met': True}, 'San Francisco': {'n_origins': 114, 'beta_at_upper': 0, 'rho_at_bound': 0, 'met': True}}
+    plausibility c1       {'San Diego': {'n_origins': 114, 'beta_at_upper': 0, 'rho_at_bound': 0, 'met': True}, 'Los Angeles': {'n_origins': 114, 'beta_at_upper': 4, 'rho_at_bound': 0, 'met': True}, 'San Francisco': {'n_origins': 114, 'beta_at_upper': 0, 'rho_at_bound': 0, 'met': True}}
+
+D. Donor validation dates (21 per county): model minus survey, L3 against L3B
+  original
+    San Diego: n 21; mean |L3 - survey| 0.168; mean |L3B - survey| 0.032; asymmetric band L3 15, L3B 19; L3 symmetric 0.05/0.10/0.20 2/3/15; L3B 19/19/21
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.182; mean L3 - survey +0.182
+    Los Angeles: n 21; mean |L3 - survey| 0.376; mean |L3B - survey| 0.079; asymmetric band L3 1, L3B 20; L3 symmetric 0.05/0.10/0.20 0/0/1; L3B 5/15/21
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.399; mean L3 - survey +0.399
+    San Francisco: n 21; mean |L3 - survey| 0.140; mean |L3B - survey| 0.062; asymmetric band L3 19, L3B 17; L3 symmetric 0.05/0.10/0.20 2/2/21; L3B 16/17/19
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.150; mean L3 - survey +0.150
+  c1
+    San Diego: n 21; mean |L3 - survey| 0.229; mean |L3B - survey| 0.032; asymmetric band L3 6, L3B 19; L3 symmetric 0.05/0.10/0.20 0/2/6; L3B 19/19/21
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.234; mean L3 - survey +0.234
+    Los Angeles: n 21; mean |L3 - survey| 0.449; mean |L3B - survey| 0.079; asymmetric band L3 0, L3B 20; L3 symmetric 0.05/0.10/0.20 0/0/0; L3B 5/15/21
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.469; mean L3 - survey +0.469
+    San Francisco: n 21; mean |L3 - survey| 0.153; mean |L3B - survey| 0.062; asymmetric band L3 17, L3B 17; L3 symmetric 0.05/0.10/0.20 2/3/17; L3B 16/17/19
+      2020 and 2021 only (17 dates): mean |L3 - survey| 0.173; mean L3 - survey +0.173
+
+E. Optional environment check: protocol_v1 rerun of the San Diego primary L2 chain against the original
+  rows 114; identical: True; largest absolute difference 0 (column delay)
+  Identical means this computer reproduces the original fits, so every c1 difference comes from the corrected prior. Small differences mean optimizer level noise is also present.
+
+ALL CHECKS PASS

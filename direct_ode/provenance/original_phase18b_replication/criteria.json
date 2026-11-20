@@ -1,0 +1,60 @@
+{
+  "E1": {
+    "after_t0": {
+      "San Diego": {
+        "coverage_w1_4": 0.047619047619047616,
+        "n_w1_4": 168,
+        "coverage_w5_8": 0.08928571428571429,
+        "n_w5_8": 168,
+        "met": false
+      },
+      "Los Angeles": {
+        "coverage_w1_4": 0.0872093023255814,
+        "n_w1_4": 172,
+        "coverage_w5_8": 0.14534883720930233,
+        "n_w5_8": 172,
+        "met": false
+      },
+      "San Francisco": {
+        "coverage_w1_4": 0.0755813953488372,
+        "n_w1_4": 172,
+        "coverage_w5_8": 0.11046511627906977,
+        "n_w5_8": 172,
+        "met": false
+      }
+    },
+    "p17b": {
+      "San Diego": {
+        "coverage_w1_4": 0.02976190476190476,
+        "n_w1_4": 168,
+        "coverage_w5_8": 0.10714285714285714,
+        "n_w5_8": 168,
+        "met": false
+      },
+      "Los Angeles": {
+        "coverage_w1_4": 0.040697674418604654,
+        "n_w1_4": 172,
+        "coverage_w5_8": 0.19186046511627908,
+        "n_w5_8": 172,
+        "met": false
+      },
+      "San Francisco": {
+        "coverage_w1_4": 0.03488372093023256,
+        "n_w1_4": 172,
+        "coverage_w5_8": 0.1511627906976744,
+        "n_w5_8": 172,
+        "met": false
+      }
+    }
+  },
+  "rules": {
+    "E1": "observed weekly admissions between the lowest and highest of P0 to P4 in at least 50% of (origin, week) pairs for weeks 1 to 4, in at least 2 of 3 counties"
+  },
+  "E1_met_after_t0": false,
+  "E1_met_p17b": false,
+  "checks": {
+    "max_rel_vs_17b": 3.5216274341109965e-13,
+    "inputs_match_all": true,
+    "max_abs_pop_error": 1.6653345369377348e-15
+  }
+}

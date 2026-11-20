@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-20",
+  "command": "python -B test_replicate_phase18b.py .",
+  "returncode": 0,
+  "passed_checks": 48,
+  "failed_checks": 0,
+  "source_sha256": "16af7a486bdbbd89a9e3409e20abb662503c55d3ba5779458a13c1347814c68c",
+  "scope": "Four checks at four origins per county; three counties. Separate projection implementation shares the ODE integrator."
+}

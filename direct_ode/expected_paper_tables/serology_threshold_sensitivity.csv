@@ -1,0 +1,217 @@
+county,period,model,band,lo,hi,required_fraction,n,within,fraction,met
+San Diego,All dates,L3,Original asymmetric,-0.1,0.2,0.5,21,6,0.2857142857142857,False
+San Diego,All dates,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,21,6,0.2857142857142857,False
+San Diego,All dates,L3,Original asymmetric,-0.1,0.2,0.8,21,6,0.2857142857142857,False
+San Diego,All dates,L3,Symmetric 0.05,-0.05,0.05,0.5,21,0,0.0,False
+San Diego,All dates,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,0,0.0,False
+San Diego,All dates,L3,Symmetric 0.05,-0.05,0.05,0.8,21,0,0.0,False
+San Diego,All dates,L3,Symmetric 0.10,-0.1,0.1,0.5,21,2,0.09523809523809523,False
+San Diego,All dates,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,2,0.09523809523809523,False
+San Diego,All dates,L3,Symmetric 0.10,-0.1,0.1,0.8,21,2,0.09523809523809523,False
+San Diego,All dates,L3,Symmetric 0.20,-0.2,0.2,0.5,21,6,0.2857142857142857,False
+San Diego,All dates,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,6,0.2857142857142857,False
+San Diego,All dates,L3,Symmetric 0.20,-0.2,0.2,0.8,21,6,0.2857142857142857,False
+San Diego,All dates,L3B,Original asymmetric,-0.1,0.2,0.5,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Original asymmetric,-0.1,0.2,0.8,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.5,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.8,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.5,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.8,21,19,0.9047619047619048,True
+San Diego,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.5,21,21,1.0,True
+San Diego,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,21,1.0,True
+San Diego,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.8,21,21,1.0,True
+San Diego,2020-2021,L3,Original asymmetric,-0.1,0.2,0.5,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3,Original asymmetric,-0.1,0.2,0.8,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.5,17,0,0.0,False
+San Diego,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,0,0.0,False
+San Diego,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.8,17,0,0.0,False
+San Diego,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.5,17,1,0.058823529411764705,False
+San Diego,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,1,0.058823529411764705,False
+San Diego,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.8,17,1,0.058823529411764705,False
+San Diego,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.5,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.8,17,4,0.23529411764705882,False
+San Diego,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.5,17,17,1.0,True
+San Diego,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,17,17,1.0,True
+San Diego,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.8,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.5,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.8,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.5,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.8,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.5,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,17,1.0,True
+San Diego,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.8,17,17,1.0,True
+San Diego,2022,L3,Original asymmetric,-0.1,0.2,0.5,4,2,0.5,True
+San Diego,2022,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,4,2,0.5,False
+San Diego,2022,L3,Original asymmetric,-0.1,0.2,0.8,4,2,0.5,False
+San Diego,2022,L3,Symmetric 0.05,-0.05,0.05,0.5,4,0,0.0,False
+San Diego,2022,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,0,0.0,False
+San Diego,2022,L3,Symmetric 0.05,-0.05,0.05,0.8,4,0,0.0,False
+San Diego,2022,L3,Symmetric 0.10,-0.1,0.1,0.5,4,1,0.25,False
+San Diego,2022,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,1,0.25,False
+San Diego,2022,L3,Symmetric 0.10,-0.1,0.1,0.8,4,1,0.25,False
+San Diego,2022,L3,Symmetric 0.20,-0.2,0.2,0.5,4,2,0.5,True
+San Diego,2022,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,2,0.5,False
+San Diego,2022,L3,Symmetric 0.20,-0.2,0.2,0.8,4,2,0.5,False
+San Diego,2022,L3B,Original asymmetric,-0.1,0.2,0.5,4,2,0.5,True
+San Diego,2022,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,4,2,0.5,False
+San Diego,2022,L3B,Original asymmetric,-0.1,0.2,0.8,4,2,0.5,False
+San Diego,2022,L3B,Symmetric 0.05,-0.05,0.05,0.5,4,2,0.5,True
+San Diego,2022,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,2,0.5,False
+San Diego,2022,L3B,Symmetric 0.05,-0.05,0.05,0.8,4,2,0.5,False
+San Diego,2022,L3B,Symmetric 0.10,-0.1,0.1,0.5,4,2,0.5,True
+San Diego,2022,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,2,0.5,False
+San Diego,2022,L3B,Symmetric 0.10,-0.1,0.1,0.8,4,2,0.5,False
+San Diego,2022,L3B,Symmetric 0.20,-0.2,0.2,0.5,4,4,1.0,True
+San Diego,2022,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,4,1.0,True
+San Diego,2022,L3B,Symmetric 0.20,-0.2,0.2,0.8,4,4,1.0,True
+Los Angeles,All dates,L3,Original asymmetric,-0.1,0.2,0.5,21,0,0.0,False
+Los Angeles,All dates,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,21,0,0.0,False
+Los Angeles,All dates,L3,Original asymmetric,-0.1,0.2,0.8,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.05,-0.05,0.05,0.5,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.05,-0.05,0.05,0.8,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.10,-0.1,0.1,0.5,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.10,-0.1,0.1,0.8,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.20,-0.2,0.2,0.5,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,0,0.0,False
+Los Angeles,All dates,L3,Symmetric 0.20,-0.2,0.2,0.8,21,0,0.0,False
+Los Angeles,All dates,L3B,Original asymmetric,-0.1,0.2,0.5,21,20,0.9523809523809523,True
+Los Angeles,All dates,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,21,20,0.9523809523809523,True
+Los Angeles,All dates,L3B,Original asymmetric,-0.1,0.2,0.8,21,20,0.9523809523809523,True
+Los Angeles,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.5,21,5,0.23809523809523808,False
+Los Angeles,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,5,0.23809523809523808,False
+Los Angeles,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.8,21,5,0.23809523809523808,False
+Los Angeles,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.5,21,15,0.7142857142857143,True
+Los Angeles,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,15,0.7142857142857143,True
+Los Angeles,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.8,21,15,0.7142857142857143,False
+Los Angeles,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.5,21,21,1.0,True
+Los Angeles,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,21,1.0,True
+Los Angeles,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.8,21,21,1.0,True
+Los Angeles,2020-2021,L3,Original asymmetric,-0.1,0.2,0.5,17,0,0.0,False
+Los Angeles,2020-2021,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,17,0,0.0,False
+Los Angeles,2020-2021,L3,Original asymmetric,-0.1,0.2,0.8,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.5,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.8,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.5,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.8,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.5,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,0,0.0,False
+Los Angeles,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.8,17,0,0.0,False
+Los Angeles,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.5,17,17,1.0,True
+Los Angeles,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,17,17,1.0,True
+Los Angeles,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.8,17,17,1.0,True
+Los Angeles,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.5,17,4,0.23529411764705882,False
+Los Angeles,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,4,0.23529411764705882,False
+Los Angeles,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.8,17,4,0.23529411764705882,False
+Los Angeles,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.5,17,13,0.7647058823529411,True
+Los Angeles,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,13,0.7647058823529411,True
+Los Angeles,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.8,17,13,0.7647058823529411,False
+Los Angeles,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.5,17,17,1.0,True
+Los Angeles,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,17,1.0,True
+Los Angeles,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.8,17,17,1.0,True
+Los Angeles,2022,L3,Original asymmetric,-0.1,0.2,0.5,4,0,0.0,False
+Los Angeles,2022,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,4,0,0.0,False
+Los Angeles,2022,L3,Original asymmetric,-0.1,0.2,0.8,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.05,-0.05,0.05,0.5,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.05,-0.05,0.05,0.8,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.10,-0.1,0.1,0.5,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.10,-0.1,0.1,0.8,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.20,-0.2,0.2,0.5,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,0,0.0,False
+Los Angeles,2022,L3,Symmetric 0.20,-0.2,0.2,0.8,4,0,0.0,False
+Los Angeles,2022,L3B,Original asymmetric,-0.1,0.2,0.5,4,3,0.75,True
+Los Angeles,2022,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,4,3,0.75,True
+Los Angeles,2022,L3B,Original asymmetric,-0.1,0.2,0.8,4,3,0.75,False
+Los Angeles,2022,L3B,Symmetric 0.05,-0.05,0.05,0.5,4,1,0.25,False
+Los Angeles,2022,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,1,0.25,False
+Los Angeles,2022,L3B,Symmetric 0.05,-0.05,0.05,0.8,4,1,0.25,False
+Los Angeles,2022,L3B,Symmetric 0.10,-0.1,0.1,0.5,4,2,0.5,True
+Los Angeles,2022,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,2,0.5,False
+Los Angeles,2022,L3B,Symmetric 0.10,-0.1,0.1,0.8,4,2,0.5,False
+Los Angeles,2022,L3B,Symmetric 0.20,-0.2,0.2,0.5,4,4,1.0,True
+Los Angeles,2022,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,4,1.0,True
+Los Angeles,2022,L3B,Symmetric 0.20,-0.2,0.2,0.8,4,4,1.0,True
+San Francisco,All dates,L3,Original asymmetric,-0.1,0.2,0.5,21,17,0.8095238095238095,True
+San Francisco,All dates,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,21,17,0.8095238095238095,True
+San Francisco,All dates,L3,Original asymmetric,-0.1,0.2,0.8,21,17,0.8095238095238095,True
+San Francisco,All dates,L3,Symmetric 0.05,-0.05,0.05,0.5,21,2,0.09523809523809523,False
+San Francisco,All dates,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,2,0.09523809523809523,False
+San Francisco,All dates,L3,Symmetric 0.05,-0.05,0.05,0.8,21,2,0.09523809523809523,False
+San Francisco,All dates,L3,Symmetric 0.10,-0.1,0.1,0.5,21,3,0.14285714285714285,False
+San Francisco,All dates,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,3,0.14285714285714285,False
+San Francisco,All dates,L3,Symmetric 0.10,-0.1,0.1,0.8,21,3,0.14285714285714285,False
+San Francisco,All dates,L3,Symmetric 0.20,-0.2,0.2,0.5,21,17,0.8095238095238095,True
+San Francisco,All dates,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,17,0.8095238095238095,True
+San Francisco,All dates,L3,Symmetric 0.20,-0.2,0.2,0.8,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Original asymmetric,-0.1,0.2,0.5,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Original asymmetric,-0.1,0.2,0.8,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.5,21,16,0.7619047619047619,True
+San Francisco,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,21,16,0.7619047619047619,True
+San Francisco,All dates,L3B,Symmetric 0.05,-0.05,0.05,0.8,21,16,0.7619047619047619,False
+San Francisco,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.5,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Symmetric 0.10,-0.1,0.1,0.8,21,17,0.8095238095238095,True
+San Francisco,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.5,21,19,0.9047619047619048,True
+San Francisco,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,21,19,0.9047619047619048,True
+San Francisco,All dates,L3B,Symmetric 0.20,-0.2,0.2,0.8,21,19,0.9047619047619048,True
+San Francisco,2020-2021,L3,Original asymmetric,-0.1,0.2,0.5,17,13,0.7647058823529411,True
+San Francisco,2020-2021,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,17,13,0.7647058823529411,True
+San Francisco,2020-2021,L3,Original asymmetric,-0.1,0.2,0.8,17,13,0.7647058823529411,False
+San Francisco,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.5,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.05,-0.05,0.05,0.8,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.5,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.10,-0.1,0.1,0.8,17,0,0.0,False
+San Francisco,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.5,17,13,0.7647058823529411,True
+San Francisco,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,13,0.7647058823529411,True
+San Francisco,2020-2021,L3,Symmetric 0.20,-0.2,0.2,0.8,17,13,0.7647058823529411,False
+San Francisco,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.5,17,17,1.0,True
+San Francisco,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,17,17,1.0,True
+San Francisco,2020-2021,L3B,Original asymmetric,-0.1,0.2,0.8,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.5,17,16,0.9411764705882353,True
+San Francisco,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,17,16,0.9411764705882353,True
+San Francisco,2020-2021,L3B,Symmetric 0.05,-0.05,0.05,0.8,17,16,0.9411764705882353,True
+San Francisco,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.5,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.10,-0.1,0.1,0.8,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.5,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,17,17,1.0,True
+San Francisco,2020-2021,L3B,Symmetric 0.20,-0.2,0.2,0.8,17,17,1.0,True
+San Francisco,2022,L3,Original asymmetric,-0.1,0.2,0.5,4,4,1.0,True
+San Francisco,2022,L3,Original asymmetric,-0.1,0.2,0.6666666666666666,4,4,1.0,True
+San Francisco,2022,L3,Original asymmetric,-0.1,0.2,0.8,4,4,1.0,True
+San Francisco,2022,L3,Symmetric 0.05,-0.05,0.05,0.5,4,2,0.5,True
+San Francisco,2022,L3,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,2,0.5,False
+San Francisco,2022,L3,Symmetric 0.05,-0.05,0.05,0.8,4,2,0.5,False
+San Francisco,2022,L3,Symmetric 0.10,-0.1,0.1,0.5,4,3,0.75,True
+San Francisco,2022,L3,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,3,0.75,True
+San Francisco,2022,L3,Symmetric 0.10,-0.1,0.1,0.8,4,3,0.75,False
+San Francisco,2022,L3,Symmetric 0.20,-0.2,0.2,0.5,4,4,1.0,True
+San Francisco,2022,L3,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,4,1.0,True
+San Francisco,2022,L3,Symmetric 0.20,-0.2,0.2,0.8,4,4,1.0,True
+San Francisco,2022,L3B,Original asymmetric,-0.1,0.2,0.5,4,0,0.0,False
+San Francisco,2022,L3B,Original asymmetric,-0.1,0.2,0.6666666666666666,4,0,0.0,False
+San Francisco,2022,L3B,Original asymmetric,-0.1,0.2,0.8,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.05,-0.05,0.05,0.5,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.05,-0.05,0.05,0.6666666666666666,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.05,-0.05,0.05,0.8,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.10,-0.1,0.1,0.5,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.10,-0.1,0.1,0.6666666666666666,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.10,-0.1,0.1,0.8,4,0,0.0,False
+San Francisco,2022,L3B,Symmetric 0.20,-0.2,0.2,0.5,4,2,0.5,True
+San Francisco,2022,L3B,Symmetric 0.20,-0.2,0.2,0.6666666666666666,4,2,0.5,False
+San Francisco,2022,L3B,Symmetric 0.20,-0.2,0.2,0.8,4,2,0.5,False

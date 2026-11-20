@@ -1,0 +1,19 @@
+Phase 18B | fits 'phase17b_layer3b' | counties ['San Diego', 'Los Angeles', 'San Francisco'] | origins 2020-12-12..2021-10-02 | chains [('L3B', 1), ('L3B', 0), ('L3B_NOBEHAV', 1)]
+  San Diego L3B d1: 43 origins (43 w/ doses), E1 cov w1-4 0.030, w5-8 0.107, P0 rel diff 1.87e-13 (1.0 s)
+  San Diego L3B d0: 43 origins (43 w/ doses), E1 cov w1-4 0.066, w5-8 0.125, P0 rel diff 2.31e-13 (1.1 s)
+  San Diego L3B_NOBEHAV d1: 43 origins (43 w/ doses), E1 cov w1-4 0.030, w5-8 0.107, P0 rel diff 3.16e-13 (1.1 s)
+  Los Angeles L3B d1: 43 origins (43 w/ doses), E1 cov w1-4 0.041, w5-8 0.192, P0 rel diff 2.02e-13 (1.1 s)
+  Los Angeles L3B d0: 43 origins (43 w/ doses), E1 cov w1-4 0.105, w5-8 0.238, P0 rel diff 2.48e-13 (1.1 s)
+  Los Angeles L3B_NOBEHAV d1: 43 origins (43 w/ doses), E1 cov w1-4 0.041, w5-8 0.198, P0 rel diff 2.46e-13 (1.1 s)
+  San Francisco L3B d1: 43 origins (43 w/ doses), E1 cov w1-4 0.035, w5-8 0.151, P0 rel diff 3.52e-13 (1.1 s)
+  San Francisco L3B d0: 43 origins (43 w/ doses), E1 cov w1-4 0.116, w5-8 0.169, P0 rel diff 3.30e-13 (1.1 s)
+  San Francisco L3B_NOBEHAV d1: 43 origins (43 w/ doses), E1 cov w1-4 0.041, w5-8 0.151, P0 rel diff 3.16e-13 (1.0 s)
+
+E1 envelope coverage (primary chain L3B d1):
+       county  n_origins  cov_w1_4  cov_w5_8  cov_w1_8  E1_pass
+    San Diego         43  0.029940  0.107143  0.068657    False
+  Los Angeles         43  0.040698  0.191860  0.116279    False
+San Francisco         43  0.034884  0.151163  0.093023    False
+repro check: max_rel_p0_vs_saved_h1_4=3.522e-13 | population error 1.776e-15 | E1_met=False
+
+Saved to C:\Users\osmar\projects\Covid19_PINN-SUEIHCDR_model_projetoCHATGPT\submission_epidemics_v4\covid19_ode_repro_v1.1.0\replay\pre_submission_20261120\phase18b_projections_v2/
