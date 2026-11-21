@@ -83,7 +83,7 @@ are retained. Their original instructions are in
 ## Citation and licenses
 
 Use the versioned release URL and `CITATION.cff` when referring to these
-research materials. No Zenodo DOI has been assigned. Software retains the
+research materials. The archived source version has DOI [10.5281/zenodo.24405927](https://doi.org/10.5281/zenodo.24405927). Software retains the
 existing MIT license. Third-party data remain subject to provider terms;
 see `direct_ode/DATA_SOURCES_AND_TERMS.txt`. The software license does not
 relicense third-party data or the manuscript.

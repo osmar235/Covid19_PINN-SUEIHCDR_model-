@@ -21,3 +21,5 @@ keywords:
 repository-code: "https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-"
 url: "https://github.com/osmar235/Covid19_PINN-SUEIHCDR_model-/releases/tag/ode-v1.2.0"
 date-released: "2026-11-20"
+
+doi: 10.5281/zenodo.24405927
